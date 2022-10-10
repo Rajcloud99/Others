@@ -1,0 +1,1353 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>LMS-Lite documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">LMS-Lite documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  LoginComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/login/login.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+            <tr>
+                <td class="col-md-3">changeDetection</td>
+                <td class="col-md-9"><code>ChangeDetectionStrategy.OnPush</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-login</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./login.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./login.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#configs" >configs</a>
+                            </li>
+                            <li>
+                                <a href="#hide" >hide</a>
+                            </li>
+                            <li>
+                                <a href="#innerWidth" >innerWidth</a>
+                            </li>
+                            <li>
+                                <a href="#loginForm" >loginForm</a>
+                            </li>
+                            <li>
+                                <a href="#loginPath" >loginPath</a>
+                            </li>
+                            <li>
+                                <a href="#User" >User</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#getAllDevices" >getAllDevices</a>
+                            </li>
+                            <li>
+                                <a href="#handleOneSignalUserId" >handleOneSignalUserId</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#onResize" >onResize</a>
+                            </li>
+                            <li>
+                                <a href="#submitForm" >submitForm</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>HostListeners</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#window: resize" >window: resize</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(fb: <a href="https://angular.io/api/forms/FormBuilder" target="_blank">FormBuilder</a>, route: <a href="https://angular.io/api/router/ActivatedRoute" target="_blank">ActivatedRoute</a>, service: <a href="../injectables/LoginService.html" target="_self">LoginService</a>, store: <a href="../injectables/StorageService.html" target="_self">StorageService</a>, router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>, socket: Socket)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="29" class="link-to-prism">src/app/login/login.component.ts:29</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>fb</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/forms/FormBuilder" target="_blank" >FormBuilder</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>route</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/ActivatedRoute" target="_blank" >ActivatedRoute</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>service</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/LoginService.html" target="_self" >LoginService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>store</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/StorageService.html" target="_self" >StorageService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>socket</td>
+                                                  
+                                                        <td>
+                                                                    <code>Socket</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+    <section>
+    <h3>HostListeners</h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="window: resize"></a>
+                    <span class="name">
+                        <span ><b>window: resize</b></span>
+                        <a href="#window: resize"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <i>Arguments : </i><code>'$event' </code>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>window: resize(event: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="19"
+                            class="link-to-prism">src/app/login/login.component.ts:19</a></div>
+                </td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getAllDevices"></a>
+                    <span class="name">
+                        <span ><b>getAllDevices</b></span>
+                        <a href="#getAllDevices"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getAllDevices()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="154"
+                            class="link-to-prism">src/app/login/login.component.ts:154</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="handleOneSignalUserId"></a>
+                    <span class="name">
+                        <span ><b>handleOneSignalUserId</b></span>
+                        <a href="#handleOneSignalUserId"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>handleOneSignalUserId(loginResponse: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="81"
+                            class="link-to-prism">src/app/login/login.component.ts:81</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>loginResponse</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="37"
+                            class="link-to-prism">src/app/login/login.component.ts:37</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onResize"></a>
+                    <span class="name">
+                        <span ><b>onResize</b></span>
+                        <a href="#onResize"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onResize(event: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@HostListener(&#x27;window: resize&#x27;, [&#x27;$event&#x27;])<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="19"
+                            class="link-to-prism">src/app/login/login.component.ts:19</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="submitForm"></a>
+                    <span class="name">
+                        <span ><b>submitForm</b></span>
+                        <a href="#submitForm"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>submitForm()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="49"
+                            class="link-to-prism">src/app/login/login.component.ts:49</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="configs"></a>
+                    <span class="name">
+                        <span ><b>configs</b></span>
+                        <a href="#configs"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/login/login.component.ts:27</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="hide"></a>
+                    <span class="name">
+                        <span ><b>hide</b></span>
+                        <a href="#hide"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>true</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/login/login.component.ts:16</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="innerWidth"></a>
+                    <span class="name">
+                        <span ><b>innerWidth</b></span>
+                        <a href="#innerWidth"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/app/login/login.component.ts:28</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loginForm"></a>
+                    <span class="name">
+                        <span ><b>loginForm</b></span>
+                        <a href="#loginForm"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>this.fb.group({
+    userId: [null,[Validators.required]],
+    password: [null,[Validators.required]]
+  })</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/app/login/login.component.ts:23</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loginPath"></a>
+                    <span class="name">
+                        <span ><b>loginPath</b></span>
+                        <a href="#loginPath"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="29" class="link-to-prism">src/app/login/login.component.ts:29</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="User"></a>
+                    <span class="name">
+                        <span ><b>User</b></span>
+                        <a href="#User"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/login/login.component.ts:17</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import {Component, OnInit, ChangeDetectionStrategy, HostListener} from &#x27;@angular/core&#x27;;
+import { Router, ActivatedRoute } from &#x27;@angular/router&#x27;;
+import {FormBuilder,ReactiveFormsModule,FormGroup,Validators} from &#x27;@angular/forms&#x27;;
+import { LoginService } from &#x27;../services/login.service&#x27;;
+import {StorageService} from &#x27;../services/storage.service&#x27;;
+import { Socket } from &#x27;ngx-socket-io&#x27;;
+declare let window: any;
+
+@Component({
+  selector: &#x27;app-login&#x27;,
+  templateUrl: &#x27;./login.component.html&#x27;,
+  styleUrls: [&#x27;./login.component.scss&#x27;],
+  changeDetection: ChangeDetectionStrategy.OnPush
+})
+export class LoginComponent implements OnInit {
+  hide &#x3D; true;
+  User: any;
+  @HostListener(&quot;window: resize&quot;, [&quot;$event&quot;])
+  onResize(event: any) {
+    this.innerWidth &#x3D; window.innerWidth;
+  }
+
+  loginForm &#x3D; this.fb.group({
+    userId: [null,[Validators.required]],
+    password: [null,[Validators.required]]
+  });
+  configs: any;
+  innerWidth:any;
+  loginPath:any;
+  constructor(private fb: FormBuilder,
+    private route: ActivatedRoute,
+    private service: LoginService,
+    private store: StorageService,
+    private router: Router,
+    private socket: Socket) { }
+
+  ngOnInit(): void {
+    this.innerWidth &#x3D; window.innerWidth;
+    this.loginPath &#x3D; &quot;home/tracking/mapListView&quot;;
+    this.configs &#x3D; this.store.get(&#x27;userData&#x27;)?.configs;
+    if(this.store.get(&#x27;loggedIn&#x27;)) {
+      this.router.navigate([&#x27;./home&#x27;]);
+    }
+    if(this?.configs?.loginPath || (this?.configs &amp;&amp; this.loginPath)) {
+      this.router.navigateByUrl(this?.configs?.loginPath || this.loginPath);
+    }
+  }
+
+  submitForm():void {
+    let formData &#x3D; this.loginForm.getRawValue();
+    if(this.store.get(&#x27;loggedIn&#x27;)) {
+      formData.userId &#x3D; this.store.get(&#x27;user&#x27;);
+      formData.password &#x3D; this.store.get(&#x27;pwd&#x27;);
+      this.router.navigate([&#x27;./home&#x27;]);
+    }
+    if(this?.configs?.loginPath || (this?.configs &amp;&amp; this.loginPath)) {
+      this.router.navigateByUrl(this?.configs?.loginPath || this.loginPath);
+    }
+    let randomNo &#x3D; Date.now()+&#x27;&#x27;+Math.round(Math.random()*100);
+		formData.request_id &#x3D; Date.now()+&#x27;&#x27;+Math.round(Math.random()*100);
+		formData.validate &#x3D; &#x27;all&#x27;;
+    this.service.login(formData)
+    .subscribe((isOK:any) &#x3D;&gt;  {
+      console.log(isOK);
+      if(isOK) {
+        this.handleOneSignalUserId(isOK);
+        //this.getAllDevices();
+        this.router.navigate([&#x27;./home&#x27;]);
+        this.User &#x3D; this.store.get(&#x27;userData&#x27;).user;
+        // in case of broker memo redirect to create trip page
+        if (this.User?.user_type?.indexOf(&#x27;Broker&#x27;)+1) {
+          this.loginPath &#x3D; &#x27;home/operation/createTrip&#x27;;
+        }
+        if(isOK?.configs?.loginPath || (isOK?.configs &amp;&amp; this.loginPath)) {
+          this.router.navigateByUrl(isOK?.configs?.loginPath || this.loginPath);
+        }
+      }
+    })
+  }
+
+  handleOneSignalUserId(loginResponse:any){
+    let that &#x3D; this;
+    if(window &amp;&amp; window.OneSignal &amp;&amp; window.OneSignal.default){
+      window.OneSignal.default.getDeviceState(function(onseSig:any){
+        if(onseSig &amp;&amp; onseSig.userId){
+          console.log(&#x27;onseSig user data&#x27;,onseSig);
+          let addNotifId:any,addGpsId:any,removeId :any &#x3D; [], removeGpsId :any &#x3D; [];
+          that.service.getUsertrim({notifId: onseSig.userId,_id:loginResponse.user._id}).subscribe((res: any) &#x3D;&gt; {
+              if(res &amp;&amp; res.data &amp;&amp; res.data.length) {
+                res.data.forEach((obj: any)&#x3D;&gt;{
+                  if(obj._id !&#x3D; loginResponse.user._id){
+                    removeId.push(obj._id)
+                    if(obj.gpsId !&#x3D; loginResponse.client_config.gpsId){
+                      console.log(&#x27;removeId &#x27;,obj.gpsId);
+                      removeGpsId.push(obj.gpsId);
+                    }
+                  }else if(obj._id &#x3D;&#x3D;&#x3D; loginResponse.user._id){
+                    if(!(loginResponse &amp;&amp; loginResponse.user &amp;&amp; loginResponse.user.notifId)) {
+                      addNotifId &#x3D; loginResponse.user._id;
+                      addGpsId &#x3D; loginResponse.client_config.gpsId;
+                    }
+                  }
+                })
+              }
+
+              if(!(loginResponse &amp;&amp; loginResponse.user &amp;&amp; loginResponse.user.notifId)) {
+                addNotifId &#x3D; loginResponse.user._id;
+                addGpsId &#x3D; loginResponse.client_config.gpsId;
+              }else if((loginResponse &amp;&amp; loginResponse.user &amp;&amp; loginResponse.user.notifId) !&#x3D; onseSig.userId){
+                // removeId.push(loginResponse.user.notifId);
+                addNotifId &#x3D; loginResponse.user._id;
+                console.log(&#x27;addNotifId&#x27;,loginResponse.user.notifId);
+              }
+
+              if(addNotifId){
+                that.service.updateUserNotifid({_id: addNotifId, notifId: onseSig.userId }).subscribe((res: any) &#x3D;&gt; {
+                  if(res &amp;&amp; res.status) {
+                    console.log(&#x27;updateUserNotifid&#x27;,res.status)
+                  }else{
+                    console.log(&#x27;updateUserNotifid addNotifId&#x27;,res)
+                  }
+                });
+              }
+
+              if(removeId &amp;&amp; removeId.length){
+                that.service.removeUserNotifid({_id: removeId }).subscribe((res: any) &#x3D;&gt; {
+                  if(res &amp;&amp; res.status) {
+                    console.log(&#x27;removeUserNotifid&#x27;,res.status)
+                  }else{
+                    console.log(&#x27;removeUserNotifid&#x27;,res)
+                  }
+                });
+              }
+
+              if(addGpsId) {
+                  console.log(&#x27;setExternalUserId&#x27;,addGpsId);
+                  window.OneSignal.default.setExternalUserId(addGpsId);
+              }
+
+              if(removeGpsId &amp;&amp; removeGpsId.length){
+                  removeGpsId.forEach((exId:any)&#x3D;&gt; {
+                    console.log(&#x27;removeExternalUserId&#x27;,exId);
+                    window.OneSignal.default.removeExternalUserId(exId);
+                  })
+              }
+
+            });
+
+        }
+      });
+    }
+  }
+
+  getAllDevices(): void {
+    let req: any &#x3D; {};
+    req.request &#x3D; &quot;gpsgaadi_by_uid&quot;;
+    req.version &#x3D; 2;
+    req.type_url &#x3D; &#x27;trucku&#x27;;
+    req.selected_uid &#x3D; this.store.get(&#x27;userData&#x27;).client_config.gpsId;
+    req.login_uid &#x3D; this.store.get(&#x27;userData&#x27;).client_config.gpsId;
+    this.service.getDevices(req).subscribe((res: any)&#x3D;&gt;{
+      this.store.put(&#x27;alldevices&#x27;,res);
+    });
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;!--//**************new login ui for desktop or laptop ********************--&gt;
+&lt;div class&#x3D;&quot;main&quot; *ngIf&#x3D;&quot;innerWidth &gt; 500&quot;&gt;
+    &lt;div class&#x3D;&quot;imgsection&quot;&gt;
+      &lt;div&gt;
+  &lt;!--    &lt;img  src&#x3D;&quot;assets/umb.png&quot; alt&#x3D;&quot;Snow&quot; style&#x3D;&quot;width:85%; height: 30%; padding-left: 20px &quot;&gt; --&gt;
+      &lt;img  src&#x3D;&quot;assets/Fleetronix.png&quot; alt&#x3D;&quot;Snow&quot; style&#x3D;&quot;width:85%; height: 30%; padding-left: 20px &quot;&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;div class&#x3D;&quot;loginsection&quot;&gt;
+    &lt;div style&#x3D;&quot;padding: 20% 10% 20% 10%&quot;&gt;
+      &lt;div class&#x3D;&quot;container&quot;&gt;
+        &lt;!--  &lt;img src&#x3D;&quot;../../assets/logo.png&quot; alt&#x3D;&quot;Snow&quot; style&#x3D;&quot;width:60%;&quot;&gt;--&gt;
+         &lt;img src&#x3D;&quot;../../assets/f_logo.png&quot; alt&#x3D;&quot;Snow&quot; style&#x3D;&quot;width:60%;&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class&#x3D;&quot;mblogin&quot;&gt;
+        &lt;form   nz-form [formGroup]&#x3D;&quot;loginForm&quot; class&#x3D;&quot;login-form1&quot; (ngSubmit)&#x3D;&quot;submitForm()&quot;&gt;
+          &lt;nz-form-item&gt;
+            &lt;nz-form-control nzErrorTip&#x3D;&quot;Please input your username!&quot;&gt;
+              &lt;nz-input-group nzPrefixIcon&#x3D;&quot;user&quot;&gt;
+                &lt;input type&#x3D;&quot;text&quot; nz-input formControlName&#x3D;&quot;userId&quot; placeholder&#x3D;&quot;Username&quot; /&gt;
+              &lt;/nz-input-group&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/nz-form-item&gt;
+          &lt;nz-form-item&gt;
+            &lt;nz-form-control nzErrorTip&#x3D;&quot;Please input your Password!&quot;&gt;
+              &lt;nz-input-group nzPrefixIcon&#x3D;&quot;lock&quot;&gt;
+                &lt;input type&#x3D;&quot;password&quot; nz-input formControlName&#x3D;&quot;password&quot; placeholder&#x3D;&quot;Password&quot; /&gt;
+              &lt;/nz-input-group&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/nz-form-item&gt;
+          &lt;button nz-button class&#x3D;&quot;login-form-button login-form-margin&quot; [nzType]&#x3D;&quot;&#x27;primary&#x27;&quot;&gt;SIGN IN&lt;/button&gt;
+        &lt;/form&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;!--//************** old login ui for desktop or laptop ********************--&gt;
+&lt;!--&lt;div id&#x3D;&quot;formWrapper1&quot; *ngIf&#x3D;&quot;innerWidth &gt; 500&quot;&gt;--&gt;
+&lt;!--  &lt;div id&#x3D;&quot;form&quot;&gt;--&gt;
+
+&lt;!--    &lt;div style&#x3D;&quot;text-align: center; font-weight:bold&quot;&gt;--&gt;
+&lt;!--      &lt;h1 class&#x3D;&quot;text-primary text-center brandName&quot;&gt;&lt;img src&#x3D;&quot;../../assets/logo.png&quot;&gt;&lt;/h1&gt;--&gt;
+&lt;!--    &lt;/div&gt;--&gt;
+&lt;!--    &lt;form nz-form [formGroup]&#x3D;&quot;loginForm&quot; class&#x3D;&quot;login-form&quot; (ngSubmit)&#x3D;&quot;submitForm()&quot;&gt;--&gt;
+&lt;!--      &lt;nz-form-item&gt;--&gt;
+&lt;!--        &lt;nz-form-control nzErrorTip&#x3D;&quot;Please input your username!&quot;&gt;--&gt;
+&lt;!--          &lt;nz-input-group nzPrefixIcon&#x3D;&quot;user&quot;&gt;--&gt;
+&lt;!--            &lt;input type&#x3D;&quot;text&quot; nz-input formControlName&#x3D;&quot;userId&quot; placeholder&#x3D;&quot;Username&quot; /&gt;--&gt;
+&lt;!--          &lt;/nz-input-group&gt;--&gt;
+&lt;!--        &lt;/nz-form-control&gt;--&gt;
+&lt;!--      &lt;/nz-form-item&gt;--&gt;
+&lt;!--      &lt;nz-form-item&gt;--&gt;
+&lt;!--        &lt;nz-form-control nzErrorTip&#x3D;&quot;Please input your Password!&quot;&gt;--&gt;
+&lt;!--          &lt;nz-input-group nzPrefixIcon&#x3D;&quot;lock&quot;&gt;--&gt;
+&lt;!--            &lt;input type&#x3D;&quot;password&quot; nz-input formControlName&#x3D;&quot;password&quot; placeholder&#x3D;&quot;Password&quot; /&gt;--&gt;
+&lt;!--          &lt;/nz-input-group&gt;--&gt;
+&lt;!--        &lt;/nz-form-control&gt;--&gt;
+&lt;!--      &lt;/nz-form-item&gt;--&gt;
+&lt;!--      &amp;lt;!&amp;ndash; &lt;div nz-row class&#x3D;&quot;login-form-margin&quot;&gt;--&gt;
+&lt;!--        &lt;div nz-col [nzSpan]&#x3D;&quot;12&quot;&gt;--&gt;
+&lt;!--          &lt;label nz-checkbox formControlName&#x3D;&quot;remember&quot;&gt;--&gt;
+&lt;!--            &lt;span&gt;Remember me&lt;/span&gt;--&gt;
+&lt;!--          &lt;/label&gt;--&gt;
+&lt;!--        &lt;/div&gt;--&gt;
+&lt;!--        &lt;div nz-col [nzSpan]&#x3D;&quot;12&quot;&gt;--&gt;
+&lt;!--          &lt;a class&#x3D;&quot;login-form-forgot&quot;&gt;Forgot password&lt;/a&gt;--&gt;
+&lt;!--        &lt;/div&gt;--&gt;
+&lt;!--      &lt;/div&gt; &amp;ndash;&amp;gt;--&gt;
+&lt;!--      &lt;button nz-button class&#x3D;&quot;login-form-button login-form-margin&quot; [nzType]&#x3D;&quot;&#x27;primary&#x27;&quot;&gt;Log in&lt;/button&gt;--&gt;
+&lt;!--      &amp;lt;!&amp;ndash; Or &amp;ndash;&amp;gt;--&gt;
+&lt;!--      &amp;lt;!&amp;ndash; &lt;a&gt;register now!&lt;/a&gt; &amp;ndash;&amp;gt;--&gt;
+&lt;!--    &lt;/form&gt;--&gt;
+&lt;!--  &lt;/div&gt;--&gt;
+&lt;!--&lt;/div&gt;--&gt;
+
+
+&lt;!--//**************new login ui for mobile ********************--&gt;
+&lt;div  *ngIf&#x3D;&quot;innerWidth &lt;&#x3D; 500&quot;&gt;
+  &lt;div class&#x3D;&quot;container&quot;&gt;
+&lt;!--    &lt;img src&#x3D;&quot;assets/umb.png&quot; alt&#x3D;&quot;Snow&quot; style&#x3D;&quot;width:100%;&quot;&gt;--&gt;
+    &lt;img src&#x3D;&quot;assets/Fleetronix.png&quot; alt&#x3D;&quot;Snow&quot; style&#x3D;&quot;width:100%;&quot;&gt;
+    &lt;div class&#x3D;&quot;sl-text&quot;&gt;Make Your &lt;br&gt;Business Easy&lt;/div&gt;
+  &lt;/div&gt;
+&lt;div class&#x3D;&quot;mblogin&quot;&gt;
+      &lt;form   nz-form [formGroup]&#x3D;&quot;loginForm&quot; class&#x3D;&quot;login-form1&quot; (ngSubmit)&#x3D;&quot;submitForm()&quot;&gt;
+        &lt;nz-form-item&gt;
+          &lt;nz-form-control nzErrorTip&#x3D;&quot;Please input your username!&quot;&gt;
+            &lt;nz-input-group nzPrefixIcon&#x3D;&quot;user&quot;&gt;
+              &lt;input type&#x3D;&quot;text&quot; nz-input formControlName&#x3D;&quot;userId&quot; placeholder&#x3D;&quot;Username&quot; /&gt;
+            &lt;/nz-input-group&gt;
+          &lt;/nz-form-control&gt;
+        &lt;/nz-form-item&gt;
+        &lt;nz-form-item&gt;
+          &lt;nz-form-control nzErrorTip&#x3D;&quot;Please input your Password!&quot;&gt;
+            &lt;nz-input-group nzPrefixIcon&#x3D;&quot;lock&quot;&gt;
+              &lt;input type&#x3D;&quot;password&quot; nz-input formControlName&#x3D;&quot;password&quot; placeholder&#x3D;&quot;Password&quot; /&gt;
+            &lt;/nz-input-group&gt;
+          &lt;/nz-form-control&gt;
+        &lt;/nz-form-item&gt;
+        &lt;button nz-button class&#x3D;&quot;login-form-button login-form-margin&quot; [nzType]&#x3D;&quot;&#x27;primary&#x27;&quot;&gt;SIGN IN&lt;/button&gt;
+      &lt;/form&gt;
+&lt;/div&gt;
+    &lt;/div&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./login.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.brandName {
+  flex-grow: 1;
+  font-family: &#x27;Lobster&#x27;, cursive;
+  font-size: 3rem;
+  align-items: baseline;
+}
+
+.brandName img {
+  max-width: 5.5rem;
+  min-height: 7.5rem;
+  max-height: 30.5rem;
+  align-items: baseline;
+}
+/* .login-head {
+  display: flex;
+  margin: auto;
+  height: 339px;
+  padding: 18px;
+  justify-content: center;
+} */
+
+#formWrapper {
+  background: #f0f2f5;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+div#form {
+  position: absolute;
+  width: 340px;
+  height: 370px !important;
+  height: auto;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 5px;
+  padding: 20px;
+  left: 50%;
+  top: 50%;
+  margin-left: -180px;
+  margin-top: -200px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#form:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.login-form {
+  max-width: 300px;
+}
+
+.login-form-forgot {
+  float: right;
+}
+
+.login-form-button {
+  width: 100%;
+}
+
+input {
+  border-radius: 32px;
+  // margin-top: 20%;
+}
+
+input:hover {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  // border-color: rgba(223, 225, 229, 0);
+}
+
+nz-input-group {
+  margin-top: 10%;
+}
+
+button {
+  border-radius: 23px;
+  margin-top: 10%;
+}
+
+@media screen and (max-width: 376px) {
+  #form {
+    margin-left: -162px !important;
+    width: 320px !important;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  #form {
+    margin-left: -146px !important;
+    width: 290px !important;
+  }
+}
+
+.forgetPass {
+  font-size: 16px !important;
+  color: red !important;
+}
+
+/* For password visibility */
+
+.fa-eye {
+  right: 20px;
+  bottom: 6px;
+  position: absolute;
+  font-size: 17px;
+  color: #52c41a;
+}
+
+.fa-eye-slash {
+  right: 20px;
+  bottom: 6px;
+  position: absolute;
+  font-size: 17px;
+  color: #f5222d;
+}
+
+/* For password visibility End*/
+
+////
+.slogn{
+  margin-top: 10px;
+text-align: center;
+  font-weight:bold;
+  position: absolute;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.sl-text {
+  position: absolute;
+  bottom: 1px;
+  text-align: left;
+  left: 18%;
+  font-weight: bold;
+  font-size: 25px;
+  color: black;
+  letter-spacing: 2px;
+}
+.brandName1 {
+  position: relative;
+}
+.brandName1 img {
+  width: 90%;
+}
+.mblogin{
+  padding: 0px 70px 0 70px;
+
+}
+// for new login ui desktop view
+.imgsection{
+
+}
+.loginsection{
+
+}
+.main {
+width: 100%;
+height: 100%;
+}
+.imgsection{
+  float: left;
+  width: 55%;
+}
+.loginsection{
+  float: left;
+  width: 45%;
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><!--//**************new login ui for desktop or laptop ********************--><div class="main" *ngIf="innerWidth > 500">    <div class="imgsection">      <div>  <!--    <img  src="assets/umb.png" alt="Snow" style="width:85%; height: 30%; padding-left: 20px "> -->      <img  src="assets/Fleetronix.png" alt="Snow" style="width:85%; height: 30%; padding-left: 20px ">    </div>    </div>  <div class="loginsection">    <div style="padding: 20% 10% 20% 10%">      <div class="container">        <!--  <img src="../../assets/logo.png" alt="Snow" style="width:60%;">-->         <img src="../../assets/f_logo.png" alt="Snow" style="width:60%;">      </div>      <div class="mblogin">        <form   nz-form [formGroup]="loginForm" class="login-form1" (ngSubmit)="submitForm()">          <nz-form-item>            <nz-form-control nzErrorTip="Please input your username!">              <nz-input-group nzPrefixIcon="user">                <input type="text" nz-input formControlName="userId" placeholder="Username" />              </nz-input-group>            </nz-form-control>          </nz-form-item>          <nz-form-item>            <nz-form-control nzErrorTip="Please input your Password!">              <nz-input-group nzPrefixIcon="lock">                <input type="password" nz-input formControlName="password" placeholder="Password" />              </nz-input-group>            </nz-form-control>          </nz-form-item>          <button nz-button class="login-form-button login-form-margin" [nzType]="\'primary\'">SIGN IN</button>        </form>      </div>    </div>  </div>  </div><!--//************** old login ui for desktop or laptop ********************--><!--<div id="formWrapper1" *ngIf="innerWidth > 500">--><!--  <div id="form">--><!--    <div style="text-align: center; font-weight:bold">--><!--      <h1 class="text-primary text-center brandName"><img src="../../assets/logo.png"></h1>--><!--    </div>--><!--    <form nz-form [formGroup]="loginForm" class="login-form" (ngSubmit)="submitForm()">--><!--      <nz-form-item>--><!--        <nz-form-control nzErrorTip="Please input your username!">--><!--          <nz-input-group nzPrefixIcon="user">--><!--            <input type="text" nz-input formControlName="userId" placeholder="Username" />--><!--          </nz-input-group>--><!--        </nz-form-control>--><!--      </nz-form-item>--><!--      <nz-form-item>--><!--        <nz-form-control nzErrorTip="Please input your Password!">--><!--          <nz-input-group nzPrefixIcon="lock">--><!--            <input type="password" nz-input formControlName="password" placeholder="Password" />--><!--          </nz-input-group>--><!--        </nz-form-control>--><!--      </nz-form-item>--><!--      &lt;!&ndash; <div nz-row class="login-form-margin">--><!--        <div nz-col [nzSpan]="12">--><!--          <label nz-checkbox formControlName="remember">--><!--            <span>Remember me</span>--><!--          </label>--><!--        </div>--><!--        <div nz-col [nzSpan]="12">--><!--          <a class="login-form-forgot">Forgot password</a>--><!--        </div>--><!--      </div> &ndash;&gt;--><!--      <button nz-button class="login-form-button login-form-margin" [nzType]="\'primary\'">Log in</button>--><!--      &lt;!&ndash; Or &ndash;&gt;--><!--      &lt;!&ndash; <a>register now!</a> &ndash;&gt;--><!--    </form>--><!--  </div>--><!--</div>--><!--//**************new login ui for mobile ********************--><div  *ngIf="innerWidth <= 500">  <div class="container"><!--    <img src="assets/umb.png" alt="Snow" style="width:100%;">-->    <img src="assets/Fleetronix.png" alt="Snow" style="width:100%;">    <div class="sl-text">Make Your <br>Business Easy</div>  </div><div class="mblogin">      <form   nz-form [formGroup]="loginForm" class="login-form1" (ngSubmit)="submitForm()">        <nz-form-item>          <nz-form-control nzErrorTip="Please input your username!">            <nz-input-group nzPrefixIcon="user">              <input type="text" nz-input formControlName="userId" placeholder="Username" />            </nz-input-group>          </nz-form-control>        </nz-form-item>        <nz-form-item>          <nz-form-control nzErrorTip="Please input your Password!">            <nz-input-group nzPrefixIcon="lock">              <input type="password" nz-input formControlName="password" placeholder="Password" />            </nz-input-group>          </nz-form-control>        </nz-form-item>        <button nz-button class="login-form-button login-form-margin" [nzType]="\'primary\'">SIGN IN</button>      </form></div>    </div></div>'
+    var COMPONENTS = [{'name': 'AddGrPopupComponent', 'selector': 'app-add-gr-popup'},{'name': 'AddInvoicePopupComponent', 'selector': 'app-add-invoice-popup'},{'name': 'AlarmComponent', 'selector': 'app-alarm'},{'name': 'AlarmListViewComponent', 'selector': 'app-alarm-list-view'},{'name': 'AlarmUpsertComponent', 'selector': 'app-alarm-upsert'},{'name': 'AlertListComponent', 'selector': 'app-alert-list'},{'name': 'AlertsComponent', 'selector': 'app-alerts'},{'name': 'AlertsListViewComponent', 'selector': 'app-alerts-list-view'},{'name': 'AnalyticsComponent', 'selector': 'app-analytics'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'BackButtonComponent', 'selector': 'app-back-button'},{'name': 'BillingPartyComponent', 'selector': 'app-billing-party'},{'name': 'BillingPartyDetailViewComponent', 'selector': 'app-billing-party-detail-view'},{'name': 'BillingPartyListViewComponent', 'selector': 'app-billing-party-list-view'},{'name': 'BillingPartyUpsertComponent', 'selector': 'app-billing-party-upsert'},{'name': 'BranchComponent', 'selector': 'app-branch'},{'name': 'BranchDetailViewComponent', 'selector': 'app-branch-detail-view'},{'name': 'BranchListViewComponent', 'selector': 'app-branch-list-view'},{'name': 'BranchUpsertComponent', 'selector': 'app-branch-upsert'},{'name': 'BrokerMemoComponent', 'selector': 'app-broker-memo'},{'name': 'BrokerMemoListViewComponent', 'selector': 'app-broker-memo-list-view'},{'name': 'BrokerMemoUpsertComponent', 'selector': 'app-broker-memo-upsert'},{'name': 'CalibComponent', 'selector': 'app-calib'},{'name': 'CreateTripComponent', 'selector': 'app-create-trip'},{'name': 'CustomerComponent', 'selector': 'app-customer'},{'name': 'CustomerListViewComponent', 'selector': 'app-customer-list-view'},{'name': 'CustomerUpsertComponent', 'selector': 'app-customer-upsert'},{'name': 'DefaultComponent', 'selector': 'app-default'},{'name': 'DemoImagePickerBasicComponent', 'selector': 'demo-image-picker-basic'},{'name': 'DeviceMasterComponent', 'selector': 'app-device-master'},{'name': 'DriverComponent', 'selector': 'app-driver'},{'name': 'DriverDetailViewComponent', 'selector': 'app-driver-detail-view'},{'name': 'DriverListViewComponent', 'selector': 'app-driver-list-view'},{'name': 'DriverUpsertComponent', 'selector': 'app-driver-upsert'},{'name': 'DutyComponent', 'selector': 'app-duty'},{'name': 'DutyListViewComponent', 'selector': 'app-duty-list-view'},{'name': 'DutyUpsertComponent', 'selector': 'app-duty-upsert'},{'name': 'EmptyTripComponent', 'selector': 'app-empty-trip'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'FuelLevelComponent', 'selector': 'app-fuel-level'},{'name': 'GeofenceComponent', 'selector': 'app-geofence'},{'name': 'GeofenceListViewComponent', 'selector': 'app-geofence-list-view'},{'name': 'GeofenceUpsertComponent', 'selector': 'app-geofence-upsert'},{'name': 'GpsReportsComponent', 'selector': 'app-gps-reports'},{'name': 'GrComponent', 'selector': 'app-gr'},{'name': 'GrListViewComponent', 'selector': 'app-gr-list-view'},{'name': 'GrUpsertComponent', 'selector': 'app-gr-upsert'},{'name': 'GrWithoutTripComponent', 'selector': 'app-gr-without-trip'},{'name': 'GrWithoutTripListViewComponent', 'selector': 'app-gr-without-trip-list-view'},{'name': 'GrWithoutTripUpsertComponent', 'selector': 'app-gr-without-trip-upsert'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'HomeComponent', 'selector': 'app-home'},{'name': 'ItineraryComponent', 'selector': 'app-itinerary'},{'name': 'LandmarkComponent', 'selector': 'app-landmark'},{'name': 'LandmarkListViewComponent', 'selector': 'app-landmark-list-view'},{'name': 'LandmarkUpsertComponent', 'selector': 'app-landmark-upsert'},{'name': 'LiveTrackComponent', 'selector': 'app-live-track'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'MapComponent', 'selector': 'app-map'},{'name': 'MapListViewComponent', 'selector': 'app-map-list-view'},{'name': 'MaterialCardDetailViewComponent', 'selector': 'app-material-card-detail-view'},{'name': 'MaterialComponent', 'selector': 'app-material'},{'name': 'MaterialGroupComponent', 'selector': 'app-material-group'},{'name': 'MaterialGroupListViewComponent', 'selector': 'app-material-group-list-view'},{'name': 'MaterialGroupUpsertComponent', 'selector': 'app-material-group-upsert'},{'name': 'MaterialGroupUpsertComponentT', 'selector': 'app-material-group-upsert'},{'name': 'MaterialListViewComponent', 'selector': 'app-material-list-view'},{'name': 'MaterialUpsertComponent', 'selector': 'app-material-upsert'},{'name': 'MilestoneComponent', 'selector': 'app-milestone'},{'name': 'MilestoneViewComponent', 'selector': 'app-milestone-view'},{'name': 'PlaybackComponent', 'selector': 'app-playback'},{'name': 'PlaybackFormComponent', 'selector': 'app-playback-form'},{'name': 'PlaybackListComponent', 'selector': 'app-playback-list'},{'name': 'QrBarcodeComponent', 'selector': 'upload-accordion'},{'name': 'SensorComponent', 'selector': 'app-sensor'},{'name': 'SensorListViewComponent', 'selector': 'app-sensor-list-view'},{'name': 'SensorUpsertComponent', 'selector': 'app-sensor-upsert'},{'name': 'ShareLocationComponent', 'selector': 'app-share-location'},{'name': 'ShareTripComponent', 'selector': 'app-share-trip'},{'name': 'SidebarComponent', 'selector': 'app-sidebar'},{'name': 'TrafficManagerComponent', 'selector': 'app-traffic-manager'},{'name': 'TransportRouteComponent', 'selector': 'app-transport-route'},{'name': 'TransportRouteListViewComponent', 'selector': 'app-transport-route-list-view'},{'name': 'TransportRouteUpsertComponent', 'selector': 'app-transport-route-upsert'},{'name': 'TripDetailsComponent', 'selector': 'app-trip-details'},{'name': 'TripDetailViewComponent', 'selector': 'app-trip-detail-view'},{'name': 'TripGpsComponent', 'selector': 'app-trip-gps'},{'name': 'TripListComponent', 'selector': 'app-trip-list'},{'name': 'TripListViewComponent', 'selector': 'app-trip-list-view'},{'name': 'TripMemoComponent', 'selector': 'app-trip-memo'},{'name': 'TripMemoListViewComponent', 'selector': 'app-trip-memo-list-view'},{'name': 'TripMemoUpsertComponent', 'selector': 'app-trip-memo-upsert'},{'name': 'UpdatePasswordComponent', 'selector': 'app-update-password'},{'name': 'UploadAccordianComponent', 'selector': 'upload-accordion'},{'name': 'UploadComponent', 'selector': 'app-upload'},{'name': 'UploadUtilComponent', 'selector': 'app-upload-util'},{'name': 'VehicleComponent', 'selector': 'app-vehicle'},{'name': 'VehicleDetailViewComponent', 'selector': 'app-vehicle-detail-view'},{'name': 'VehicleListViewComponent', 'selector': 'app-vehicle-list-view'},{'name': 'VehicleUpsertComponent', 'selector': 'app-vehicle-upsert'},{'name': 'VendorComponent', 'selector': 'app-vendor'},{'name': 'VendordealPopupComponent', 'selector': 'app-vendordeal-popup'},{'name': 'VendorListViewComponent', 'selector': 'app-vendor-list-view'},{'name': 'VendorUpsertComponent', 'selector': 'app-vendor-upsert'}];
+    var DIRECTIVES = [{'name': 'AddrSearchDirective', 'selector': '[appAddrSearch]'}];
+    var ACTUAL_COMPONENT = {'name': 'LoginComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'LoginComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

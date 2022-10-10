@@ -1,0 +1,2234 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>LMS-Lite documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">LMS-Lite documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  BillingPartyListViewComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-billing-party-list-view</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./billing-party-list-view.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./billing-party-list-view.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#aGSTstates" >aGSTstates</a>
+                            </li>
+                            <li>
+                                <a href="#clickSearch" >clickSearch</a>
+                            </li>
+                            <li>
+                                <a href="#filterObj" >filterObj</a>
+                            </li>
+                            <li>
+                                <a href="#innerWidth" >innerWidth</a>
+                            </li>
+                            <li>
+                                <a href="#isMobFilterVisible" >isMobFilterVisible</a>
+                            </li>
+                            <li>
+                                <a href="#pageNumber" >pageNumber</a>
+                            </li>
+                            <li>
+                                <a href="#parentName" >parentName</a>
+                            </li>
+                            <li>
+                                <a href="#receivedBillingParty" >receivedBillingParty</a>
+                            </li>
+                            <li>
+                                <a href="#receivedData" >receivedData</a>
+                            </li>
+                            <li>
+                                <a href="#scrollTable" >scrollTable</a>
+                            </li>
+                            <li>
+                                <a href="#selectedItem" >selectedItem</a>
+                            </li>
+                            <li>
+                                <a href="#selectedRowId" >selectedRowId</a>
+                            </li>
+                            <li>
+                                <a href="#stopScrolling" >stopScrolling</a>
+                            </li>
+                            <li>
+                                <a href="#timer" >timer</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#clean" >clean</a>
+                            </li>
+                            <li>
+                                <a href="#delete" >delete</a>
+                            </li>
+                            <li>
+                                <a href="#navigateToAdd" >navigateToAdd</a>
+                            </li>
+                            <li>
+                                <a href="#navigateToDetailView" >navigateToDetailView</a>
+                            </li>
+                            <li>
+                                <a href="#navigateToEdit" >navigateToEdit</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#onChangeSearch" >onChangeSearch</a>
+                            </li>
+                            <li>
+                                <a href="#onResize" >onResize</a>
+                            </li>
+                            <li>
+                                <a href="#onScroll" >onScroll</a>
+                            </li>
+                            <li>
+                                <a href="#reset" >reset</a>
+                            </li>
+                            <li>
+                                <a href="#search" >search</a>
+                            </li>
+                            <li>
+                                <a href="#selectItem" >selectItem</a>
+                            </li>
+                            <li>
+                                <a href="#showDeleteConfirm" >showDeleteConfirm</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>HostListeners</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#window: resize" >window: resize</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>, http: <a href="https://angular.io/api/common/http/HttpClient" target="_blank">HttpClient</a>, masterService: <a href="../injectables/MasterService.html" target="_self">MasterService</a>, constantService: <a href="../injectables/ConstantService.html" target="_self">ConstantService</a>, commonServ: <a href="../injectables/CommonService.html" target="_self">CommonService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="48" class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:48</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>http</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/common/http/HttpClient" target="_blank" >HttpClient</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>masterService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/MasterService.html" target="_self" >MasterService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>constantService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/ConstantService.html" target="_self" >ConstantService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>commonServ</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/CommonService.html" target="_self" >CommonService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+    <section>
+    <h3>HostListeners</h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="window: resize"></a>
+                    <span class="name">
+                        <span ><b>window: resize</b></span>
+                        <a href="#window: resize"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <i>Arguments : </i><code>'$event' </code>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>window: resize(event: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="46"
+                            class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:46</a></div>
+                </td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="clean"></a>
+                    <span class="name">
+                        <span ><b>clean</b></span>
+                        <a href="#clean"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>clean(obj: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="248"
+                            class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:248</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>obj</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="delete"></a>
+                    <span class="name">
+                        <span ><b>delete</b></span>
+                        <a href="#delete"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>delete()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="221"
+                            class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:221</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="navigateToAdd"></a>
+                    <span class="name">
+                        <span ><b>navigateToAdd</b></span>
+                        <a href="#navigateToAdd"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>navigateToAdd()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="279"
+                            class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:279</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="navigateToDetailView"></a>
+                    <span class="name">
+                        <span ><b>navigateToDetailView</b></span>
+                        <a href="#navigateToDetailView"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>navigateToDetailView()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="283"
+                            class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:283</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="navigateToEdit"></a>
+                    <span class="name">
+                        <span ><b>navigateToEdit</b></span>
+                        <a href="#navigateToEdit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>navigateToEdit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="267"
+                            class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:267</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="59"
+                            class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:59</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onChangeSearch"></a>
+                    <span class="name">
+                        <span ><b>onChangeSearch</b></span>
+                        <a href="#onChangeSearch"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onChangeSearch(value: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>, type: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="121"
+                            class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:121</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>value</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>type</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onResize"></a>
+                    <span class="name">
+                        <span ><b>onResize</b></span>
+                        <a href="#onResize"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onResize(event: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@HostListener(&#x27;window: resize&#x27;, [&#x27;$event&#x27;])<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="46"
+                            class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:46</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onScroll"></a>
+                    <span class="name">
+                        <span ><b>onScroll</b></span>
+                        <a href="#onScroll"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onScroll()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="138"
+                            class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:138</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="reset"></a>
+                    <span class="name">
+                        <span ><b>reset</b></span>
+                        <a href="#reset"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>reset()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="239"
+                            class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:239</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="search"></a>
+                    <span class="name">
+                        <span ><b>search</b></span>
+                        <a href="#search"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>search()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="200"
+                            class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:200</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="selectItem"></a>
+                    <span class="name">
+                        <span ><b>selectItem</b></span>
+                        <a href="#selectItem"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>selectItem(item: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="260"
+                            class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:260</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>item</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="showDeleteConfirm"></a>
+                    <span class="name">
+                        <span ><b>showDeleteConfirm</b></span>
+                        <a href="#showDeleteConfirm"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>showDeleteConfirm(value: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="181"
+                            class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:181</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>value</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="aGSTstates"></a>
+                    <span class="name">
+                        <span ><b>aGSTstates</b></span>
+                        <a href="#aGSTstates"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="29" class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:29</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="clickSearch"></a>
+                    <span class="name">
+                        <span ><b>clickSearch</b></span>
+                        <a href="#clickSearch"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>true</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="24" class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:24</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="filterObj"></a>
+                    <span class="name">
+                        <span ><b>filterObj</b></span>
+                        <a href="#filterObj"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>literal type</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+    // filter obj
+    name: null,
+    address: null,
+    state_name: null,
+    from: null,
+    to: null,
+  }</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:32</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="innerWidth"></a>
+                    <span class="name">
+                        <span ><b>innerWidth</b></span>
+                        <a href="#innerWidth"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:28</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isMobFilterVisible"></a>
+                    <span class="name">
+                        <span ><b>isMobFilterVisible</b></span>
+                        <a href="#isMobFilterVisible"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:30</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="pageNumber"></a>
+                    <span class="name">
+                        <span ><b>pageNumber</b></span>
+                        <a href="#pageNumber"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>2</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:23</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="parentName"></a>
+                    <span class="name">
+                        <span ><b>parentName</b></span>
+                        <a href="#parentName"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;billingParty&#x27;</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="21" class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:21</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="receivedBillingParty"></a>
+                    <span class="name">
+                        <span ><b>receivedBillingParty</b></span>
+                        <a href="#receivedBillingParty"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:20</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="receivedData"></a>
+                    <span class="name">
+                        <span ><b>receivedData</b></span>
+                        <a href="#receivedData"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:19</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="scrollTable"></a>
+                    <span class="name">
+                        <span ><b>scrollTable</b></span>
+                        <a href="#scrollTable"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>HTMLCollectionOf&lt;Element&gt;</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="42" class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:42</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="selectedItem"></a>
+                    <span class="name">
+                        <span ><b>selectedItem</b></span>
+                        <a href="#selectedItem"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:27</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="selectedRowId"></a>
+                    <span class="name">
+                        <span ><b>selectedRowId</b></span>
+                        <a href="#selectedRowId"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:26</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="stopScrolling"></a>
+                    <span class="name">
+                        <span ><b>stopScrolling</b></span>
+                        <a href="#stopScrolling"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="22" class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:22</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="timer"></a>
+                    <span class="name">
+                        <span ><b>timer</b></span>
+                        <a href="#timer"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/app/modules/billing-party/billing-party-list-view/billing-party-list-view.component.ts:25</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit, HostListener, HostBinding } from &#x27;@angular/core&#x27;;
+import { Router } from &#x27;@angular/router&#x27;;
+import { HttpClient } from &#x27;@angular/common/http&#x27;;
+// import { NzModalService } from &#x27;ng-zorro-antd/modal&#x27;;
+import { CommonService } from &#x27;../../../services/common.service&#x27;;
+import { HttpParams } from &#x27;@angular/common/http&#x27;;
+import { MasterService } from &#x27;../../master.service&#x27;;
+import { ConstantService } from &#x27;src/app/services/constant.service&#x27;;
+import { MoreMenu } from &#x27;src/app/shared/modal/moreMenu.modal&#x27;;
+
+
+@Component({
+  selector: &#x27;app-billing-party-list-view&#x27;,
+  templateUrl: &#x27;./billing-party-list-view.component.html&#x27;,
+  styleUrls: [&#x27;./billing-party-list-view.component.scss&#x27;]
+})
+export class BillingPartyListViewComponent implements OnInit {
+
+  receivedData: any; // store the data
+  receivedBillingParty: any;
+  parentName &#x3D; &#x27;billingParty&#x27;;
+  stopScrolling &#x3D; false;
+  pageNumber &#x3D; 2;
+  clickSearch &#x3D; true;
+  timer: any;
+  selectedRowId: any;
+  selectedItem: any;
+  innerWidth: any;
+  aGSTstates: any;
+  isMobFilterVisible&#x3D;false;
+
+  filterObj: { [index: string]: any } &#x3D; {
+    // filter obj
+    name: null,
+    address: null,
+    state_name: null,
+    from: null,
+    to: null,
+  };
+
+
+  scrollTable!: HTMLCollectionOf&lt;Element&gt;;
+
+
+  @HostListener(&#x27;window: resize&#x27;, [&#x27;$event&#x27;])
+  onResize(event: any) {
+    this.innerWidth &#x3D; window.innerWidth;
+  }
+
+  constructor(
+    private router: Router,
+    private http: HttpClient,
+    // private modal: NzModalService,
+    private masterService: MasterService,
+    private constantService: ConstantService,
+    private commonServ: CommonService
+  ) { }
+
+  ngOnInit(): void {
+
+
+    let _moreMenu:MoreMenu[]&#x3D;[
+      {
+        tittle:&quot;fiter&quot;,
+        iconName:&quot;fa-filter&quot;,
+        isVisible:true,
+        clickEventMethode:()&#x3D;&gt;{
+          this.isMobFilterVisible &#x3D; !this.isMobFilterVisible;
+        }
+      },
+      {
+        tittle:&quot;Add Billing Party&quot;,
+        iconName:&quot;fa-plus-circle&quot;,
+        isVisible:true,
+        clickEventMethode:()&#x3D;&gt;{
+          this.navigateToAdd();
+        }
+      } ,
+      {
+        tittle:&quot;Edit Billing Party&quot;,
+        iconName:&quot;fa-edit&quot;,
+        isVisible:false,
+        clickEventMethode:()&#x3D;&gt;{
+          this.navigateToEdit();
+        }
+      } ,
+      {
+        tittle:&quot;Delete Billing Party&quot;,
+        iconName:&quot;fa-trash&quot;,
+        isVisible:false,
+        clickEventMethode:()&#x3D;&gt;{
+          this.showDeleteConfirm(this.selectedItem.vehicle_reg_no);
+        }
+      },
+
+    ];
+    this.commonServ.setNavTittleAndMenu(&quot;All Billing Party&quot;,_moreMenu);
+
+
+
+    this.aGSTstates &#x3D; this.constantService.constants.aGSTstates;
+    this.innerWidth &#x3D; window.innerWidth;
+    let params &#x3D; new HttpParams()
+      .set(&#x27;sort&#x27;, -1)
+      .set(&#x27;deleted&#x27;, false)
+      .set(&#x27;no_of_docs&#x27;, 15)
+      .set(&#x27;request_id&#x27;, Date.now() + &#x27;&#x27; + Math.round(Math.random() * 100))
+      .set(&#x27;validate&#x27;, &#x27;all&#x27;);
+    this.masterService.getAllBillingParty({ params }).subscribe((data: any) &#x3D;&gt; {
+      if (data) {
+        this.receivedData &#x3D; data;
+        this.scrollTable &#x3D; document.getElementsByClassName(&quot;ant-table-body&quot;);
+        this.scrollTable[0]?.addEventListener(&#x27;scroll&#x27;,() &#x3D;&gt; {
+          console.log(&#x27;scroll&#x27;);
+          this.onScroll();
+        } )
+      }
+    });
+  }
+
+  onChangeSearch(value: any, type: string): any {
+    if (value) {
+      let params &#x3D; new HttpParams()
+        .set(&#x27;no_of_docs&#x27;, 5)
+        .set(&#x27;deleted&#x27;, false)
+        .set(&#x27;skip&#x27;, 1)
+        .set(&#x27;request_id&#x27;, Date.now() + &#x27;&#x27; + Math.round(Math.random() * 100))
+        .set(&#x27;validate&#x27;, &#x27;all&#x27;);
+      params &#x3D; params.append(type, value);
+      this.masterService.getAllBillingParty({ params }).subscribe((data: any) &#x3D;&gt; {
+        if (data) {
+          this.receivedBillingParty &#x3D; data;
+        }
+      });
+    }
+  }
+
+  onScroll() {
+    if (this.clickSearch) {
+      let divElement: any &#x3D; document.getElementsByClassName(&quot;ant-table-body&quot;)[0] || document.getElementById(&#x27;myDIV&#x27;);
+      if (
+        divElement.scrollTop + divElement.clientHeight &gt;&#x3D;
+        divElement.scrollHeight
+      ) {
+        if (this.stopScrolling &#x3D;&#x3D;&#x3D; false) {
+          if (this.timer) {
+            clearTimeout(this.timer);
+          }
+          const mContext &#x3D; this;
+          this.timer &#x3D; window.setTimeout(function () {
+            let params &#x3D; new HttpParams()
+              .set(&#x27;sort&#x27;, -1)
+              .set(&#x27;skip&#x27;, mContext.pageNumber)
+              .set(&#x27;deleted&#x27;, false)
+              .set(&#x27;no_of_docs&#x27;, 15)
+              .set(
+                &#x27;request_id&#x27;,
+                Date.now() + &#x27;&#x27; + Math.round(Math.random() * 100)
+              )
+              .set(&#x27;validate&#x27;, &#x27;all&#x27;);
+            mContext.masterService
+              .getAllBillingParty({ params })
+              .subscribe((data) &#x3D;&gt; {
+                if (data) {
+                  if (data.length &#x3D;&#x3D;&#x3D; 0) {
+                    mContext.stopScrolling &#x3D; true;
+                  } else {
+                    mContext.receivedData &#x3D; [...mContext.receivedData, ...data];
+                    mContext.pageNumber &#x3D; mContext.pageNumber + 1;
+                  }
+                }
+                return;
+              });
+          }, 400);
+        }
+      }
+    }
+  }
+
+
+  showDeleteConfirm(value: any): void {
+
+    this.commonServ.confirmModal(&#x27;Are you sure you want to delete?&#x27;,  &#x60;${value} BillingParty&#x60;, (): void &#x3D;&gt; {
+      this.delete();
+    })
+    // if(window.confirm(&#x60;Are you sure you want to delete ${value} ?&#x60;)){
+    //   this.delete()
+    // }
+    // this.modal.confirm({
+    //   nzTitle: &#x60;Are you sure you want to delete?&#x60;,
+    //   nzContent: &#x60;Click Yes to delete &lt;b&gt;${value}&lt;/b&gt;.&#x60;,
+    //   nzOkText: &#x27;Yes&#x27;,
+    //   nzOkType: &#x27;primary&#x27;,
+    //   nzOkDanger: true,
+    //   nzOnOk: () &#x3D;&gt;this.delete(),
+    //   nzCancelText: &#x27;Cancel&#x27;
+    // });
+  }
+
+  search(): any {
+    delete this.selectedRowId;
+    let params &#x3D; new HttpParams()
+      .set(&#x27;sort&#x27;, -1)
+      .set(&#x27;no_of_docs&#x27;, 15)
+      .set(&#x27;deleted&#x27;, false)
+      .set(&#x27;skip&#x27;, 1)
+      .set(&#x27;request_id&#x27;, Date.now() + &#x27;&#x27; + Math.round(Math.random() * 100))
+      .set(&#x27;validate&#x27;, &#x27;all&#x27;);
+    this.clean(this.filterObj);
+    for (let propName in this.filterObj) {
+      params &#x3D; params.append(propName, this.filterObj[propName]);
+    }
+    this.masterService.getAllBillingParty({ params }).subscribe((data: any) &#x3D;&gt; {
+      if (data.length) {
+        this.receivedData &#x3D; data;
+        this.clickSearch &#x3D; false;
+      }else {this.receivedData &#x3D; null;}
+    });
+  }
+
+  delete() {
+    if (!this.selectedRowId) {
+      this.commonServ.errorModal(&#x27;Error&#x27;, &#x27;Please select any one row&#x27;);
+      return;
+    }
+    this.masterService
+      .deleteBillingParty(this.selectedRowId, {
+        deleted: true,
+        _id: this.selectedRowId,
+      })
+      .subscribe((data: any) &#x3D;&gt; {
+        if (data) {
+          this.search();
+          this.router.navigateByUrl(&#x27;home/master/billingParty&#x27;);
+        }
+      });
+  }
+
+  reset() {
+    this.clickSearch &#x3D; true;
+    for (let propName in this.filterObj) {
+      delete this.filterObj[propName];
+      delete this.selectedRowId;
+    }
+    this.search();
+  }
+
+  clean(obj: any) {
+    for (let propName in obj) {
+      if (
+        obj[propName] &#x3D;&#x3D;&#x3D; null ||
+        obj[propName] &#x3D;&#x3D;&#x3D; undefined ||
+        obj[propName] &#x3D;&#x3D;&#x3D; &#x27;&#x27;
+      ) {
+        delete obj[propName];
+      }
+    }
+  }
+
+  selectItem(item: any) {
+    this.selectedItem &#x3D; item;
+    this.selectedRowId &#x3D; item._id;
+
+   this.commonServ.hideShowMenu( [&quot;Delete Billing Party&quot;,&quot;Edit Billing Party&quot;],true);
+  }
+
+  navigateToEdit() {
+    if (!this.selectedRowId) {
+      this.commonServ.errorModal(&#x27;Error&#x27;, &#x27;Please select any one row&#x27;);
+      return;
+    }
+    this.router.navigateByUrl(
+      &#x27;home/master/billingParty/upsert/&#x27; + this.selectedRowId,
+      { state: this.selectedItem }
+    );
+    // this.commonServ.commonUsed.next({ name: &quot;backButton&quot;, value: true });
+  }
+
+  navigateToAdd() {
+    this.router.navigateByUrl(&#x27;home/master/billingPartyUpsert&#x27;);
+  }
+
+  navigateToDetailView() {
+    this.router.navigateByUrl(&#x27;home/master/billingParty/view&#x27;);
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;insight&quot;&gt;
+  &lt;div class&#x3D;&quot;insight-head&quot; *ngIf&#x3D;&quot;innerWidth &gt; 500&quot;&gt;
+    &lt;div class&#x3D;&quot;insight-title&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;insight-tools&quot;&gt;
+      &lt;div class&#x3D;&quot;tool&quot;&gt;
+
+        &lt;div class&#x3D;&quot;mbbtn&quot; *ngIf&#x3D;&quot;innerWidth &lt;&#x3D; 500&quot; (click)&#x3D;&quot;isMobFilterVisible&#x3D;isMobFilterVisible?false:true;&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;filter&quot;&gt;&lt;/fa-icon&gt;
+        &lt;/div&gt;
+
+        &lt;div class&#x3D;&quot;mbbtn&quot;  nz-tooltip nzTooltipTitle&#x3D;&quot;Add Billing Party&quot;
+             (click)&#x3D;&quot;navigateToAdd()&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;plus-square&quot; &gt;&lt;/fa-icon&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;mbbtn&quot;  nz-tooltip nzTooltipTitle&#x3D;&quot;Edit Billing Party&quot; (click)&#x3D;&quot;navigateToEdit()&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;edit&quot; &gt;&lt;/fa-icon&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;mbbtn&quot; (click)&#x3D;&quot;showDeleteConfirm(this.selectedItem.name)&quot; nz-tooltip nzTooltipTitle&#x3D;&quot;Disable&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;trash&quot; style&#x3D;&quot;color: red !important;&quot;&gt;&lt;/fa-icon&gt;
+        &lt;/div&gt;
+
+
+&lt;!--        &lt;button class&#x3D;&quot;my-btn btn-primary&quot; nz-tooltip nzTooltipTitle&#x3D;&quot;Add Billing Party&quot; (click)&#x3D;&quot;navigateToAdd()&quot;&gt;--&gt;
+&lt;!--          &lt;fa-icon icon&#x3D;&quot;plus-square&quot; style&#x3D;&quot;font-size: 20px;&quot;&gt;&lt;/fa-icon&gt;--&gt;
+&lt;!--        &lt;/button&gt;--&gt;
+
+&lt;!--        &lt;button [disabled]&#x3D;&quot;!selectedRowId&quot; nzType&#x3D;&quot;primary&quot; class&#x3D;&quot;my-btn btn-primary&quot; nz-button nz-tooltip--&gt;
+&lt;!--          nzTooltipTitle&#x3D;&quot;Edit Billing Party&quot; (click)&#x3D;&quot;navigateToEdit()&quot;&gt;--&gt;
+&lt;!--          &lt;fa-icon icon&#x3D;&quot;edit&quot; style&#x3D;&quot;font-size: 20px&quot;&gt;&lt;/fa-icon&gt;--&gt;
+&lt;!--        &lt;/button&gt;--&gt;
+
+        &lt;button [hidden]&#x3D;&quot;true&quot; class&#x3D;&quot;my-btn btn-primary&quot; nz-tooltip nz-button nzTooltipTitle&#x3D;&quot;View Billing Party&quot;
+          (click)&#x3D;&quot;navigateToDetailView()&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;eye&quot; style&#x3D;&quot;font-size: 20px;&quot;&gt;&lt;/fa-icon&gt;
+        &lt;/button&gt;
+
+&lt;!--        &lt;button [disabled]&#x3D;&quot;!selectedRowId&quot; nz-button class&#x3D;&quot;my-btn btn-danger shd&quot; nz-tooltip nzTooltipTitle&#x3D;&quot;Delete&quot;--&gt;
+&lt;!--          (click)&#x3D;&quot;showDeleteConfirm(this.selectedItem.name)&quot;&gt;--&gt;
+&lt;!--          &lt;fa-icon icon&#x3D;&quot;trash&quot; style&#x3D;&quot;font-size: 20px&quot;&gt;&lt;/fa-icon&gt;--&gt;
+&lt;!--        &lt;/button&gt;--&gt;
+
+&lt;!--        &lt;button *ngIf&#x3D;&quot;innerWidth &lt; 500&quot; class&#x3D;&quot;my-btn btn-primary&quot; nz-tooltip nz-button nzTooltipTitle&#x3D;&quot;Show Filters&quot;--&gt;
+&lt;!--          type&#x3D;&quot;button&quot; (click)&#x3D;&quot;isMobFilterVisible&#x3D;isMobFilterVisible?false:true;&quot;&gt;--&gt;
+&lt;!--          &lt;fa-icon icon&#x3D;&quot;filter&quot; style&#x3D;&quot;font-size: 15px&quot;&gt;&lt;/fa-icon&gt;--&gt;
+&lt;!--        &lt;/button&gt;--&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class&#x3D;&quot;insight-description&quot;&gt;
+
+    &lt;div class&#x3D;&quot;filters-row&quot; *ngIf&#x3D;&quot;innerWidth &gt; 500&quot;&gt;
+
+      &lt;div class&#x3D;&quot;my-row&quot;&gt;
+        &lt;div class&#x3D;&quot;my-card&quot;&gt;
+          &lt;div class&#x3D;&quot;my-card-header&quot;&gt;
+            &lt;nz-select [nzDropdownMatchSelectWidth]&#x3D;&quot;false&quot; style&#x3D;&quot;width: 180px&quot; nzPlaceHolder&#x3D;&quot;Search Billing Party&quot;
+              [(ngModel)]&#x3D;&quot;filterObj &amp;&amp; filterObj.name&quot; nzShowSearch (nzOnSearch)&#x3D;&quot;onChangeSearch($event, &#x27;name&#x27;)&quot;
+              nzServerSearch nzAllowClear&gt;
+              &lt;nz-option *ngFor&#x3D;&quot;let item of receivedBillingParty&quot; nzLabel&#x3D;&quot;{{ item?.name}}&quot; [nzValue]&#x3D;&quot;item.name&quot;&gt;
+              &lt;/nz-option&gt;
+            &lt;/nz-select&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class&#x3D;&quot;my-card&quot;&gt;
+          &lt;div class&#x3D;&quot;my-card-header&quot;&gt;
+            &lt;nz-select [nzDropdownMatchSelectWidth]&#x3D;&quot;false&quot; style&#x3D;&quot;width: 180px&quot; nzPlaceHolder&#x3D;&quot;Search Address&quot;
+              [(ngModel)]&#x3D;&quot;filterObj &amp;&amp; filterObj.address&quot; nzShowSearch (nzOnSearch)&#x3D;&quot;onChangeSearch($event,&#x27;address&#x27;)&quot;
+              nzServerSearch nzAllowClear&gt;
+              &lt;nz-option *ngFor&#x3D;&quot;let item of receivedBillingParty&quot; nzLabel&#x3D;&quot;{{item.address}}&quot; [nzValue]&#x3D;&quot;item.address&quot;&gt;
+              &lt;/nz-option&gt;
+            &lt;/nz-select&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class&#x3D;&quot;my-card&quot;&gt;
+          &lt;div class&#x3D;&quot;my-card-header&quot;&gt;
+            &lt;nz-select [nzDropdownMatchSelectWidth]&#x3D;&quot;false&quot; style&#x3D;&quot;width: 180px&quot; nzPlaceHolder&#x3D;&quot;Select State&quot;
+              [(ngModel)]&#x3D;&quot;filterObj &amp;&amp; filterObj.state_name&quot; nzShowSearch nzAllowClear&gt;
+              &lt;nz-option *ngFor&#x3D;&quot;let item of aGSTstates&quot; nzLabel&#x3D;&quot;{{item.state}}&quot; [nzValue]&#x3D;&quot;item.state&quot;&gt;
+              &lt;/nz-option&gt;
+            &lt;/nz-select&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;!-- from date --&gt;
+        &lt;div class&#x3D;&quot;my-card&quot;&gt;
+          &lt;div class&#x3D;&quot;my-card-header &quot;&gt;
+            &lt;nz-date-picker [(ngModel)]&#x3D;&quot;filterObj &amp;&amp; filterObj.from&quot; nzPlaceHolder&#x3D;&quot;Start Date&quot;&gt;
+            &lt;/nz-date-picker&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- to date --&gt;
+        &lt;div class&#x3D;&quot;my-card&quot;&gt;
+          &lt;div class&#x3D;&quot;my-card-header &quot;&gt;
+            &lt;nz-date-picker [(ngModel)]&#x3D;&quot;filterObj &amp;&amp; filterObj.to&quot; nzPlaceHolder&#x3D;&quot;End Date&quot;&gt;&lt;/nz-date-picker&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class&#x3D;&quot;my-card&quot;&gt;
+          &lt;div class&#x3D;&quot;my-card-header&quot;&gt;
+            &lt;button class&#x3D;&quot;my-btn btn-primary&quot; nz-tooltip nzTooltipTitle&#x3D;&quot;Search Driver&quot; (click)&#x3D;&quot;search()&quot;&gt;
+              &lt;fa-icon icon&#x3D;&quot;search&quot; style&#x3D;&quot;font-size: 20px;&quot;&gt;&lt;/fa-icon&gt;
+            &lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class&#x3D;&quot;my-card&quot;&gt;
+          &lt;div class&#x3D;&quot;my-card-header&quot;&gt;
+            &lt;button class&#x3D;&quot;my-btn btn-primary&quot; (click)&#x3D;&quot;reset()&quot;&gt;
+              &lt;fa-icon icon&#x3D;&quot;times&quot; style&#x3D;&quot;font-size: 20px&quot;&gt;&lt;/fa-icon&gt;
+            &lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class&#x3D;&quot;&quot; *ngIf&#x3D;&quot;isMobFilterVisible &amp;&amp; innerWidth &lt;&#x3D; 500&quot;&gt;
+      &lt;div&gt;
+        &lt;div class&#x3D;&quot;flex-cont&quot;&gt;
+          &lt;label&gt;&lt;/label&gt;
+          &lt;nz-select [nzDropdownMatchSelectWidth]&#x3D;&quot;false&quot; style&#x3D;&quot;width: 100%&quot; nzPlaceHolder&#x3D;&quot;Search Billing Party&quot;
+          [(ngModel)]&#x3D;&quot;filterObj &amp;&amp; filterObj.name&quot; nzShowSearch (nzOnSearch)&#x3D;&quot;onChangeSearch($event, &#x27;name&#x27;)&quot;
+          nzServerSearch nzAllowClear&gt;
+          &lt;nz-option *ngFor&#x3D;&quot;let item of receivedBillingParty&quot; nzLabel&#x3D;&quot;{{ item?.name}}&quot; [nzValue]&#x3D;&quot;item.name&quot;&gt;
+          &lt;/nz-option&gt;
+        &lt;/nz-select&gt;
+        &lt;/div&gt;
+
+        &lt;div class&#x3D;&quot;flex-cont&quot;&gt;
+          &lt;label&gt;&lt;/label&gt;
+          &lt;nz-select [nzDropdownMatchSelectWidth]&#x3D;&quot;false&quot; style&#x3D;&quot;width: 100%&quot; nzPlaceHolder&#x3D;&quot;Search Address&quot;
+          [(ngModel)]&#x3D;&quot;filterObj &amp;&amp; filterObj.address&quot; nzShowSearch (nzOnSearch)&#x3D;&quot;onChangeSearch($event,&#x27;address&#x27;)&quot;
+          nzServerSearch nzAllowClear&gt;
+          &lt;nz-option *ngFor&#x3D;&quot;let item of receivedBillingParty&quot; nzLabel&#x3D;&quot;{{item.address}}&quot; [nzValue]&#x3D;&quot;item.address&quot;&gt;
+          &lt;/nz-option&gt;
+        &lt;/nz-select&gt;
+        &lt;/div&gt;
+
+        &lt;div class&#x3D;&quot;flex-cont&quot;&gt;
+          &lt;label&gt;&lt;/label&gt;
+          &lt;nz-select [nzDropdownMatchSelectWidth]&#x3D;&quot;false&quot; style&#x3D;&quot;width: 100%&quot; nzPlaceHolder&#x3D;&quot;Select State&quot;
+          [(ngModel)]&#x3D;&quot;filterObj &amp;&amp; filterObj.state_name&quot; nzShowSearch nzAllowClear&gt;
+          &lt;nz-option *ngFor&#x3D;&quot;let item of aGSTstates&quot; nzLabel&#x3D;&quot;{{item.state}}&quot; [nzValue]&#x3D;&quot;item.state&quot;&gt;
+          &lt;/nz-option&gt;
+        &lt;/nz-select&gt;
+        &lt;/div&gt;
+
+        &lt;!-- from date --&gt;
+
+        &lt;div class&#x3D;&quot;flex-cont&quot;&gt;
+          &lt;label&gt;&lt;/label&gt;
+          &lt;nz-date-picker [(ngModel)]&#x3D;&quot;filterObj &amp;&amp; filterObj.from&quot; style&#x3D;&quot;width: 100%&quot; nzPlaceHolder&#x3D;&quot;Start Date&quot;&gt;
+          &lt;/nz-date-picker&gt;
+        &lt;/div&gt;
+
+        &lt;!-- to date --&gt;
+
+        &lt;div class&#x3D;&quot;flex-cont&quot;&gt;
+          &lt;label&gt;&lt;/label&gt;
+          &lt;nz-date-picker [(ngModel)]&#x3D;&quot;filterObj &amp;&amp; filterObj.to&quot; style&#x3D;&quot;width: 100%&quot; nzPlaceHolder&#x3D;&quot;End Date&quot;&gt;
+          &lt;/nz-date-picker&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div style&#x3D;&quot;margin-top: 5%; margin-bottom:10%&quot;&gt;
+        &lt;button style&#x3D;&quot;width: 48%;color:white;&quot; type&#x3D;&quot;button&quot; class&#x3D;&quot;btn-primary&quot; nz-button
+          (click)&#x3D;&quot;search();isMobFilterVisible &#x3D; false;&quot;&gt;Search&lt;/button&gt;&amp;nbsp;
+        &lt;button style&#x3D;&quot;width: 48%;color:white;&quot; type&#x3D;&quot;button&quot; class&#x3D;&quot;btn-primary&quot; nz-button
+          (click)&#x3D;&quot;reset();isMobFilterVisible &#x3D; false;&quot;&gt;Reset&lt;/button&gt;
+      &lt;/div&gt;
+
+    &lt;/div&gt;
+
+    &lt;!-- table view start --&gt;
+    &lt;div id&#x3D;&quot;myDIV&quot; (scroll)&#x3D;&quot;onScroll()&quot;&gt;
+      &lt;nz-table *ngIf&#x3D;&quot;innerWidth &gt; 500&quot; #nzTable nzBordered [nzShowPagination]&#x3D;&quot;false&quot; [nzData]&#x3D;&quot;receivedData ? receivedData : &#x27;&#x27;&quot;
+        nzSize&#x3D;&quot;small&quot; [nzScroll]&#x3D;&quot;{ x: &#x27;1000px&#x27;, y: &#x27;50vh&#x27; }&quot; style&#x3D;&quot;overflow-x: auto&quot;&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;Name &lt;/th&gt;
+            &lt;th nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;Address&lt;/th&gt;
+            &lt;th nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;Customer&lt;/th&gt;
+            &lt;th nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;GSTIN NO.&lt;/th&gt;
+            &lt;th nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;State&lt;/th&gt;
+            &lt;th nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;Account&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+          &lt;tr style&#x3D;&quot;cursor: pointer&quot; *ngFor&#x3D;&quot;let item of receivedData&quot; (click)&#x3D;&quot;selectItem(item)&quot;
+            [ngClass]&#x3D;&quot;{SelectHighlight :  selectedRowId &amp;&amp; (item?._id &#x3D;&#x3D;&#x3D; selectedRowId)}&quot;&gt;
+            &lt;td nzAlign&#x3D;&quot;center&quot;&gt;{{ item?.name || &#x27;NA&#x27;}}&lt;/td&gt;
+            &lt;td nzAlign&#x3D;&quot;center&quot;&gt;{{ item?.address || &#x27;NA&#x27;}}&lt;/td&gt;
+            &lt;td nzAlign&#x3D;&quot;center&quot;&gt;{{ item?.customer?.name || &#x27;NA&#x27;}}&lt;/td&gt;
+            &lt;td nzAlign&#x3D;&quot;center&quot;&gt;{{ item?.gstin || &#x27;NA&#x27;}}&lt;/td&gt;
+            &lt;td nzAlign&#x3D;&quot;center&quot;&gt;{{ item?.state_name || &#x27;NA&#x27;}}&lt;/td&gt;
+            &lt;td nzAlign&#x3D;&quot;center&quot;&gt;{{ item?.account?.name || &#x27;NA&#x27;}}&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/tbody&gt;
+      &lt;/nz-table&gt;
+      &lt;!-- Card view start --&gt;
+      &lt;div *ngIf&#x3D;&quot;innerWidth &lt;&#x3D; 500&quot; class&#x3D;&quot;aggregate&quot;&gt;
+        &lt;div
+        class&#x3D;&quot;head shadow-d1&quot;
+        *ngFor&#x3D;&quot;let d of receivedData&quot;
+        (click)&#x3D;&quot;selectItem(d)&quot;  [ngClass]&#x3D;&quot;{SelectHighlight :  selectedRowId &amp;&amp; (d?._id &#x3D;&#x3D;&#x3D; selectedRowId)}&quot;&gt;
+        &lt;div class&#x3D;&quot;align&quot;&gt;
+          &lt;div class&#x3D;&quot;grey&quot;&gt;&lt;b&gt;Name:&lt;/b&gt; {{ d?.name || &#x27;NA&#x27;}}&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class&#x3D;&quot;align&quot;&gt;
+          &lt;div class&#x3D;&quot;grey&quot;&gt;&lt;b&gt;Address:&lt;/b&gt; {{ d?.address || &#x27;NA&#x27;}}&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class&#x3D;&quot;align&quot;&gt;
+          &lt;div class&#x3D;&quot;grey&quot;&gt;&lt;b&gt;Customer:&lt;/b&gt; {{ d?.customer?.name || &#x27;NA&#x27;}}&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class&#x3D;&quot;align&quot;&gt;
+          &lt;div class&#x3D;&quot;grey&quot;&gt;&lt;b&gt;GSTIN NO.:&lt;/b&gt; {{ d?.gstin || &#x27;Na&#x27; }}&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class&#x3D;&quot;align&quot;&gt;
+          &lt;div class&#x3D;&quot;grey&quot;&gt;&lt;b&gt;State:&lt;/b&gt; {{ d?.state_name || &#x27;NA&#x27;}}&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class&#x3D;&quot;align&quot;&gt;
+          &lt;div class&#x3D;&quot;grey&quot;&gt;&lt;b&gt;Account:&lt;/b&gt; {{ d?.account?.name || &#x27;NA&#x27;}}&lt;/div&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./billing-party-list-view.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">@import &#x27;../../../style/globle.scss&#x27;;
+.main-card {
+  /* height: 201px;
+    background: #1890ff;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,.28);
+    padding: 8px; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards-container {
+  display: flex;
+  width: 100%;
+  border-radius: 7px;
+  margin-left: 4px;
+  margin-top: 4px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.expense-title {
+  flex: 1;
+  font-size: 1.2rem;
+}
+.cost {
+  flex: 4;
+  word-wrap: break-word;
+  margin: 8px 0;
+}
+// .cost span {
+//     font-weight: 400;
+//     font-size:  0.9rem;
+// }
+// .date-refresh {
+//     font-size: 0.7rem;
+//     align-items: flex-end;
+//     flex: 1;
+// }
+.date-refresh i {
+  margin-right: 8px;
+}
+.bg-icon {
+  font-size: 7rem;
+  position: absolute;
+  height: 120px;
+  bottom: calc(100% - 120px);
+  opacity: 0.1;
+  left: calc(100% - 80px);
+}
+.ins {
+  display: flex;
+}
+.side {
+  margin-left: 5px;
+}
+p {
+  font-weight: bold;
+}
+.makeBold {
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+}
+.shadow-d1{
+  box-shadow: 0 1px 6px 1.5px rgba(32,33,36,.28) !important;
+}
+.full-width {
+  width: 100%;
+}
+.add-icon {
+  position: absolute;
+  right: 3px;
+  top: -10px;
+  cursor: pointer;
+}
+.wid {
+  width: 99%;
+  // cursor: pointer;
+}
+.pointer {
+  cursor: pointer;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+
+#content {
+  height: 500px;
+  width: 2000px;
+  background-color: coral;
+}
+.shd {
+  background: red;
+}
+
+th{
+  text-transform: uppercase !important;
+  background-color:$tableColor !important;
+  color: white!important;
+  border-color: #000!important;
+  text-align: center!important;
+}
+.align{
+  display: flex;
+}
+.grey {
+  color: black;
+}
+@page {
+  size: auto;
+  margin: 2mm;
+}
+@media print {
+  html, body {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 500px) {
+  #myDIV {
+    height: 100%;
+    overflow-y: auto;
+  }
+  nz-select, nz-date-picker, input {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 720px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-container &gt; div {
+    width: 100%;
+  }
+}
+
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="insight">  <div class="insight-head" *ngIf="innerWidth > 500">    <div class="insight-title">    </div>    <div class="insight-tools">      <div class="tool">        <div class="mbbtn" *ngIf="innerWidth <= 500" (click)="isMobFilterVisible=isMobFilterVisible?false:true;">          <fa-icon icon="filter"></fa-icon>        </div>        <div class="mbbtn"  nz-tooltip nzTooltipTitle="Add Billing Party"             (click)="navigateToAdd()">          <fa-icon icon="plus-square" ></fa-icon>        </div>        <div class="mbbtn"  nz-tooltip nzTooltipTitle="Edit Billing Party" (click)="navigateToEdit()">          <fa-icon icon="edit" ></fa-icon>        </div>        <div class="mbbtn" (click)="showDeleteConfirm(this.selectedItem.name)" nz-tooltip nzTooltipTitle="Disable">          <fa-icon icon="trash" style="color: red !important;"></fa-icon>        </div><!--        <button class="my-btn btn-primary" nz-tooltip nzTooltipTitle="Add Billing Party" (click)="navigateToAdd()">--><!--          <fa-icon icon="plus-square" style="font-size: 20px;"></fa-icon>--><!--        </button>--><!--        <button [disabled]="!selectedRowId" nzType="primary" class="my-btn btn-primary" nz-button nz-tooltip--><!--          nzTooltipTitle="Edit Billing Party" (click)="navigateToEdit()">--><!--          <fa-icon icon="edit" style="font-size: 20px"></fa-icon>--><!--        </button>-->        <button [hidden]="true" class="my-btn btn-primary" nz-tooltip nz-button nzTooltipTitle="View Billing Party"          (click)="navigateToDetailView()">          <fa-icon icon="eye" style="font-size: 20px;"></fa-icon>        </button><!--        <button [disabled]="!selectedRowId" nz-button class="my-btn btn-danger shd" nz-tooltip nzTooltipTitle="Delete"--><!--          (click)="showDeleteConfirm(this.selectedItem.name)">--><!--          <fa-icon icon="trash" style="font-size: 20px"></fa-icon>--><!--        </button>--><!--        <button *ngIf="innerWidth < 500" class="my-btn btn-primary" nz-tooltip nz-button nzTooltipTitle="Show Filters"--><!--          type="button" (click)="isMobFilterVisible=isMobFilterVisible?false:true;">--><!--          <fa-icon icon="filter" style="font-size: 15px"></fa-icon>--><!--        </button>-->      </div>    </div>  </div>  <div class="insight-description">    <div class="filters-row" *ngIf="innerWidth > 500">      <div class="my-row">        <div class="my-card">          <div class="my-card-header">            <nz-select [nzDropdownMatchSelectWidth]="false" style="width: 180px" nzPlaceHolder="Search Billing Party"              [(ngModel)]="filterObj && filterObj.name" nzShowSearch (nzOnSearch)="onChangeSearch($event, \'name\')"              nzServerSearch nzAllowClear>              <nz-option *ngFor="let item of receivedBillingParty" nzLabel="{{ item?.name}}" [nzValue]="item.name">              </nz-option>            </nz-select>          </div>        </div>        <div class="my-card">          <div class="my-card-header">            <nz-select [nzDropdownMatchSelectWidth]="false" style="width: 180px" nzPlaceHolder="Search Address"              [(ngModel)]="filterObj && filterObj.address" nzShowSearch (nzOnSearch)="onChangeSearch($event,\'address\')"              nzServerSearch nzAllowClear>              <nz-option *ngFor="let item of receivedBillingParty" nzLabel="{{item.address}}" [nzValue]="item.address">              </nz-option>            </nz-select>          </div>        </div>        <div class="my-card">          <div class="my-card-header">            <nz-select [nzDropdownMatchSelectWidth]="false" style="width: 180px" nzPlaceHolder="Select State"              [(ngModel)]="filterObj && filterObj.state_name" nzShowSearch nzAllowClear>              <nz-option *ngFor="let item of aGSTstates" nzLabel="{{item.state}}" [nzValue]="item.state">              </nz-option>            </nz-select>          </div>        </div>        <!-- from date -->        <div class="my-card">          <div class="my-card-header ">            <nz-date-picker [(ngModel)]="filterObj && filterObj.from" nzPlaceHolder="Start Date">            </nz-date-picker>          </div>        </div>        <!-- to date -->        <div class="my-card">          <div class="my-card-header ">            <nz-date-picker [(ngModel)]="filterObj && filterObj.to" nzPlaceHolder="End Date"></nz-date-picker>          </div>        </div>        <div class="my-card">          <div class="my-card-header">            <button class="my-btn btn-primary" nz-tooltip nzTooltipTitle="Search Driver" (click)="search()">              <fa-icon icon="search" style="font-size: 20px;"></fa-icon>            </button>          </div>        </div>        <div class="my-card">          <div class="my-card-header">            <button class="my-btn btn-primary" (click)="reset()">              <fa-icon icon="times" style="font-size: 20px"></fa-icon>            </button>          </div>        </div>      </div>    </div>    <div class="" *ngIf="isMobFilterVisible && innerWidth <= 500">      <div>        <div class="flex-cont">          <label></label>          <nz-select [nzDropdownMatchSelectWidth]="false" style="width: 100%" nzPlaceHolder="Search Billing Party"          [(ngModel)]="filterObj && filterObj.name" nzShowSearch (nzOnSearch)="onChangeSearch($event, \'name\')"          nzServerSearch nzAllowClear>          <nz-option *ngFor="let item of receivedBillingParty" nzLabel="{{ item?.name}}" [nzValue]="item.name">          </nz-option>        </nz-select>        </div>        <div class="flex-cont">          <label></label>          <nz-select [nzDropdownMatchSelectWidth]="false" style="width: 100%" nzPlaceHolder="Search Address"          [(ngModel)]="filterObj && filterObj.address" nzShowSearch (nzOnSearch)="onChangeSearch($event,\'address\')"          nzServerSearch nzAllowClear>          <nz-option *ngFor="let item of receivedBillingParty" nzLabel="{{item.address}}" [nzValue]="item.address">          </nz-option>        </nz-select>        </div>        <div class="flex-cont">          <label></label>          <nz-select [nzDropdownMatchSelectWidth]="false" style="width: 100%" nzPlaceHolder="Select State"          [(ngModel)]="filterObj && filterObj.state_name" nzShowSearch nzAllowClear>          <nz-option *ngFor="let item of aGSTstates" nzLabel="{{item.state}}" [nzValue]="item.state">          </nz-option>        </nz-select>        </div>        <!-- from date -->        <div class="flex-cont">          <label></label>          <nz-date-picker [(ngModel)]="filterObj && filterObj.from" style="width: 100%" nzPlaceHolder="Start Date">          </nz-date-picker>        </div>        <!-- to date -->        <div class="flex-cont">          <label></label>          <nz-date-picker [(ngModel)]="filterObj && filterObj.to" style="width: 100%" nzPlaceHolder="End Date">          </nz-date-picker>        </div>      </div>      <div style="margin-top: 5%; margin-bottom:10%">        <button style="width: 48%;color:white;" type="button" class="btn-primary" nz-button          (click)="search();isMobFilterVisible = false;">Search</button>&nbsp;        <button style="width: 48%;color:white;" type="button" class="btn-primary" nz-button          (click)="reset();isMobFilterVisible = false;">Reset</button>      </div>    </div>    <!-- table view start -->    <div id="myDIV" (scroll)="onScroll()">      <nz-table *ngIf="innerWidth > 500" #nzTable nzBordered [nzShowPagination]="false" [nzData]="receivedData ? receivedData : \'\'"        nzSize="small" [nzScroll]="{ x: \'1000px\', y: \'50vh\' }" style="overflow-x: auto">        <thead>          <tr>            <th nzWidth="150px" nzAlign="center">Name </th>            <th nzWidth="150px" nzAlign="center">Address</th>            <th nzWidth="150px" nzAlign="center">Customer</th>            <th nzWidth="150px" nzAlign="center">GSTIN NO.</th>            <th nzWidth="150px" nzAlign="center">State</th>            <th nzWidth="150px" nzAlign="center">Account</th>          </tr>        </thead>        <tbody>          <tr style="cursor: pointer" *ngFor="let item of receivedData" (click)="selectItem(item)"            [ngClass]="{SelectHighlight :  selectedRowId && (item?._id === selectedRowId)}">            <td nzAlign="center">{{ item?.name || \'NA\'}}</td>            <td nzAlign="center">{{ item?.address || \'NA\'}}</td>            <td nzAlign="center">{{ item?.customer?.name || \'NA\'}}</td>            <td nzAlign="center">{{ item?.gstin || \'NA\'}}</td>            <td nzAlign="center">{{ item?.state_name || \'NA\'}}</td>            <td nzAlign="center">{{ item?.account?.name || \'NA\'}}</td>          </tr>        </tbody>      </nz-table>      <!-- Card view start -->      <div *ngIf="innerWidth <= 500" class="aggregate">        <div        class="head shadow-d1"        *ngFor="let d of receivedData"        (click)="selectItem(d)"  [ngClass]="{SelectHighlight :  selectedRowId && (d?._id === selectedRowId)}">        <div class="align">          <div class="grey"><b>Name:</b> {{ d?.name || \'NA\'}}</div>        </div>        <div class="align">          <div class="grey"><b>Address:</b> {{ d?.address || \'NA\'}}</div>        </div>        <div class="align">          <div class="grey"><b>Customer:</b> {{ d?.customer?.name || \'NA\'}}</div>        </div>        <div class="align">          <div class="grey"><b>GSTIN NO.:</b> {{ d?.gstin || \'Na\' }}</div>        </div>        <div class="align">          <div class="grey"><b>State:</b> {{ d?.state_name || \'NA\'}}</div>        </div>        <div class="align">          <div class="grey"><b>Account:</b> {{ d?.account?.name || \'NA\'}}</div>        </div>      </div>      </div>    </div>  </div></div></div>'
+    var COMPONENTS = [{'name': 'AddGrPopupComponent', 'selector': 'app-add-gr-popup'},{'name': 'AddInvoicePopupComponent', 'selector': 'app-add-invoice-popup'},{'name': 'AlarmComponent', 'selector': 'app-alarm'},{'name': 'AlarmListViewComponent', 'selector': 'app-alarm-list-view'},{'name': 'AlarmUpsertComponent', 'selector': 'app-alarm-upsert'},{'name': 'AlertListComponent', 'selector': 'app-alert-list'},{'name': 'AlertsComponent', 'selector': 'app-alerts'},{'name': 'AlertsListViewComponent', 'selector': 'app-alerts-list-view'},{'name': 'AnalyticsComponent', 'selector': 'app-analytics'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'BackButtonComponent', 'selector': 'app-back-button'},{'name': 'BillingPartyComponent', 'selector': 'app-billing-party'},{'name': 'BillingPartyDetailViewComponent', 'selector': 'app-billing-party-detail-view'},{'name': 'BillingPartyListViewComponent', 'selector': 'app-billing-party-list-view'},{'name': 'BillingPartyUpsertComponent', 'selector': 'app-billing-party-upsert'},{'name': 'BranchComponent', 'selector': 'app-branch'},{'name': 'BranchDetailViewComponent', 'selector': 'app-branch-detail-view'},{'name': 'BranchListViewComponent', 'selector': 'app-branch-list-view'},{'name': 'BranchUpsertComponent', 'selector': 'app-branch-upsert'},{'name': 'BrokerMemoComponent', 'selector': 'app-broker-memo'},{'name': 'BrokerMemoListViewComponent', 'selector': 'app-broker-memo-list-view'},{'name': 'BrokerMemoUpsertComponent', 'selector': 'app-broker-memo-upsert'},{'name': 'CalibComponent', 'selector': 'app-calib'},{'name': 'CreateTripComponent', 'selector': 'app-create-trip'},{'name': 'CustomerComponent', 'selector': 'app-customer'},{'name': 'CustomerListViewComponent', 'selector': 'app-customer-list-view'},{'name': 'CustomerUpsertComponent', 'selector': 'app-customer-upsert'},{'name': 'DefaultComponent', 'selector': 'app-default'},{'name': 'DemoImagePickerBasicComponent', 'selector': 'demo-image-picker-basic'},{'name': 'DeviceMasterComponent', 'selector': 'app-device-master'},{'name': 'DriverComponent', 'selector': 'app-driver'},{'name': 'DriverDetailViewComponent', 'selector': 'app-driver-detail-view'},{'name': 'DriverListViewComponent', 'selector': 'app-driver-list-view'},{'name': 'DriverUpsertComponent', 'selector': 'app-driver-upsert'},{'name': 'DutyComponent', 'selector': 'app-duty'},{'name': 'DutyListViewComponent', 'selector': 'app-duty-list-view'},{'name': 'DutyUpsertComponent', 'selector': 'app-duty-upsert'},{'name': 'EmptyTripComponent', 'selector': 'app-empty-trip'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'FuelLevelComponent', 'selector': 'app-fuel-level'},{'name': 'GeofenceComponent', 'selector': 'app-geofence'},{'name': 'GeofenceListViewComponent', 'selector': 'app-geofence-list-view'},{'name': 'GeofenceUpsertComponent', 'selector': 'app-geofence-upsert'},{'name': 'GpsReportsComponent', 'selector': 'app-gps-reports'},{'name': 'GrComponent', 'selector': 'app-gr'},{'name': 'GrListViewComponent', 'selector': 'app-gr-list-view'},{'name': 'GrUpsertComponent', 'selector': 'app-gr-upsert'},{'name': 'GrWithoutTripComponent', 'selector': 'app-gr-without-trip'},{'name': 'GrWithoutTripListViewComponent', 'selector': 'app-gr-without-trip-list-view'},{'name': 'GrWithoutTripUpsertComponent', 'selector': 'app-gr-without-trip-upsert'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'HomeComponent', 'selector': 'app-home'},{'name': 'ItineraryComponent', 'selector': 'app-itinerary'},{'name': 'LandmarkComponent', 'selector': 'app-landmark'},{'name': 'LandmarkListViewComponent', 'selector': 'app-landmark-list-view'},{'name': 'LandmarkUpsertComponent', 'selector': 'app-landmark-upsert'},{'name': 'LiveTrackComponent', 'selector': 'app-live-track'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'MapComponent', 'selector': 'app-map'},{'name': 'MapListViewComponent', 'selector': 'app-map-list-view'},{'name': 'MaterialCardDetailViewComponent', 'selector': 'app-material-card-detail-view'},{'name': 'MaterialComponent', 'selector': 'app-material'},{'name': 'MaterialGroupComponent', 'selector': 'app-material-group'},{'name': 'MaterialGroupListViewComponent', 'selector': 'app-material-group-list-view'},{'name': 'MaterialGroupUpsertComponent', 'selector': 'app-material-group-upsert'},{'name': 'MaterialGroupUpsertComponentT', 'selector': 'app-material-group-upsert'},{'name': 'MaterialListViewComponent', 'selector': 'app-material-list-view'},{'name': 'MaterialUpsertComponent', 'selector': 'app-material-upsert'},{'name': 'MilestoneComponent', 'selector': 'app-milestone'},{'name': 'MilestoneViewComponent', 'selector': 'app-milestone-view'},{'name': 'PlaybackComponent', 'selector': 'app-playback'},{'name': 'PlaybackFormComponent', 'selector': 'app-playback-form'},{'name': 'PlaybackListComponent', 'selector': 'app-playback-list'},{'name': 'QrBarcodeComponent', 'selector': 'upload-accordion'},{'name': 'SensorComponent', 'selector': 'app-sensor'},{'name': 'SensorListViewComponent', 'selector': 'app-sensor-list-view'},{'name': 'SensorUpsertComponent', 'selector': 'app-sensor-upsert'},{'name': 'ShareLocationComponent', 'selector': 'app-share-location'},{'name': 'ShareTripComponent', 'selector': 'app-share-trip'},{'name': 'SidebarComponent', 'selector': 'app-sidebar'},{'name': 'TrafficManagerComponent', 'selector': 'app-traffic-manager'},{'name': 'TransportRouteComponent', 'selector': 'app-transport-route'},{'name': 'TransportRouteListViewComponent', 'selector': 'app-transport-route-list-view'},{'name': 'TransportRouteUpsertComponent', 'selector': 'app-transport-route-upsert'},{'name': 'TripDetailsComponent', 'selector': 'app-trip-details'},{'name': 'TripDetailViewComponent', 'selector': 'app-trip-detail-view'},{'name': 'TripGpsComponent', 'selector': 'app-trip-gps'},{'name': 'TripListComponent', 'selector': 'app-trip-list'},{'name': 'TripListViewComponent', 'selector': 'app-trip-list-view'},{'name': 'TripMemoComponent', 'selector': 'app-trip-memo'},{'name': 'TripMemoListViewComponent', 'selector': 'app-trip-memo-list-view'},{'name': 'TripMemoUpsertComponent', 'selector': 'app-trip-memo-upsert'},{'name': 'UpdatePasswordComponent', 'selector': 'app-update-password'},{'name': 'UploadAccordianComponent', 'selector': 'upload-accordion'},{'name': 'UploadComponent', 'selector': 'app-upload'},{'name': 'UploadUtilComponent', 'selector': 'app-upload-util'},{'name': 'VehicleComponent', 'selector': 'app-vehicle'},{'name': 'VehicleDetailViewComponent', 'selector': 'app-vehicle-detail-view'},{'name': 'VehicleListViewComponent', 'selector': 'app-vehicle-list-view'},{'name': 'VehicleUpsertComponent', 'selector': 'app-vehicle-upsert'},{'name': 'VendorComponent', 'selector': 'app-vendor'},{'name': 'VendordealPopupComponent', 'selector': 'app-vendordeal-popup'},{'name': 'VendorListViewComponent', 'selector': 'app-vendor-list-view'},{'name': 'VendorUpsertComponent', 'selector': 'app-vendor-upsert'}];
+    var DIRECTIVES = [{'name': 'AddrSearchDirective', 'selector': '[appAddrSearch]'}];
+    var ACTUAL_COMPONENT = {'name': 'BillingPartyListViewComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'BillingPartyListViewComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

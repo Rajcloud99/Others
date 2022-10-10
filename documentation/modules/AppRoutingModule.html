@@ -1,0 +1,621 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>LMS-Lite documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">LMS-Lite documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content module">
+                   <div class="content-data">
+
+
+
+<ol class="breadcrumb">
+    <li>Modules</li>
+    <li >AppRoutingModule</li>
+</ol>
+
+
+<ul class="nav nav-tabs" role="tablist">
+    <li  class="active" >
+        <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+    </li>
+    <li >
+        <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info">
+
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/app/app-routing.module.ts</code>
+        </p>
+
+
+
+
+
+        <div class="container-fluid module">
+            <div class="row">
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { NgModule } from &#x27;@angular/core&#x27;;
+import { RouterModule, Routes } from &#x27;@angular/router&#x27;;
+import { HomeComponent } from &#x27;./home/home.component&#x27;;
+import { DefaultComponent } from &#x27;./layout/default/default.component&#x27;;
+import { LoginComponent } from &#x27;./login/login.component&#x27;;
+import { DriverDetailViewComponent } from &#x27;./modules/driver/driver-detail-view/driver-detail-view.component&#x27;;
+import { DriverListViewComponent } from &#x27;./modules/driver/driver-list-view/driver-list-view.component&#x27;;
+import { DriverUpsertComponent } from &#x27;./modules/driver/driver-upsert/driver-upsert.component&#x27;;
+import { BranchDetailViewComponent } from &#x27;./modules/branch/branch-detail-view/branch-detail-view.component&#x27;;
+import { BranchListViewComponent } from &#x27;./modules/branch/branch-list-view/branch-list-view.component&#x27;;
+import { BranchUpsertComponent } from &#x27;./modules/branch/branch-upsert/branch-upsert.component&#x27;;
+import { CreateTripComponent } from &#x27;./modules/create-trip/create-trip.component&#x27;;
+import { BillingPartyListViewComponent } from &#x27;./modules/billing-party/billing-party-list-view/billing-party-list-view.component&#x27;;
+import { BillingPartyUpsertComponent } from &#x27;./modules/billing-party/billing-party-upsert/billing-party-upsert.component&#x27;;
+import { BillingPartyDetailViewComponent } from &#x27;./modules/billing-party/billing-party-detail-view/billing-party-detail-view.component&#x27;;
+import {VehicleListViewComponent} from &quot;./modules/vehicle/vehicle-list-view/vehicle-list-view.component&quot;;
+import {VehicleDetailViewComponent} from &quot;./modules/vehicle/vehicle-detail-view/vehicle-detail-view.component&quot;;
+import {VehicleUpsertComponent} from &quot;./modules/vehicle/vehicle-upsert/vehicle-upsert.component&quot;;
+import { GrWithoutTripListViewComponent } from &#x27;./modules/gr-without-trip/gr-without-trip-list-view/gr-without-trip-list-view.component&#x27;;
+import { GrWithoutTripUpsertComponent } from &#x27;./modules/gr-without-trip/gr-without-trip-upsert/gr-without-trip-upsert.component&#x27;;
+import { MaterialListViewComponent } from &quot;./modules/material/material-list-view/material-list-view.component&quot;;
+import { MaterialUpsertComponent } from &#x27;./modules/material/material-upsert/material-upsert.component&#x27;;
+import {GrListViewComponent} from &quot;./modules/gr/gr-list-view/gr-list-view.component&quot;;
+import {GrUpsertComponent} from &quot;./modules/gr/gr-upsert/gr-upsert.component&quot;;
+import {VendorListViewComponent} from &quot;./modules/vendor/vendor-list-view/vendor-list-view.component&quot;;
+import {VendorUpsertComponent} from &quot;./modules/vendor/vendor-upsert/vendor-upsert.component&quot;;
+// import {MaterialGroupListViewComponent} from &quot;./modules/material-group/material-group-list-view/material-group-list-view.component&quot;;
+import {MaterialGroupUpsertComponent} from &quot;./modules/material-group/material-group-upsert/material-group-upsert.component&quot;;
+import { TripListViewComponent } from &#x27;./modules/trip/trip-list-view/trip-list-view.component&#x27;;
+import {MaterialGroupListViewComponent} from &quot;./modules/material-group/material-group-list-view/material-group-list-view.component&quot;;
+import {MaterialCardDetailViewComponent} from &quot;./modules/material/material-card-detail-view/material-card-detail-view.component&quot;;
+import { TripDetailViewComponent } from &#x27;./modules/trip/trip-detail-view/trip-detail-view.component&#x27;;
+import {EmptyTripComponent} from &quot;./modules/trip/empty-trip/empty-trip.component&quot;;
+import {TripMemoListViewComponent} from &quot;./modules/trip-memo/trip-memo-list-view/trip-memo-list-view.component&quot;;
+import {TripMemoUpsertComponent} from &quot;./modules/trip-memo/trip-memo-upsert/trip-memo-upsert.component&quot;;
+import { TransportRouteComponent } from &#x27;./modules/transport-route/transport-route.component&#x27;;
+import { TransportRouteListViewComponent } from &#x27;./modules/transport-route/transport-route-list-view/transport-route-list-view.component&#x27;;
+import { TransportRouteUpsertComponent } from &#x27;./modules/transport-route/transport-route-upsert/transport-route-upsert.component&#x27;;
+import {CustomerComponent} from &quot;./modules/customer/customer.component&quot;;
+import {CustomerListViewComponent} from &quot;./modules/customer/customer-list-view/customer-list-view.component&quot;;
+import {CustomerUpsertComponent} from &quot;./modules/customer/customer-upsert/customer-upsert.component&quot;;
+import { MapComponent } from &#x27;./modules/map/map.component&#x27;;
+import { LiveTrackComponent } from &#x27;./modules/live-track/live-track.component&#x27;;
+import {DutyListViewComponent} from &#x27;./modules/duty/duty-list-view/duty-list-view.component&#x27;;
+import {DutyUpsertComponent} from  &#x27;./modules/duty/duty-upsert/duty-upsert.component&#x27;;
+import  {TrafficManagerComponent} from  &#x27;./modules/duty/traffic-manager/traffic-manager.component&#x27;;
+import { TripListComponent } from &#x27;./modules/trip-details/trip-list/trip-list.component&#x27;;
+import { TripDetailsComponent } from &#x27;./modules/trip-details/trip-details/trip-details.component&#x27;;
+import { TripGpsComponent } from &#x27;./modules/trip-gps/trip-gps.component&#x27;;
+import { MapListViewComponent } from &#x27;./modules/map/map-list-view/map-list-view.component&#x27;;
+import { PlaybackComponent } from &#x27;./modules/trip-details/playback/playback.component&#x27;;
+import {ItineraryComponent} from &quot;./modules/trip-details/itinerary/itinerary.component&quot;;
+import { AnalyticsComponent } from &#x27;./modules/trip-details/analytics/analytics.component&#x27;;
+import { UploadComponent } from &#x27;./modules/trip-details/upload/upload.component&#x27;;
+import { PlaybackFormComponent } from &#x27;./modules/playback-form/playback-form.component&#x27;;
+import {LandmarkUpsertComponent} from &quot;./modules/landmark/landmark-upsert/landmark-upsert.component&quot;;
+import {LandmarkListViewComponent} from &quot;./modules/landmark/landmark-list-view/landmark-list-view.component&quot;;
+import { AlertsListViewComponent } from &#x27;./modules/alerts/alerts-list-view/alerts-list-view.component&#x27;;
+import { PlaybackListComponent } from &#x27;./modules/trip-details/playback/playback-list/playback-list.component&#x27;;
+import { AlertListComponent } from &#x27;./modules/trip-details/alert-list/alert-list.component&#x27;;
+import {GeofenceListViewComponent} from &quot;./modules/geofence/geofence-list-view/geofence-list-view.component&quot;;
+import {GeofenceUpsertComponent} from &quot;./modules/geofence/geofence-upsert/geofence-upsert.component&quot;;
+import { AlarmListViewComponent } from &#x27;./modules/alarm/alarm-list-view/alarm-list-view.component&#x27;;
+import {SensorComponent} from &quot;./modules/sensor/sensor.component&quot;;
+import {SensorUpsertComponent} from &quot;./modules/sensor/sensor-upsert/sensor-upsert.component&quot;;
+import { SensorListViewComponent } from &#x27;./modules/sensor/sensor-list-view/sensor-list-view.component&#x27;;
+import { AlarmUpsertComponent } from &#x27;./modules/alarm/alarm-upsert/alarm-upsert.component&#x27;;
+import { CalibComponent } from &#x27;./modules/sensor/calib/calib.component&#x27;;
+import { GpsReportsComponent } from &#x27;./modules/gps-reports/gps-reports.component&#x27;;
+import { BrokerMemoListViewComponent } from &#x27;./modules/broker-memo/broker-memo-list-view/broker-memo-list-view.component&#x27;;
+import { BrokerMemoUpsertComponent } from &#x27;./modules/broker-memo/broker-memo-upsert/broker-memo-upsert.component&#x27;;
+import { FuelLevelComponent } from &#x27;./modules/fuel-level/fuel-level.component&#x27;;
+import {UpdatePasswordComponent} from &quot;./modules/update-password/update-password.component&quot;;
+import { ShareTripComponent } from &#x27;./public/share-trip/share-trip.component&#x27;;
+import {MilestoneComponent} from &quot;./modules/transport-route/milestone/milestone.component&quot;;
+import { ShareLocationComponent } from &#x27;./public/share-location/share-location.component&#x27;;
+import {MilestoneViewComponent} from &quot;./modules/transport-route/milestone-view/milestone-view.component&quot;;
+import { DeviceMasterComponent } from &#x27;./modules/device-master/device-master.component&#x27;;
+
+const routes: Routes &#x3D; [
+  {
+    path: &#x27;&#x27;,
+    redirectTo: &#x27;login&#x27;,
+    pathMatch: &#x27;full&#x27;
+  },
+  {
+    path: &#x27;home&#x27;,
+    component: DefaultComponent,
+    canActivate: [],
+    children: [{
+      path:&#x27;&#x27;,
+      component: HomeComponent
+    },
+      {
+        path: &#x27;updatePassword&#x27;,
+        component: UpdatePasswordComponent
+      },
+      {
+        path: &#x27;master/branch&#x27;,
+        component: BranchListViewComponent
+      }, {
+        path: &#x27;master/branch/view&#x27;,
+        component: BranchDetailViewComponent
+      }, {
+        path: &#x27;master/branch/view/:_id&#x27;,
+        component: BranchDetailViewComponent
+      }, {
+        path: &#x27;master/branch/upsert/:_id&#x27;,
+        component: BranchUpsertComponent
+      }, {
+        path: &#x27;master/branchUpsert&#x27;,
+        component: BranchUpsertComponent
+      },
+      {
+        path: &#x27;master/billingParty&#x27;,
+        component: BillingPartyListViewComponent
+      }, {
+        path: &#x27;master/billingParty/view&#x27;,
+        component: BillingPartyDetailViewComponent
+      }, {
+        path: &#x27;master/billingParty/view/:_id&#x27;,
+        component: BillingPartyDetailViewComponent
+      }, {
+        path: &#x27;master/billingParty/upsert/:_id&#x27;,
+        component: BillingPartyUpsertComponent
+      }, {
+        path: &#x27;master/billingPartyUpsert&#x27;,
+        component: BillingPartyUpsertComponent
+      },
+      {
+        path: &#x27;master/RegisteredDevice&#x27;,
+        component: DeviceMasterComponent
+      },
+      {
+        path: &#x27;master/driver&#x27;,
+        component: DriverListViewComponent
+      }, {
+        path: &#x27;master/driver/view&#x27;,
+        component: DriverDetailViewComponent
+      }, {
+        path: &#x27;master/driver/view/:_id&#x27;,
+        component: DriverDetailViewComponent
+      }, {
+        path: &#x27;master/driver/upsert/:_id&#x27;,
+        component: DriverUpsertComponent
+      }, {
+        path: &#x27;master/driverUpsert&#x27;,
+        component: DriverUpsertComponent
+      },
+
+      {
+        path: &#x27;master/vehicle&#x27;,
+        component:VehicleListViewComponent
+      },
+      {
+        path: &#x27;master/vehicle/view&#x27;,
+        component: VehicleDetailViewComponent
+      },
+      {
+        path: &#x27;master/vehicle/view/:_id&#x27;,
+        component: VehicleDetailViewComponent
+      },
+      {
+        path: &#x27;master/vehicleUpsert&#x27;,
+        component: VehicleUpsertComponent
+      },
+      {
+        path: &#x27;master/vehicle/upsert/:_id&#x27;,
+        component: VehicleUpsertComponent
+      },
+      {
+        path: &#x27;master/vendor&#x27;,
+        component:VendorListViewComponent
+      },
+      {
+        path: &#x27;master/vendorUpsert&#x27;,
+        component: VendorUpsertComponent
+      },
+      {
+        path: &#x27;master/vendor/upsert/:_id&#x27;,
+        component: VendorUpsertComponent
+      },
+      {
+        path: &#x27;master/transportRoute&#x27;,
+        component:TransportRouteListViewComponent
+      },
+      {
+        path: &#x27;master/transportRouteUpsert&#x27;,
+        component: TransportRouteUpsertComponent
+      },
+      {
+        path: &#x27;master/transportRoute/upsert/:_id&#x27;,
+        component: TransportRouteUpsertComponent
+      },
+      {
+        path: &#x27;master/transportRoute/Milestone/:_id&#x27;,
+        component: MilestoneComponent
+      },
+      {
+        path: &#x27;master/transportRoute/MilestoneView/:_id&#x27;,
+        component: MilestoneViewComponent
+      },
+      {
+        path: &#x27;master/customer&#x27;,
+        component: CustomerListViewComponent
+      },
+      {
+        path: &#x27;master/customer/view&#x27;,
+        component: CustomerListViewComponent
+      },
+      {
+        path: &#x27;master/customer/add&#x27;,
+        component: CustomerUpsertComponent
+      },
+      {
+        path: &#x27;master/customer/upsert/:_id&#x27;,
+        component: CustomerUpsertComponent
+      },
+
+
+      // Operations
+      {
+        path: &#x27;operation/createTrip&#x27;,
+        component: CreateTripComponent
+      },
+      {
+        path: &#x27;operation/duty&#x27;,
+        component: DutyListViewComponent
+      },
+      {
+        path: &#x27;operation/duty/dutyUpsert&#x27;,
+        component: DutyUpsertComponent
+      },
+      {
+        path: &#x27;operation/duty/dutyUpsert/:_id&#x27;,
+        component: DutyUpsertComponent
+      },
+      {
+        path : &#x27;operation/duty/trafficManager&#x27;,
+        component :TrafficManagerComponent
+      },
+      {
+        path: &#x27;operation/tripDetails&#x27;,
+        component: TripListComponent
+      },
+      {
+        path: &#x27;operation/tripDetails/view/:_id&#x27;,
+        component: TripDetailsComponent
+      },
+      {
+        path: &#x27;operation/tripDetails/playback&#x27;,
+        component: PlaybackComponent
+      },
+      {
+        path: &#x27;operation/tripDetails/itinerary&#x27;,
+        component: ItineraryComponent
+      },
+      {
+        path: &#x27;operation/tripDetails/analytics&#x27;,
+        component: AnalyticsComponent
+      },
+      {
+        path: &#x27;operation/tripDetails/upload/:_id&#x27;,
+        component: UploadComponent
+      },
+      {
+        path: &#x27;operation/trip&#x27;,
+        component: TripListViewComponent
+      },
+      {
+        path: &#x27;operation/trip/emptyTrip/:_id&#x27;,
+        component: EmptyTripComponent
+      },
+      {
+        path: &#x27;operation/trip/:_id&#x27;,
+        component: TripListViewComponent
+      },
+      {
+        path: &#x27;operation/trip/view/:_id&#x27;,
+        component: TripDetailViewComponent
+      },
+      {
+        path: &#x27;operation/grWithOutTrip&#x27;,
+        component: GrWithoutTripListViewComponent
+      }, {
+        path: &#x27;operation/grWithOutTrip/upsert/:_id&#x27;,
+        component: GrWithoutTripUpsertComponent
+      }, {
+        path: &#x27;operation/grWithOutTripUpsert&#x27;,
+        component: GrWithoutTripUpsertComponent
+      },
+      {
+        path: &#x27;operation/gr&#x27;,
+        component:GrListViewComponent
+      },
+      {
+        path: &#x27;operation/grUpsert&#x27;,
+        component: GrUpsertComponent
+      },
+      {
+        path: &#x27;operation/gr/Upsert/:mode&#x27;,
+        component: GrUpsertComponent
+      },
+      //for trip memo
+      {
+        path: &#x27;operation/trip-memo&#x27;,
+        component:TripMemoListViewComponent
+      },
+      {
+        path: &#x27;operation/trip-memo/Upsert/:mode&#x27;,
+        component: TripMemoUpsertComponent
+      },
+      //for broker memo
+      {
+        path: &#x27;operation/broker-memo&#x27;,
+        component:BrokerMemoListViewComponent
+      },
+      {
+        path: &#x27;operation/broker-memo/Upsert/:mode&#x27;,
+        component: BrokerMemoUpsertComponent
+      },
+      {
+        path: &#x27;operation/tripGPS&#x27;,
+        component: TripGpsComponent
+      },
+
+
+      {
+        path: &#x27;master/material&#x27;,
+        component: MaterialListViewComponent
+      },
+      {
+        path: &#x27;master/material/upsert&#x27;,
+        component: MaterialUpsertComponent
+      },
+      {
+        path: &#x27;master/material/upsert/:_id&#x27;,
+        component: MaterialUpsertComponent
+      },
+      {
+        path: &#x27;master/materialGroup&#x27;,
+        component: MaterialGroupListViewComponent
+      },
+      {
+        path: &#x27;master/materialGroup/upsert&#x27;,
+        component: MaterialGroupUpsertComponent
+      },
+      {
+        path: &#x27;master/materialGroup/upsert/:_id&#x27;,
+        component: MaterialGroupUpsertComponent
+      },
+      {
+        path: &#x27;master/material/card/:_id&#x27;,
+        component: MaterialCardDetailViewComponent
+      },
+      {
+        path: &#x27;tracking/mapListView&#x27;,
+        component: MapListViewComponent
+      },
+      {
+        path: &#x27;tracking/mapView&#x27;,
+        component: MapComponent
+      },
+      {
+        path: &#x27;tracking/landmark&#x27;,
+        component:LandmarkListViewComponent
+      },
+      {
+        path: &#x27;tracking/landmark/Upsert/:mode&#x27;,
+        component: LandmarkUpsertComponent
+      },
+      {
+        path: &#x27;tracking/gpsreports&#x27;,
+        component: GpsReportsComponent
+      },
+      {
+        path: &#x27;tracking/geofence&#x27;,
+        component:GeofenceListViewComponent
+      },
+      {
+        path: &#x27;tracking/geofence/Upsert/:mode&#x27;,
+        component: GeofenceUpsertComponent
+      },
+      {
+        path: &#x27;tracking/mapView/liveTrack/:_id&#x27;,
+        component: LiveTrackComponent
+      },
+      {
+        path: &#x27;tracking/playbackForm&#x27;,
+        component: PlaybackFormComponent
+      },
+      {
+        path: &#x27;tracking/analytics&#x27;,
+        component: AnalyticsComponent
+      },
+      {
+        path: &#x27;tracking/fuelLevel&#x27;,
+        component: FuelLevelComponent
+      },
+      {
+        path: &#x27;tracking/alert-list-view&#x27;,
+        component: AlertsListViewComponent
+      },
+      {
+        path: &#x27;operation/playback-list&#x27;,
+        component: PlaybackListComponent
+      },
+      {
+        path: &#x27;tracking/analytics&#x27;,
+        component: AnalyticsComponent
+      },
+      {
+        path: &#x27;operation/alert-list&#x27;,
+        component: AlertListComponent
+      },
+      {
+        path: &#x27;tracking/alarm&#x27;,
+        component:AlarmListViewComponent
+      },
+      {
+        path: &#x27;tracking/sensor/upsert&#x27;,
+        component:SensorUpsertComponent
+      },
+      {
+        path: &#x27;tracking/sensor/upsert/:_id&#x27;,
+        component: SensorUpsertComponent
+      },
+      {
+        path: &#x27;tracking/sensor&#x27;,
+        component: SensorListViewComponent
+      },
+      {
+        path: &#x27;tracking/calibration&#x27;,
+        component: CalibComponent
+      },
+      {
+        path: &#x27;tracking/alarm/upsert/:_id&#x27;,
+        component: AlarmUpsertComponent
+      },
+      {
+        path: &#x27;tracking/alarmUpsert&#x27;,
+        component: AlarmUpsertComponent
+      }
+    ]
+  },
+  {
+    path: &#x27;shareVehicle&#x27;,
+    component: ShareLocationComponent
+  },
+  {
+    path: &#x27;shareTrip&#x27;,
+    component: ShareTripComponent
+  },
+  {
+    path: &#x27;login&#x27;,
+    component: LoginComponent
+  },
+  {
+    path: &#x27;**&#x27;,
+    component: LoginComponent
+  }
+];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes, {useHash: true})],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }
+</code></pre>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'module';
+            var COMPODOC_CURRENT_PAGE_URL = 'AppRoutingModule.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

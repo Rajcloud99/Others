@@ -1,0 +1,2175 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>LMS-Lite documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">LMS-Lite documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  LiveTrackComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/modules/live-track/live-track.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+                    <code><a href="https://angular.io/api/core/OnDestroy" target="_blank" >OnDestroy</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-live-track</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./live-track.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./live-track.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#_sktresSub" >_sktresSub</a>
+                            </li>
+                            <li>
+                                <a href="#address" >address</a>
+                            </li>
+                            <li>
+                                <a href="#datetime" >datetime</a>
+                            </li>
+                            <li>
+                                <a href="#delay" >delay</a>
+                            </li>
+                            <li>
+                                <a href="#deltaLat" >deltaLat</a>
+                            </li>
+                            <li>
+                                <a href="#deltaLng" >deltaLng</a>
+                            </li>
+                            <li>
+                                <a href="#device" >device</a>
+                            </li>
+                            <li>
+                                <a href="#drawLine" >drawLine</a>
+                            </li>
+                            <li>
+                                <a href="#f_lvl" >f_lvl</a>
+                            </li>
+                            <li>
+                                <a href="#innerWidth" >innerWidth</a>
+                            </li>
+                            <li>
+                                <a href="#isOpen" >isOpen</a>
+                            </li>
+                            <li>
+                                <a href="#lat" >lat</a>
+                            </li>
+                            <li>
+                                <a href="#lng" >lng</a>
+                            </li>
+                            <li>
+                                <a href="#map" >map</a>
+                            </li>
+                            <li>
+                                <a href="#marker" >marker</a>
+                            </li>
+                            <li>
+                                <a href="#numDeltas" >numDeltas</a>
+                            </li>
+                            <li>
+                                <a href="#polyLine" >polyLine</a>
+                            </li>
+                            <li>
+                                <a href="#positionTime" >positionTime</a>
+                            </li>
+                            <li>
+                                <a href="#receivedAllDevice" >receivedAllDevice</a>
+                            </li>
+                            <li>
+                                <a href="#setColor" >setColor</a>
+                            </li>
+                            <li>
+                                <a href="#speed" >speed</a>
+                            </li>
+                            <li>
+                                <a href="#timerRef" >timerRef</a>
+                            </li>
+                            <li>
+                                <a href="#truck_path" >truck_path</a>
+                            </li>
+                            <li>
+                                <a href="#truckIcon" >truckIcon</a>
+                            </li>
+                            <li>
+                                <a href="#vehData" >vehData</a>
+                            </li>
+                            <li>
+                                <a href="#zoom" >zoom</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#getDevices" >getDevices</a>
+                            </li>
+                            <li>
+                                <a href="#getLiveData" >getLiveData</a>
+                            </li>
+                            <li>
+                                <a href="#mapReady" >mapReady</a>
+                            </li>
+                            <li>
+                                <a href="#moveMarker" >moveMarker</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnDestroy" >ngOnDestroy</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#pushCurrentLoc" >pushCurrentLoc</a>
+                            </li>
+                            <li>
+                                <a href="#setCenter" >setCenter</a>
+                            </li>
+                            <li>
+                                <a href="#setTruckIcon" >setTruckIcon</a>
+                            </li>
+                            <li>
+                                <a href="#stopFeed" >stopFeed</a>
+                            </li>
+                            <li>
+                                <a href="#transition" >transition</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(route: <a href="https://angular.io/api/router/ActivatedRoute" target="_blank">ActivatedRoute</a>, router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>, ws: <a href="../injectables/WebsocketService.html" target="_self">WebsocketService</a>, storageService: <a href="../injectables/StorageService.html" target="_self">StorageService</a>, masterService: <a href="../injectables/MasterService.html" target="_self">MasterService</a>, constantService: <a href="../injectables/ConstantService.html" target="_self">ConstantService</a>, commonService: <a href="../injectables/CommonService.html" target="_self">CommonService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="79" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:79</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>route</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/ActivatedRoute" target="_blank" >ActivatedRoute</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>ws</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/WebsocketService.html" target="_self" >WebsocketService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>storageService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/StorageService.html" target="_self" >StorageService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>masterService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/MasterService.html" target="_self" >MasterService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>constantService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/ConstantService.html" target="_self" >ConstantService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>commonService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/CommonService.html" target="_self" >CommonService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getDevices"></a>
+                    <span class="name">
+                        <span ><b>getDevices</b></span>
+                        <a href="#getDevices"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getDevices()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="130"
+                            class="link-to-prism">src/app/modules/live-track/live-track.component.ts:130</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getLiveData"></a>
+                    <span class="name">
+                        <span ><b>getLiveData</b></span>
+                        <a href="#getLiveData"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getLiveData()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="188"
+                            class="link-to-prism">src/app/modules/live-track/live-track.component.ts:188</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="mapReady"></a>
+                    <span class="name">
+                        <span ><b>mapReady</b></span>
+                        <a href="#mapReady"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>mapReady(map: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="157"
+                            class="link-to-prism">src/app/modules/live-track/live-track.component.ts:157</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>map</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="moveMarker"></a>
+                    <span class="name">
+                        <span ><b>moveMarker</b></span>
+                        <a href="#moveMarker"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>moveMarker()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="162"
+                            class="link-to-prism">src/app/modules/live-track/live-track.component.ts:162</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnDestroy"></a>
+                    <span class="name">
+                        <span ><b>ngOnDestroy</b></span>
+                        <a href="#ngOnDestroy"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnDestroy()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="110"
+                            class="link-to-prism">src/app/modules/live-track/live-track.component.ts:110</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="118"
+                            class="link-to-prism">src/app/modules/live-track/live-track.component.ts:118</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="pushCurrentLoc"></a>
+                    <span class="name">
+                        <span ><b>pushCurrentLoc</b></span>
+                        <a href="#pushCurrentLoc"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>pushCurrentLoc(undefined: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="250"
+                            class="link-to-prism">src/app/modules/live-track/live-track.component.ts:250</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setCenter"></a>
+                    <span class="name">
+                        <span ><b>setCenter</b></span>
+                        <a href="#setCenter"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>setCenter(lat: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>, lng: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="153"
+                            class="link-to-prism">src/app/modules/live-track/live-track.component.ts:153</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>lat</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>lng</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setTruckIcon"></a>
+                    <span class="name">
+                        <span ><b>setTruckIcon</b></span>
+                        <a href="#setTruckIcon"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>setTruckIcon(angle: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>, color: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="142"
+                            class="link-to-prism">src/app/modules/live-track/live-track.component.ts:142</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>angle</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>color</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="stopFeed"></a>
+                    <span class="name">
+                        <span ><b>stopFeed</b></span>
+                        <a href="#stopFeed"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>stopFeed(sDevice: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="178"
+                            class="link-to-prism">src/app/modules/live-track/live-track.component.ts:178</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>sDevice</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="transition"></a>
+                    <span class="name">
+                        <span ><b>transition</b></span>
+                        <a href="#transition"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>transition()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="244"
+                            class="link-to-prism">src/app/modules/live-track/live-track.component.ts:244</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_sktresSub"></a>
+                    <span class="name">
+                            <span class="modifier">Private</span>
+                        <span ><b>_sktresSub</b></span>
+                        <a href="#_sktresSub"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>Subscription</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new Subscription</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="70" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:70</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="address"></a>
+                    <span class="name">
+                        <span ><b>address</b></span>
+                        <a href="#address"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="65" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:65</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="datetime"></a>
+                    <span class="name">
+                        <span ><b>datetime</b></span>
+                        <a href="#datetime"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="78" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:78</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="delay"></a>
+                    <span class="name">
+                        <span ><b>delay</b></span>
+                        <a href="#delay"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>600</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="74" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:74</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="deltaLat"></a>
+                    <span class="name">
+                        <span ><b>deltaLat</b></span>
+                        <a href="#deltaLat"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="71" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:71</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="deltaLng"></a>
+                    <span class="name">
+                        <span ><b>deltaLng</b></span>
+                        <a href="#deltaLng"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="72" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:72</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="device"></a>
+                    <span class="name">
+                        <span ><b>device</b></span>
+                        <a href="#device"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="64" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:64</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="drawLine"></a>
+                    <span class="name">
+                        <span ><b>drawLine</b></span>
+                        <a href="#drawLine"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../interfaces/Polyline.html" target="_self" >Polyline</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+    color: &#x27;#2196f3&#x27;,
+    latLng: []
+  }</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="49" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:49</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="f_lvl"></a>
+                    <span class="name">
+                        <span ><b>f_lvl</b></span>
+                        <a href="#f_lvl"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="67" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:67</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="innerWidth"></a>
+                    <span class="name">
+                        <span ><b>innerWidth</b></span>
+                        <a href="#innerWidth"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>window.innerWidth</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="57" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:57</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isOpen"></a>
+                    <span class="name">
+                        <span ><b>isOpen</b></span>
+                        <a href="#isOpen"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="55" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:55</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="lat"></a>
+                    <span class="name">
+                        <span ><b>lat</b></span>
+                        <a href="#lat"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="62" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:62</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="lng"></a>
+                    <span class="name">
+                        <span ><b>lng</b></span>
+                        <a href="#lng"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="63" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:63</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="map"></a>
+                    <span class="name">
+                        <span ><b>map</b></span>
+                        <a href="#map"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="53" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:53</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="marker"></a>
+                    <span class="name">
+                        <span ><b>marker</b></span>
+                        <a href="#marker"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../interfaces/Marker.html" target="_self" >Marker</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+    lat: 23.673858,
+    lng: 83.815982,
+  }</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="58" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:58</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="numDeltas"></a>
+                    <span class="name">
+                        <span ><b>numDeltas</b></span>
+                        <a href="#numDeltas"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>400</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="73" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:73</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="polyLine"></a>
+                    <span class="name">
+                        <span ><b>polyLine</b></span>
+                        <a href="#polyLine"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../interfaces/Polyline.html" target="_self" >Polyline</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+    color: &#x27;#2196f3&#x27;,
+    latLng: [],
+  }</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="45" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:45</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="positionTime"></a>
+                    <span class="name">
+                        <span ><b>positionTime</b></span>
+                        <a href="#positionTime"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="66" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:66</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="receivedAllDevice"></a>
+                    <span class="name">
+                        <span ><b>receivedAllDevice</b></span>
+                        <a href="#receivedAllDevice"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="54" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:54</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setColor"></a>
+                    <span class="name">
+                        <span ><b>setColor</b></span>
+                        <a href="#setColor"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{&quot;running&quot;: &quot;#15e425&quot;, &quot;online&quot;: &quot;#15e425&quot;, &quot;stopped&quot;: &quot;red&quot;, &quot;offline&quot;: &quot;grey&quot;}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="68" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:68</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="speed"></a>
+                    <span class="name">
+                        <span ><b>speed</b></span>
+                        <a href="#speed"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="77" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:77</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="timerRef"></a>
+                    <span class="name">
+                        <span ><b>timerRef</b></span>
+                        <a href="#timerRef"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="79" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:79</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="truck_path"></a>
+                    <span class="name">
+                        <span ><b>truck_path</b></span>
+                        <a href="#truck_path"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="75" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:75</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="truckIcon"></a>
+                    <span class="name">
+                        <span ><b>truckIcon</b></span>
+                        <a href="#truckIcon"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="76" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:76</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="vehData"></a>
+                    <span class="name">
+                        <span ><b>vehData</b></span>
+                        <a href="#vehData"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="44" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:44</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="zoom"></a>
+                    <span class="name">
+                        <span ><b>zoom</b></span>
+                        <a href="#zoom"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>15</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="56" class="link-to-prism">src/app/modules/live-track/live-track.component.ts:56</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnDestroy, OnInit } from &#x27;@angular/core&#x27;;
+import { ActivatedRoute, Router } from &#x27;@angular/router&#x27;;
+import { Subscription } from &#x27;rxjs&#x27;;
+import { MasterService } from &#x27;../master.service&#x27;;
+import { CommonService } from &#x27;src/app/services/common.service&#x27;;
+import { ConstantService } from &#x27;src/app/services/constant.service&#x27;;
+import { StorageService } from &#x27;src/app/services/storage.service&#x27;;
+import { WebsocketService } from &#x27;src/app/services/websocket.service&#x27;;
+
+interface Marker {
+  lat: number;
+  lng: number;
+  icon?: string;
+  label?: string;
+  eta?: string;
+  address?: string;
+  draggable?: boolean;
+  etaUnit?: string;
+  dist?: number|string;
+  distUnit?: string;
+}
+interface LatLng {
+  lat: number;
+  lng: number;
+  rotation?: number;
+}
+
+interface Polyline {
+  color: string;
+  latLng: LatLng[]
+}
+
+interface drawLine {
+  color: string;
+  latLng: LatLng[]
+}
+
+@Component({
+  selector: &#x27;app-live-track&#x27;,
+  templateUrl: &#x27;./live-track.component.html&#x27;,
+  styleUrls: [&#x27;./live-track.component.scss&#x27;]
+})
+export class LiveTrackComponent implements OnInit, OnDestroy {
+  vehData: any &#x3D; [];
+  polyLine: Polyline &#x3D; {
+    color: &#x27;#2196f3&#x27;,
+    latLng: [],
+  };
+  drawLine: Polyline &#x3D; {
+    color: &#x27;#2196f3&#x27;,
+    latLng: []
+  };
+  map: any;
+  receivedAllDevice:any;
+  isOpen &#x3D; false;
+  zoom: number &#x3D; 15;
+  innerWidth &#x3D; window.innerWidth;
+  marker: Marker &#x3D; {
+    lat: 23.673858,
+    lng: 83.815982,
+  };
+  lat: any;
+  lng: any;
+  device: any;
+  address: any;
+  positionTime: any;
+  f_lvl: any;
+  setColor &#x3D; {&quot;running&quot;: &quot;#15e425&quot;, &quot;online&quot;: &quot;#15e425&quot;, &quot;stopped&quot;: &quot;red&quot;, &quot;offline&quot;: &quot;grey&quot;};
+
+  private _sktresSub: Subscription &#x3D; new Subscription;// socket response subscription
+  deltaLat: any;
+  deltaLng: any;
+  numDeltas &#x3D; 400; // iteration
+  delay &#x3D; 600; //miliseconds
+  truck_path: string;
+  truckIcon: any;
+  speed: any;
+  datetime: any;
+  timerRef: any;
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router,
+    private ws: WebsocketService,
+    private storageService: StorageService,
+    private masterService: MasterService,
+    private constantService: ConstantService,
+    private commonService: CommonService
+  ) {
+    this.route.params.subscribe(queryParam &#x3D;&gt; {
+      if(queryParam._id) {
+        const currentState &#x3D; this.router.getCurrentNavigation();
+        this.vehData &#x3D; currentState &amp;&amp; currentState.extras.state;
+        if(!this.vehData){
+          let vehicles &#x3D; this.storageService.get(&#x27;allVehicles&#x27;);
+          if(vehicles) {
+            let vehicledata &#x3D; vehicles.find((x: { _id: any; }) &#x3D;&gt; x._id &#x3D;&#x3D; queryParam._id);
+            if(vehicledata){
+              this.vehData &#x3D; vehicledata.vehicle;
+            }else{
+              this.commonService.goBack();
+            }
+          }else{
+             this.commonService.goBack();
+          }
+        }
+      }
+    });
+    this.truck_path &#x3D; this.constantService.constants.truck_path;
+  }
+  ngOnDestroy(): void {
+    this._sktresSub.unsubscribe();
+    if(this.timerRef) {
+      clearTimeout(this.timerRef);
+      this.timerRef &#x3D; undefined;
+    }
+  }
+
+  ngOnInit(): void {
+    this.getDevices();
+    this.truckIcon &#x3D; {
+      path: this.truck_path,
+      fillColor: &quot;#15e425&quot;,
+      fillOpacity: 0.8,
+      strokeWeight: 0.5,
+      scale: 0.5,
+      rotation: 90
+    };
+  }
+
+  getDevices(){
+    this.masterService.getGpsReports({},&#x27;devices&#x27;).subscribe((res: any) &#x3D;&gt; {
+        this.receivedAllDevice &#x3D; res.data;
+        if(this.receivedAllDevice &amp;&amp; this.receivedAllDevice.length){
+          this.getLiveData();
+        }else{
+          this.commonService.error(&#x27;No devices found&#x27;);
+        }
+
+      });
+  }
+
+  setTruckIcon(angle: any,color: any) {
+    this.truckIcon &#x3D; {
+      path: this.truck_path,
+      fillColor: color || &quot;#15e425&quot;,
+      fillOpacity: 0.8,
+      strokeWeight: 0.5,
+      scale: 0.5,
+      rotation: angle &amp;&amp; parseFloat(angle) || 90
+    };
+  }
+
+  setCenter(lat: number, lng: number){
+    this.map &amp;&amp; this.map.setCenter({ lat, lng});
+  }
+
+  mapReady(map: any){
+    this.map &#x3D; map;
+    this.setCenter(this.marker.lat, this.marker.lng);
+  }
+
+  moveMarker(){
+    if(!this.polyLine || !this.drawLine) return;
+    for(let i&#x3D;0;i&lt;this.numDeltas;i++){
+      const mContext &#x3D; this;
+      this.timerRef &#x3D; setTimeout(() &#x3D;&gt; {
+        let newLat &#x3D; this.polyLine.latLng[this.polyLine.latLng.length - 2].lat +&#x3D; this.deltaLat;
+        let newLng &#x3D; this.polyLine.latLng[this.polyLine.latLng.length - 2].lng +&#x3D; this.deltaLng;
+        if(i%2 &#x3D;&#x3D;&#x3D; 0)
+        mContext.drawLine.latLng.push({lat: newLat, lng: newLng});
+        // console.info(new Date());
+        mContext.marker.lat &#x3D; newLat;
+        mContext.marker.lng &#x3D; newLng;
+      }, mContext.delay);
+    }
+  }
+
+  stopFeed(sDevice: any) {
+    if(!this.device) return;
+    let req : any &#x3D; {};
+    req.device_id &#x3D; sDevice.imei;
+    req.device_type &#x3D; sDevice.device_type;
+    req.user_id &#x3D; this.storageService.get(&#x27;userData&#x27;).client_config.gpsId;
+    req.request&#x3D; &#x27;stop_feed&#x27;;
+    this.ws.sendMessage(req);
+  }
+
+  getLiveData() {
+    //let allDevices &#x3D; this.storageService.get(&#x27;alldevices&#x27;);
+    const imei &#x3D; this.vehData?.device_imei ? this.vehData?.device_imei : this.vehData?.device?.imei;
+    this.device &#x3D; this.receivedAllDevice &amp;&amp; this.receivedAllDevice.length &amp;&amp; this.receivedAllDevice.find((item: any) &#x3D;&gt; item.imei &#x3D;&#x3D; imei);
+    if(!this.device &amp;&amp; !imei) return;
+    let stopDevice &#x3D; this.storageService.get(&#x27;lastDevice&#x27;);
+    if(stopDevice &amp;&amp; (this.device?.imei||imei) !&#x3D; stopDevice.imei) {
+      this.stopFeed(stopDevice);
+    }
+    this.storageService.put(&#x27;lastDevice&#x27;,this.device);
+    let req : any &#x3D; {};
+    req.device_id &#x3D; this.device &amp;&amp; this.device.imei || imei;
+    req.device_type &#x3D; this.device &amp;&amp; this.device.device_type || this.vehData.device_type;
+    req.user_id &#x3D; this.storageService.get(&#x27;userData&#x27;).client_config.gpsId;
+    req.request &#x3D; &#x27;live_feedV2&#x27;;
+    this.ws.sendMessage(req);
+    this._sktresSub &#x3D; this.ws.getMessage().subscribe((res: any) &#x3D;&gt; {
+      if(res) console.info(new Date(),this.vehData.vehicle_reg_no,res);
+      if(!res || res.request !&#x3D; &#x27;live_feedV2&#x27; || (res.data &amp;&amp; Number(res.data?.device_id) !&#x3D; Number(this.device?.imei||imei))) return;
+      this.address &#x3D; res.data?.address || res.data?.addr;
+      this.speed &#x3D; res.data?.speed;
+      this.datetime &#x3D; res.data?.datetime;
+      this.positionTime &#x3D; res.data?.positioning_time;
+      this.f_lvl &#x3D; res.data?.f_lvl;
+      let positionTime : number &#x3D; new Date(res?.data?.positioning_time).getTime();
+      let locationTime: number &#x3D; new Date(res?.data?.location_time).getTime();
+      let stoppageTime &#x3D; 10;
+      let ptDiffMin &#x3D; Math.ceil((new Date().getTime() - positionTime) / 60000); // in Min
+      let ltDiffMin &#x3D; Math.ceil((new Date().getTime() - locationTime) / 60000); // in Min
+      if(res &amp;&amp; res.data) {
+        if (ptDiffMin &amp;&amp; ptDiffMin &lt; 300) {//5 hr no offline
+          if (ltDiffMin &amp;&amp; ltDiffMin &lt;&#x3D; stoppageTime &amp;&amp; res?.data?.speed &gt; 0) {
+              res.data.status &#x3D; &quot;running&quot;;
+          } else {
+            res.data.status &#x3D; &quot;stopped&quot;;
+          }
+        } else {
+            res.data.status &#x3D; &quot;offline&quot;;
+        }
+      }
+      if(res?.data?.status &#x3D;&#x3D; &#x27;stopped&#x27;) {
+        let color &#x3D; this.setColor[&#x27;stopped&#x27;];
+        this.setTruckIcon(res?.data?.course,color);
+      } else if(res?.data?.status &#x3D;&#x3D; &#x27;running&#x27;) {
+        let color &#x3D; this.setColor[&#x27;running&#x27;];
+        this.setTruckIcon(res?.data?.course,color);
+      } else if(res?.data?.status &#x3D;&#x3D; &#x27;offline&#x27;) {
+        let color &#x3D; this.setColor[&#x27;offline&#x27;];
+        this.setTruckIcon(res?.data?.course,color);
+      }
+      if(res &amp;&amp; res.data){
+        this.pushCurrentLoc({lat:res.data.lat,lng:res.data.lng,address:res.data?.address,eta:res.data?.positioning_time});
+      }
+    });
+  }
+
+  transition() {
+    let len &#x3D; this.polyLine.latLng.length;
+    this.deltaLat &#x3D; (this.polyLine.latLng[len-1].lat - this.polyLine.latLng[len-2].lat)/this.numDeltas;
+    this.deltaLng &#x3D; (this.polyLine.latLng[len-1].lng - this.polyLine.latLng[len-2].lng)/this.numDeltas;
+    this.moveMarker();
+  }
+  pushCurrentLoc({lat, lng}: any){
+    if(lat &amp;&amp; lng) {
+      this.polyLine.latLng.push({lat, lng});
+      this.lat &#x3D; lat;
+      this.lng &#x3D; lng;
+    }
+    if(this.polyLine.latLng.length &gt; 1)
+      this.transition();
+    else {
+      this.marker.lat &#x3D; lat;
+      this.marker.lng &#x3D; lng;
+    }
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;insight&quot;&gt;
+    &lt;div class&#x3D;&quot;insight-head&quot;&gt;
+        &lt;!-- &lt;div class&#x3D;&quot;insight-title&quot;&gt;
+            Live Tracking
+        &lt;/div&gt; --&gt;
+        &lt;div style&#x3D;&quot;display: flex;&quot;&gt;
+            &lt;!-- &lt;div *ngIf&#x3D;&quot;innerWidth &lt; 500&quot; class&#x3D;&quot;mbbtn&quot; style&#x3D;&quot;margin-right: 30vw;&quot;&gt;
+                &lt;app-back-button *ngIf&#x3D;&quot;innerWidth &lt;&#x3D; 500&quot;&gt;&lt;/app-back-button&gt;
+            &lt;/div&gt;  --&gt;
+            &amp;nbsp;&amp;nbsp;&lt;div style&#x3D;&quot;font-weight: bold;&quot;&gt; Live Tracking&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;insight-description&quot;&gt;
+        &lt;div style&#x3D;&quot;display: flex;flex-wrap: wrap;justify-content: flex-start; gap:3px;font-size:small;&quot;&gt;
+            &amp;nbsp;&amp;nbsp;&lt;div&gt;&lt;b&gt;Vehicle No: &lt;/b&gt;{{vehData?.vehicle_reg_no}} &lt;/div&gt;
+            &lt;div&gt;&lt;b&gt;Speed : &lt;/b&gt; {{speed}} Km/h&lt;/div&gt;
+            &amp;nbsp;&amp;nbsp;&lt;div&gt;&lt;b&gt;Date Time: &lt;/b&gt;{{datetime | date:&#x27;medium&#x27;}} &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;agm-map
+        [latitude]&#x3D;&quot;lat&quot;
+        [longitude]&#x3D;&quot;lng&quot;
+        [zoom]&#x3D;&quot;zoom&quot;
+        [streetViewControl]&#x3D;&quot;false&quot;
+        [mapTypeControl]&#x3D;&quot;true&quot;
+        [fullscreenControl]&#x3D;&quot;false&quot;
+        [gestureHandling]&#x3D;&quot;&#x27;greedy&#x27;&quot;
+        &gt;
+
+        &lt;agm-marker [latitude]&#x3D;&quot;marker.lat&quot; [longitude]&#x3D;&quot;marker.lng&quot; [iconUrl]&#x3D;&quot;truckIcon&quot;&gt;
+            &lt;agm-info-window [isOpen]&#x3D;&quot;isOpen&quot;&gt;
+                &lt;div&gt;&lt;b&gt;Location :&lt;/b&gt; {{address}} &lt;/div&gt;
+                &lt;div&gt;&lt;b&gt;Latitude :&lt;/b&gt; {{marker.lat}}&lt;/div&gt;
+                &lt;div&gt;&lt;b&gt;Longitude :&lt;/b&gt; {{marker.lng}}&lt;/div&gt;
+                &lt;div&gt;&lt;b&gt;Positioning Time :&lt;/b&gt; {{positionTime | date: &#x27;medium&#x27;}}&lt;/div&gt;
+                &lt;div *ngIf&#x3D;&quot;f_lvl&quot;&gt;&lt;b&gt;Fuel:&lt;/b&gt; {{f_lvl.toFixed(2)+&#x27; Ltr&#x27;}}&lt;/div&gt;
+            &lt;/agm-info-window&gt;
+        &lt;/agm-marker&gt;
+        &lt;ng-container&gt;
+            &lt;agm-polyline [strokeColor]&#x3D;&quot;polyLine.color&quot;&gt;
+              &lt;agm-polyline-point *ngFor&#x3D;&quot;let point of drawLine.latLng&quot; [latitude]&#x3D;&quot;point.lat&quot; [longitude]&#x3D;&quot;point.lng&quot;&gt;
+              &lt;/agm-polyline-point&gt;
+            &lt;/agm-polyline&gt;
+          &lt;/ng-container&gt;
+    &lt;/agm-map&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./live-track.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">agm-map {
+    width: 100%;
+    height: calc(100% - 50px);
+}
+
+.insight-head {
+    justify-content: flex-start;
+}
+
+.insight {
+    padding: 0;
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="insight">    <div class="insight-head">        <!-- <div class="insight-title">            Live Tracking        </div> -->        <div style="display: flex;">            <!-- <div *ngIf="innerWidth < 500" class="mbbtn" style="margin-right: 30vw;">                <app-back-button *ngIf="innerWidth <= 500"></app-back-button>            </div>  -->            &nbsp;&nbsp;<div style="font-weight: bold;"> Live Tracking</div>        </div>    </div>    <div class="insight-description">        <div style="display: flex;flex-wrap: wrap;justify-content: flex-start; gap:3px;font-size:small;">            &nbsp;&nbsp;<div><b>Vehicle No: </b>{{vehData?.vehicle_reg_no}} </div>            <div><b>Speed : </b> {{speed}} Km/h</div>            &nbsp;&nbsp;<div><b>Date Time: </b>{{datetime | date:\'medium\'}} </div>        </div>        <agm-map        [latitude]="lat"        [longitude]="lng"        [zoom]="zoom"        [streetViewControl]="false"        [mapTypeControl]="true"        [fullscreenControl]="false"        [gestureHandling]="\'greedy\'"        >        <agm-marker [latitude]="marker.lat" [longitude]="marker.lng" [iconUrl]="truckIcon">            <agm-info-window [isOpen]="isOpen">                <div><b>Location :</b> {{address}} </div>                <div><b>Latitude :</b> {{marker.lat}}</div>                <div><b>Longitude :</b> {{marker.lng}}</div>                <div><b>Positioning Time :</b> {{positionTime | date: \'medium\'}}</div>                <div *ngIf="f_lvl"><b>Fuel:</b> {{f_lvl.toFixed(2)+\' Ltr\'}}</div>            </agm-info-window>        </agm-marker>        <ng-container>            <agm-polyline [strokeColor]="polyLine.color">              <agm-polyline-point *ngFor="let point of drawLine.latLng" [latitude]="point.lat" [longitude]="point.lng">              </agm-polyline-point>            </agm-polyline>          </ng-container>    </agm-map>    </div></div></div>'
+    var COMPONENTS = [{'name': 'AddGrPopupComponent', 'selector': 'app-add-gr-popup'},{'name': 'AddInvoicePopupComponent', 'selector': 'app-add-invoice-popup'},{'name': 'AlarmComponent', 'selector': 'app-alarm'},{'name': 'AlarmListViewComponent', 'selector': 'app-alarm-list-view'},{'name': 'AlarmUpsertComponent', 'selector': 'app-alarm-upsert'},{'name': 'AlertListComponent', 'selector': 'app-alert-list'},{'name': 'AlertsComponent', 'selector': 'app-alerts'},{'name': 'AlertsListViewComponent', 'selector': 'app-alerts-list-view'},{'name': 'AnalyticsComponent', 'selector': 'app-analytics'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'BackButtonComponent', 'selector': 'app-back-button'},{'name': 'BillingPartyComponent', 'selector': 'app-billing-party'},{'name': 'BillingPartyDetailViewComponent', 'selector': 'app-billing-party-detail-view'},{'name': 'BillingPartyListViewComponent', 'selector': 'app-billing-party-list-view'},{'name': 'BillingPartyUpsertComponent', 'selector': 'app-billing-party-upsert'},{'name': 'BranchComponent', 'selector': 'app-branch'},{'name': 'BranchDetailViewComponent', 'selector': 'app-branch-detail-view'},{'name': 'BranchListViewComponent', 'selector': 'app-branch-list-view'},{'name': 'BranchUpsertComponent', 'selector': 'app-branch-upsert'},{'name': 'BrokerMemoComponent', 'selector': 'app-broker-memo'},{'name': 'BrokerMemoListViewComponent', 'selector': 'app-broker-memo-list-view'},{'name': 'BrokerMemoUpsertComponent', 'selector': 'app-broker-memo-upsert'},{'name': 'CalibComponent', 'selector': 'app-calib'},{'name': 'CreateTripComponent', 'selector': 'app-create-trip'},{'name': 'CustomerComponent', 'selector': 'app-customer'},{'name': 'CustomerListViewComponent', 'selector': 'app-customer-list-view'},{'name': 'CustomerUpsertComponent', 'selector': 'app-customer-upsert'},{'name': 'DefaultComponent', 'selector': 'app-default'},{'name': 'DemoImagePickerBasicComponent', 'selector': 'demo-image-picker-basic'},{'name': 'DeviceMasterComponent', 'selector': 'app-device-master'},{'name': 'DriverComponent', 'selector': 'app-driver'},{'name': 'DriverDetailViewComponent', 'selector': 'app-driver-detail-view'},{'name': 'DriverListViewComponent', 'selector': 'app-driver-list-view'},{'name': 'DriverUpsertComponent', 'selector': 'app-driver-upsert'},{'name': 'DutyComponent', 'selector': 'app-duty'},{'name': 'DutyListViewComponent', 'selector': 'app-duty-list-view'},{'name': 'DutyUpsertComponent', 'selector': 'app-duty-upsert'},{'name': 'EmptyTripComponent', 'selector': 'app-empty-trip'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'FuelLevelComponent', 'selector': 'app-fuel-level'},{'name': 'GeofenceComponent', 'selector': 'app-geofence'},{'name': 'GeofenceListViewComponent', 'selector': 'app-geofence-list-view'},{'name': 'GeofenceUpsertComponent', 'selector': 'app-geofence-upsert'},{'name': 'GpsReportsComponent', 'selector': 'app-gps-reports'},{'name': 'GrComponent', 'selector': 'app-gr'},{'name': 'GrListViewComponent', 'selector': 'app-gr-list-view'},{'name': 'GrUpsertComponent', 'selector': 'app-gr-upsert'},{'name': 'GrWithoutTripComponent', 'selector': 'app-gr-without-trip'},{'name': 'GrWithoutTripListViewComponent', 'selector': 'app-gr-without-trip-list-view'},{'name': 'GrWithoutTripUpsertComponent', 'selector': 'app-gr-without-trip-upsert'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'HomeComponent', 'selector': 'app-home'},{'name': 'ItineraryComponent', 'selector': 'app-itinerary'},{'name': 'LandmarkComponent', 'selector': 'app-landmark'},{'name': 'LandmarkListViewComponent', 'selector': 'app-landmark-list-view'},{'name': 'LandmarkUpsertComponent', 'selector': 'app-landmark-upsert'},{'name': 'LiveTrackComponent', 'selector': 'app-live-track'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'MapComponent', 'selector': 'app-map'},{'name': 'MapListViewComponent', 'selector': 'app-map-list-view'},{'name': 'MaterialCardDetailViewComponent', 'selector': 'app-material-card-detail-view'},{'name': 'MaterialComponent', 'selector': 'app-material'},{'name': 'MaterialGroupComponent', 'selector': 'app-material-group'},{'name': 'MaterialGroupListViewComponent', 'selector': 'app-material-group-list-view'},{'name': 'MaterialGroupUpsertComponent', 'selector': 'app-material-group-upsert'},{'name': 'MaterialGroupUpsertComponentT', 'selector': 'app-material-group-upsert'},{'name': 'MaterialListViewComponent', 'selector': 'app-material-list-view'},{'name': 'MaterialUpsertComponent', 'selector': 'app-material-upsert'},{'name': 'MilestoneComponent', 'selector': 'app-milestone'},{'name': 'MilestoneViewComponent', 'selector': 'app-milestone-view'},{'name': 'PlaybackComponent', 'selector': 'app-playback'},{'name': 'PlaybackFormComponent', 'selector': 'app-playback-form'},{'name': 'PlaybackListComponent', 'selector': 'app-playback-list'},{'name': 'QrBarcodeComponent', 'selector': 'upload-accordion'},{'name': 'SensorComponent', 'selector': 'app-sensor'},{'name': 'SensorListViewComponent', 'selector': 'app-sensor-list-view'},{'name': 'SensorUpsertComponent', 'selector': 'app-sensor-upsert'},{'name': 'ShareLocationComponent', 'selector': 'app-share-location'},{'name': 'ShareTripComponent', 'selector': 'app-share-trip'},{'name': 'SidebarComponent', 'selector': 'app-sidebar'},{'name': 'TrafficManagerComponent', 'selector': 'app-traffic-manager'},{'name': 'TransportRouteComponent', 'selector': 'app-transport-route'},{'name': 'TransportRouteListViewComponent', 'selector': 'app-transport-route-list-view'},{'name': 'TransportRouteUpsertComponent', 'selector': 'app-transport-route-upsert'},{'name': 'TripDetailsComponent', 'selector': 'app-trip-details'},{'name': 'TripDetailViewComponent', 'selector': 'app-trip-detail-view'},{'name': 'TripGpsComponent', 'selector': 'app-trip-gps'},{'name': 'TripListComponent', 'selector': 'app-trip-list'},{'name': 'TripListViewComponent', 'selector': 'app-trip-list-view'},{'name': 'TripMemoComponent', 'selector': 'app-trip-memo'},{'name': 'TripMemoListViewComponent', 'selector': 'app-trip-memo-list-view'},{'name': 'TripMemoUpsertComponent', 'selector': 'app-trip-memo-upsert'},{'name': 'UpdatePasswordComponent', 'selector': 'app-update-password'},{'name': 'UploadAccordianComponent', 'selector': 'upload-accordion'},{'name': 'UploadComponent', 'selector': 'app-upload'},{'name': 'UploadUtilComponent', 'selector': 'app-upload-util'},{'name': 'VehicleComponent', 'selector': 'app-vehicle'},{'name': 'VehicleDetailViewComponent', 'selector': 'app-vehicle-detail-view'},{'name': 'VehicleListViewComponent', 'selector': 'app-vehicle-list-view'},{'name': 'VehicleUpsertComponent', 'selector': 'app-vehicle-upsert'},{'name': 'VendorComponent', 'selector': 'app-vendor'},{'name': 'VendordealPopupComponent', 'selector': 'app-vendordeal-popup'},{'name': 'VendorListViewComponent', 'selector': 'app-vendor-list-view'},{'name': 'VendorUpsertComponent', 'selector': 'app-vendor-upsert'}];
+    var DIRECTIVES = [{'name': 'AddrSearchDirective', 'selector': '[appAddrSearch]'}];
+    var ACTUAL_COMPONENT = {'name': 'LiveTrackComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'LiveTrackComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,2323 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>LMS-Lite documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">LMS-Lite documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  VehicleListViewComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-vehicle-list-view</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./vehicle-list-view.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./vehicle-list-view.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#donwloadAnchor" >donwloadAnchor</a>
+                            </li>
+                            <li>
+                                <a href="#filterObj" >filterObj</a>
+                            </li>
+                            <li>
+                                <a href="#innerWidth" >innerWidth</a>
+                            </li>
+                            <li>
+                                <a href="#isMobFilterVisible" >isMobFilterVisible</a>
+                            </li>
+                            <li>
+                                <a href="#Ownershipfilter" >Ownershipfilter</a>
+                            </li>
+                            <li>
+                                <a href="#pageNumber" >pageNumber</a>
+                            </li>
+                            <li>
+                                <a href="#receivedData" >receivedData</a>
+                            </li>
+                            <li>
+                                <a href="#screenHeight" >screenHeight</a>
+                            </li>
+                            <li>
+                                <a href="#scrollTable" >scrollTable</a>
+                            </li>
+                            <li>
+                                <a href="#selectedItem" >selectedItem</a>
+                            </li>
+                            <li>
+                                <a href="#selectedRowId" >selectedRowId</a>
+                            </li>
+                            <li>
+                                <a href="#stopScrolling" >stopScrolling</a>
+                            </li>
+                            <li>
+                                <a href="#timer" >timer</a>
+                            </li>
+                            <li>
+                                <a href="#vehicleget" >vehicleget</a>
+                            </li>
+                            <li>
+                                <a href="#venderget" >venderget</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#clean" >clean</a>
+                            </li>
+                            <li>
+                                <a href="#delete" >delete</a>
+                            </li>
+                            <li>
+                                <a href="#downloadReport" >downloadReport</a>
+                            </li>
+                            <li>
+                                <a href="#fetchdata" >fetchdata</a>
+                            </li>
+                            <li>
+                                <a href="#navigateToAdd" >navigateToAdd</a>
+                            </li>
+                            <li>
+                                <a href="#navigateToEdit" >navigateToEdit</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#onResize" >onResize</a>
+                            </li>
+                            <li>
+                                <a href="#onScroll" >onScroll</a>
+                            </li>
+                            <li>
+                                <a href="#onSearchvehicle" >onSearchvehicle</a>
+                            </li>
+                            <li>
+                                <a href="#onSearchvender" >onSearchvender</a>
+                            </li>
+                            <li>
+                                <a href="#reset" >reset</a>
+                            </li>
+                            <li>
+                                <a href="#search" >search</a>
+                            </li>
+                            <li>
+                                <a href="#selectItem" >selectItem</a>
+                            </li>
+                            <li>
+                                <a href="#showDeleteConfirm" >showDeleteConfirm</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>HostListeners</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#window: resize" >window: resize</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>, commonServ: <a href="../injectables/CommonService.html" target="_self">CommonService</a>, masterService: <a href="../injectables/MasterService.html" target="_self">MasterService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="51" class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:51</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>commonServ</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/CommonService.html" target="_self" >CommonService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>masterService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/MasterService.html" target="_self" >MasterService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+    <section>
+    <h3>HostListeners</h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="window: resize"></a>
+                    <span class="name">
+                        <span ><b>window: resize</b></span>
+                        <a href="#window: resize"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <i>Arguments : </i><code>'$event' </code>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>window: resize(event: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="48"
+                            class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:48</a></div>
+                </td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="clean"></a>
+                    <span class="name">
+                        <span ><b>clean</b></span>
+                        <a href="#clean"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>clean(obj: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="227"
+                            class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:227</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>obj</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="delete"></a>
+                    <span class="name">
+                        <span ><b>delete</b></span>
+                        <a href="#delete"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>delete()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="252"
+                            class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:252</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="downloadReport"></a>
+                    <span class="name">
+                        <span ><b>downloadReport</b></span>
+                        <a href="#downloadReport"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>downloadReport()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="144"
+                            class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:144</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="fetchdata"></a>
+                    <span class="name">
+                        <span ><b>fetchdata</b></span>
+                        <a href="#fetchdata"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>fetchdata()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="110"
+                            class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:110</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="navigateToAdd"></a>
+                    <span class="name">
+                        <span ><b>navigateToAdd</b></span>
+                        <a href="#navigateToAdd"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>navigateToAdd()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="132"
+                            class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:132</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="navigateToEdit"></a>
+                    <span class="name">
+                        <span ><b>navigateToEdit</b></span>
+                        <a href="#navigateToEdit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>navigateToEdit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="239"
+                            class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:239</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="59"
+                            class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:59</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onResize"></a>
+                    <span class="name">
+                        <span ><b>onResize</b></span>
+                        <a href="#onResize"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onResize(event: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@HostListener(&#x27;window: resize&#x27;, [&#x27;$event&#x27;])<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="48"
+                            class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:48</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onScroll"></a>
+                    <span class="name">
+                        <span ><b>onScroll</b></span>
+                        <a href="#onScroll"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onScroll()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="189"
+                            class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:189</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onSearchvehicle"></a>
+                    <span class="name">
+                        <span ><b>onSearchvehicle</b></span>
+                        <a href="#onSearchvehicle"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onSearchvehicle(value: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="154"
+                            class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:154</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>value</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onSearchvender"></a>
+                    <span class="name">
+                        <span ><b>onSearchvender</b></span>
+                        <a href="#onSearchvender"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onSearchvender(value: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="166"
+                            class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:166</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>value</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="reset"></a>
+                    <span class="name">
+                        <span ><b>reset</b></span>
+                        <a href="#reset"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>reset()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="181"
+                            class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:181</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="search"></a>
+                    <span class="name">
+                        <span ><b>search</b></span>
+                        <a href="#search"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>search()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="135"
+                            class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:135</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="selectItem"></a>
+                    <span class="name">
+                        <span ><b>selectItem</b></span>
+                        <a href="#selectItem"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>selectItem(item: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="127"
+                            class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:127</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>item</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="showDeleteConfirm"></a>
+                    <span class="name">
+                        <span ><b>showDeleteConfirm</b></span>
+                        <a href="#showDeleteConfirm"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>showDeleteConfirm(value: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="260"
+                            class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:260</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>value</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="donwloadAnchor"></a>
+                    <span class="name">
+                        <span ><b>donwloadAnchor</b></span>
+                        <a href="#donwloadAnchor"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://angular.io/api/core/ElementRef" target="_blank" >ElementRef</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <b>Decorators : </b>
+                        <br />
+                        <code>
+                            @ViewChild(&#x27;donwload&#x27;, {static: false})<br />
+                        </code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:27</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="filterObj"></a>
+                    <span class="name">
+                        <span ><b>filterObj</b></span>
+                        <a href="#filterObj"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>literal type</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+    vehicle_reg_no: null,
+    ownershipType: null
+  }</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="42" class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:42</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="innerWidth"></a>
+                    <span class="name">
+                        <span ><b>innerWidth</b></span>
+                        <a href="#innerWidth"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="24" class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:24</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isMobFilterVisible"></a>
+                    <span class="name">
+                        <span ><b>isMobFilterVisible</b></span>
+                        <a href="#isMobFilterVisible"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:18</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="Ownershipfilter"></a>
+                    <span class="name">
+                        <span ><b>Ownershipfilter</b></span>
+                        <a href="#Ownershipfilter"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+    {
+      name: &quot;own&quot;,
+      value: &quot;Own&quot;,
+    },
+    {
+      name:&quot;market&quot;,
+      value:&quot;Market&quot;
+    },
+    {
+      name:&quot;sold&quot;,
+      value:&quot;Sold&quot;
+    }
+  ]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:28</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="pageNumber"></a>
+                    <span class="name">
+                        <span ><b>pageNumber</b></span>
+                        <a href="#pageNumber"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>2</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:16</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="receivedData"></a>
+                    <span class="name">
+                        <span ><b>receivedData</b></span>
+                        <a href="#receivedData"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:14</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="screenHeight"></a>
+                    <span class="name">
+                        <span ><b>screenHeight</b></span>
+                        <a href="#screenHeight"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:25</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="scrollTable"></a>
+                    <span class="name">
+                        <span ><b>scrollTable</b></span>
+                        <a href="#scrollTable"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>HTMLCollectionOf&lt;Element&gt;</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="46" class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:46</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="selectedItem"></a>
+                    <span class="name">
+                        <span ><b>selectedItem</b></span>
+                        <a href="#selectedItem"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:23</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="selectedRowId"></a>
+                    <span class="name">
+                        <span ><b>selectedRowId</b></span>
+                        <a href="#selectedRowId"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:20</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="stopScrolling"></a>
+                    <span class="name">
+                        <span ><b>stopScrolling</b></span>
+                        <a href="#stopScrolling"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:15</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="timer"></a>
+                    <span class="name">
+                        <span ><b>timer</b></span>
+                        <a href="#timer"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:19</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="vehicleget"></a>
+                    <span class="name">
+                        <span ><b>vehicleget</b></span>
+                        <a href="#vehicleget"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="21" class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:21</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="venderget"></a>
+                    <span class="name">
+                        <span ><b>venderget</b></span>
+                        <a href="#venderget"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="22" class="link-to-prism">src/app/modules/vehicle/vehicle-list-view/vehicle-list-view.component.ts:22</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import {Component, ElementRef, HostListener, OnInit, ViewChild} from &#x27;@angular/core&#x27;;
+import { MasterService } from &#x27;../../master.service&#x27;
+import { Router } from &#x27;@angular/router&#x27;;
+import { CommonService } from &#x27;src/app/services/common.service&#x27;;
+// import { NzModalService } from &#x27;ng-zorro-antd/modal&#x27;;
+import { MoreMenu } from &#x27;src/app/shared/modal/moreMenu.modal&#x27;;
+
+@Component({
+  selector: &#x27;app-vehicle-list-view&#x27;,
+  templateUrl: &#x27;./vehicle-list-view.component.html&#x27;,
+  styleUrls: [&#x27;./vehicle-list-view.component.scss&#x27;]
+})
+export class VehicleListViewComponent implements OnInit {
+  receivedData: any;
+  stopScrolling &#x3D; false;
+  pageNumber &#x3D; 2;
+  // clickSearch &#x3D; true;
+  isMobFilterVisible &#x3D; false;
+  timer: any;
+  selectedRowId: any;
+  vehicleget:any;
+  venderget:any;
+  selectedItem:any;
+  innerWidth: any;// stores width of any screeen
+  screenHeight :any;
+  @ViewChild(&quot;donwload&quot;, { static: false })
+  donwloadAnchor!: ElementRef;
+  Ownershipfilter &#x3D; [
+    {
+      name: &quot;own&quot;,
+      value: &quot;Own&quot;,
+    },
+    {
+      name:&quot;market&quot;,
+      value:&quot;Market&quot;
+    },
+    {
+      name:&quot;sold&quot;,
+      value:&quot;Sold&quot;
+    }
+  ];
+  filterObj: { [index: string]: any } &#x3D; {
+    vehicle_reg_no: null,
+    ownershipType: null
+  };
+  scrollTable!: HTMLCollectionOf&lt;Element&gt;;
+  @HostListener(&quot;window: resize&quot;, [&quot;$event&quot;])
+  onResize(event: any) {
+    this.innerWidth &#x3D; window.innerWidth;
+    this.screenHeight &#x3D; window.innerHeight;
+  }
+  constructor(
+    private router: Router,
+    private commonServ: CommonService,
+    private masterService: MasterService,
+    // private modal: NzModalService
+  ) {}
+
+  ngOnInit(): void {
+
+
+    let _moreMenu:MoreMenu[]&#x3D;[
+      {
+        tittle:&quot;fiter&quot;,
+        iconName:&quot;fa-filter&quot;,
+        isVisible:true,
+        clickEventMethode:()&#x3D;&gt;{
+          this.isMobFilterVisible &#x3D; !this.isMobFilterVisible;
+        }
+      },
+      {
+        tittle:&quot;Add Vehicle&quot;,
+        iconName:&quot;fa-plus-circle&quot;,
+        isVisible:true,
+        clickEventMethode:()&#x3D;&gt;{
+          this.navigateToAdd();
+        }
+      } ,
+      {
+        tittle:&quot;Edit Details&quot;,
+        iconName:&quot;fa-edit&quot;,
+        isVisible:false,
+        clickEventMethode:()&#x3D;&gt;{
+          this.navigateToEdit();
+        }
+      } ,
+      {
+        tittle:&quot;Delete Vehicle&quot;,
+        iconName:&quot;fa-trash&quot;,
+        isVisible:false,
+        clickEventMethode:()&#x3D;&gt;{
+          this.showDeleteConfirm(this.selectedItem.vehicle_reg_no);
+        }
+      },
+      {
+        tittle:&quot;Download&quot;,
+        iconName:&quot;fa-download&quot;,
+        isVisible:true,
+        clickEventMethode:()&#x3D;&gt;{
+          this.downloadReport();
+        }
+      }
+    ];
+    this.commonServ.setNavTittleAndMenu(&quot;All Registered Vehicle&quot;,_moreMenu);
+    this.innerWidth &#x3D; window.innerWidth;
+    this.screenHeight &#x3D; window.innerHeight;
+    this.fetchdata();
+
+  }
+  fetchdata(){
+    let req &#x3D; {
+      no_of_docs:15,
+      skip:1
+    }
+
+    this.masterService.getAllVehicle(req).subscribe((data: any) &#x3D;&gt; {
+      if (data) {
+        this.receivedData &#x3D; data;
+        this.scrollTable &#x3D; document.getElementsByClassName(&quot;ant-table-body&quot;);
+        this.scrollTable[0]?.addEventListener(&#x27;scroll&#x27;,() &#x3D;&gt; {
+          this.onScroll();
+        } )
+      }
+    });
+  }
+
+  selectItem(item: any) {
+    this.selectedItem &#x3D; item;
+    this.selectedRowId &#x3D; item._id;
+    this.commonServ.hideShowMenu( [&quot;Delete Vehicle&quot;,&quot;Edit Details&quot;],true);
+  }
+  navigateToAdd() {
+    this.router.navigateByUrl(&quot;home/master/vehicle/upsert/&quot;);
+  }
+  search() {
+    this.clean(this.filterObj);
+    this.masterService.getAllVehicle({...this.filterObj})
+      .subscribe((data: any) &#x3D;&gt; {
+        if (data) {
+          this.receivedData &#x3D; data;
+        }
+      });
+  }
+  downloadReport() {
+    this.clean(this.filterObj);
+    this.masterService.getAllVehiclereport({...this.filterObj,download: true}).subscribe((res:any) &#x3D;&gt; {
+      if(res &amp;&amp; res.url) {
+        this.donwloadAnchor.nativeElement.href &#x3D; res.url;
+        this.donwloadAnchor.nativeElement.click();
+      }
+    })
+  }
+
+  onSearchvehicle(value: any) {
+    this.vehicleget &#x3D;null;
+    if(value) {
+      let req &#x3D; {
+          vehicle_no: value,
+          no_of_docs: 5,
+      }
+      this.masterService.getAllVehicle(req).subscribe((res: any) &#x3D;&gt; {
+        this.vehicleget &#x3D; res;
+      });
+    }
+  }
+  onSearchvender(value: any) {
+    this.venderget &#x3D;null;
+    if(value) {
+      let req &#x3D; {
+        name: value,
+        no_of_docs: 5,
+        deleted: false
+
+      }
+      this.masterService.getAllvender(req).subscribe((res: any) &#x3D;&gt; {
+        this.venderget &#x3D; res;
+      });
+    }
+  }
+
+  reset() {
+    // this.clickSearch &#x3D; true;
+    for (let propName in this.filterObj) {
+      delete this.filterObj[propName];
+    }
+    this.fetchdata();
+  }
+
+  onScroll() {
+
+    if (true) {
+      let divElement: any &#x3D; document.getElementsByClassName(&quot;ant-table-body&quot;)[0] || document.getElementById(&#x27;myDIV&#x27;);
+      if (
+        divElement.scrollTop + divElement.clientHeight &gt;&#x3D;
+        divElement.scrollHeight
+      ) {
+        if (this.stopScrolling &#x3D;&#x3D;&#x3D; false) {
+          if (this.timer) {
+            clearTimeout(this.timer);
+          }
+          const mContext &#x3D; this;
+          this.timer &#x3D; window.setTimeout(function () {
+            mContext.clean(mContext.filterObj);
+            let req &#x3D; {...mContext.filterObj};
+            req.skip &#x3D; mContext.pageNumber,
+              req.deleted &#x3D; false,
+              req.no_of_docs &#x3D; 5
+            mContext.masterService
+              .getAllVehicle(req)
+              .subscribe((data) &#x3D;&gt; {
+                if (data) {
+                  if (data.length &#x3D;&#x3D;&#x3D; 0) {
+                    mContext.stopScrolling &#x3D; true;
+                  } else {
+                    mContext.receivedData &#x3D; [...mContext.receivedData, ...data];
+                    mContext.pageNumber &#x3D; mContext.pageNumber + 1;
+                  }
+                }
+                return;
+              });
+          }, 400);
+        }
+      }
+    }
+  }
+
+  clean(obj: any) {
+    for (let propName in obj) {
+      if (
+        obj[propName] &#x3D;&#x3D;&#x3D; null ||
+        obj[propName] &#x3D;&#x3D;&#x3D; undefined ||
+        obj[propName] &#x3D;&#x3D;&#x3D; &#x27;&#x27;
+      ) {
+        delete obj[propName];
+      }
+    }
+  }
+  // go to the edit  page
+  navigateToEdit() {
+    if (!this.selectedRowId) {
+      return this.commonServ.error(&#x27;Please Select any Row&#x27;);
+      // this.modal.error({
+      //   nzTitle: &#x27;Error&#x27;,
+      //   nzContent: &#x27;Please select any one row&#x27;
+      // });
+      // return;
+    }
+    this.router.navigateByUrl(&quot;home/master/vehicle/upsert/&quot; + this.selectedRowId,{state: this.selectedItem});
+  }
+
+  // delete api
+  delete() {
+    this.masterService.deletevehicle( this.selectedRowId).subscribe((data: any) &#x3D;&gt; {
+      if (data) {
+        this.router.navigateByUrl(&#x27;home/master/vehicle&#x27;);
+        this.fetchdata();
+      }
+    });
+  }
+  showDeleteConfirm(value: any): void {
+
+    this.commonServ.confirmModal(&#x27;Are you sure you want to Disable&#x27;,  &#x60;${value} Registered Vehicle?&#x60;, (): void &#x3D;&gt; {
+      this.delete();
+    })
+    // this.modal.confirm({
+    //   nzTitle: &#x60;Are you sure you want to Disable&lt;br&gt;&lt;b&gt;${value}&lt;/b&gt; Registered Vehicle?&#x60;,
+    //   nzOkText: &#x27;Yes&#x27;,
+    //   nzOkType: &#x27;primary&#x27;,
+    //   nzOkDanger: true,
+    //   nzOnOk: () &#x3D;&gt;this.delete(),
+    //   nzCancelText: &#x27;Cancel&#x27;
+    // });
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;insight&quot;&gt;
+  &lt;div class&#x3D;&quot;insight-head&quot; *ngIf&#x3D;&quot;innerWidth &gt;&#x3D;500&quot;&gt;
+    &lt;div class&#x3D;&quot;insight-tools&quot;&gt;
+&lt;!--      mobile View--&gt;
+      &lt;div class&#x3D;&quot;tool&quot; *ngIf&#x3D;&quot;innerWidth&lt;&#x3D;500&quot;&gt;
+        &lt;div class&#x3D;&quot;mbbtn &quot; nz-tooltip nzTooltipTitle&#x3D;&quot;Add Vehicle&quot; (click)&#x3D;&quot;navigateToAdd()&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;plus-square&quot; &gt;&lt;/fa-icon&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;mbbtn &quot;  nz-tooltip nzTooltipTitle&#x3D;&quot;Edit Details&quot; (click)&#x3D;&quot;navigateToEdit()&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;edit&quot; &gt;&lt;/fa-icon&gt;
+        &lt;/div&gt;
+        &lt;div *ngIf&#x3D;&quot;!selectedRowId&quot; nz-button class&#x3D;&quot;mbbtn&quot; nz-tooltip nzTooltipTitle&#x3D;&quot;Disable&quot;
+                (click)&#x3D;&quot;showDeleteConfirm(this.selectedItem.vehicle_reg_no)&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;trash&quot; style&#x3D;&quot;color: red&quot;&gt;&lt;/fa-icon&gt;
+        &lt;/div&gt;
+        &lt;a #donwload target&#x3D;&quot;_blank&quot;&gt;&lt;/a&gt;
+        &lt;div class&#x3D;&quot;mbbtn &quot; nz-tooltip nzTooltipTitle&#x3D;&quot;Download&quot; (click)&#x3D;&quot;downloadReport()&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;download&quot; &gt;&lt;/fa-icon&gt;
+        &lt;/div&gt;
+        &lt;div  class&#x3D;&quot;mbbtn &quot; *ngIf&#x3D;&quot;innerWidth &lt;&#x3D; 500&quot; nz-tooltip nz-button nzTooltipTitle&#x3D;&quot;Show Filters&quot;
+             type&#x3D;&quot;button&quot; (click)&#x3D;&quot;isMobFilterVisible&#x3D;isMobFilterVisible?false:true;&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;filter&quot;&gt;&lt;/fa-icon&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+&lt;!--      //***********--&gt;
+      &lt;div class&#x3D;&quot;tool&quot; *ngIf&#x3D;&quot;innerWidth&gt;500&quot;&gt;
+        &lt;button class&#x3D;&quot;my-btn btn-primary&quot; nz-tooltip nzTooltipTitle&#x3D;&quot;Add Vehicle&quot; (click)&#x3D;&quot;navigateToAdd()&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;plus-square&quot; style&#x3D;&quot;font-size: 15px;&quot;&gt;&lt;/fa-icon&gt;
+        &lt;/button&gt;
+        &lt;button class&#x3D;&quot;my-btn btn-primary&quot;  nz-tooltip nzTooltipTitle&#x3D;&quot;Edit Details&quot; (click)&#x3D;&quot;navigateToEdit()&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;edit&quot; style&#x3D;&quot;font-size: 15px;&quot;&gt;&lt;/fa-icon&gt;
+        &lt;/button&gt;
+        &lt;button [disabled]&#x3D;&quot;!selectedRowId&quot; nz-button class&#x3D;&quot;my-btn btn-danger shd&quot; nz-tooltip nzTooltipTitle&#x3D;&quot;Disable&quot;
+                (click)&#x3D;&quot;showDeleteConfirm(this.selectedItem.vehicle_reg_no)&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;trash&quot; style&#x3D;&quot;font-size: 15px&quot;&gt;&lt;/fa-icon&gt;
+        &lt;/button&gt;
+        &lt;a #donwload target&#x3D;&quot;_blank&quot;&gt;&lt;/a&gt;
+        &lt;button class&#x3D;&quot;my-btn btn-primary&quot; nz-tooltip nzTooltipTitle&#x3D;&quot;Download&quot; (click)&#x3D;&quot;downloadReport()&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;download&quot; style&#x3D;&quot;font-size: 15px&quot;&gt;&lt;/fa-icon&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class&#x3D;&quot;insight-description&quot;&gt;
+&lt;!--    for mobile view--&gt;
+    &lt;div *ngIf&#x3D;&quot;isMobFilterVisible &amp;&amp; innerWidth &lt;&#x3D; 500&quot;&gt;
+      &lt;div&gt;
+        &lt;div class&#x3D;&quot;flex-cont&quot;&gt;
+          &lt;label&gt;&lt;/label&gt;
+          &lt;nz-select [nzDropdownMatchSelectWidth]&#x3D;&quot;false&quot; style&#x3D;&quot;width: 100% &quot; nzPlaceHolder&#x3D;&quot;Search Vehicle&quot;
+                     [(ngModel)]&#x3D;&quot;filterObj &amp;&amp; filterObj.vehicle_reg_no&quot; nzShowSearch (nzOnSearch)&#x3D;&quot;onSearchvehicle($event)&quot; nzServerSearch nzAllowClear&gt;
+            &lt;nz-option *ngFor&#x3D;&quot;let vehicle of vehicleget&quot;
+                       nzLabel&#x3D;&quot;{{ vehicle?.vehicle_reg_no}}&quot; [nzValue]&#x3D;&quot;vehicle.vehicle_reg_no&quot;&gt;
+            &lt;/nz-option&gt;
+          &lt;/nz-select&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;flex-cont&quot;&gt;
+          &lt;label&gt;&lt;/label&gt;
+          &lt;nz-select [nzDropdownMatchSelectWidth]&#x3D;&quot;false&quot; style&#x3D;&quot;width: 300px&quot; nzPlaceHolder&#x3D;&quot;Search Vendor&quot; style&#x3D;&quot;width: 100% &quot;
+                     [(ngModel)]&#x3D;&quot;filterObj &amp;&amp; filterObj.vendor_id&quot; nzShowSearch (nzOnSearch)&#x3D;&quot;onSearchvender($event)&quot; nzServerSearch nzAllowClear&gt;
+            &lt;nz-option *ngFor&#x3D;&quot;let vendor of venderget&quot;
+                       nzLabel&#x3D;&quot;{{ vendor?.name}}&quot; [nzValue]&#x3D;&quot;vendor._id&quot;&gt;
+            &lt;/nz-option&gt;
+          &lt;/nz-select&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;flex-cont&quot;&gt;
+          &lt;label&gt;&lt;/label&gt;
+          &lt;nz-select nzShowSearch style&#x3D;&quot;width: 140px&quot; nzPlaceHolder&#x3D;&quot;Ownership Type&quot; style&#x3D;&quot;width: 100% &quot;
+                     [(ngModel)]&#x3D;&quot;filterObj &amp;&amp; filterObj.ownershipType&quot; nzAllowClear&gt;
+            &lt;nz-option *ngFor&#x3D;&quot;let st of Ownershipfilter&quot; nzLabel&#x3D;&quot;{{ st.name }}&quot; [nzValue]&#x3D;&quot;st.value&quot;&gt;
+            &lt;/nz-option&gt;
+          &lt;/nz-select&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div style&#x3D;&quot;margin-top: 5%; margin-bottom:10%&quot;&gt;
+        &lt;button style&#x3D;&quot;width: 48%;color:white;&quot; type&#x3D;&quot;button&quot; class&#x3D;&quot;btn-primary&quot; nz-button
+                (click)&#x3D;&quot;search();isMobFilterVisible &#x3D; false;&quot;&gt;Search&lt;/button&gt;&amp;nbsp;
+        &lt;button style&#x3D;&quot;width: 48%;color:white;&quot; type&#x3D;&quot;button&quot; class&#x3D;&quot;btn-primary&quot; nz-button
+                (click)&#x3D;&quot;reset();isMobFilterVisible &#x3D; false;&quot;&gt;Reset&lt;/button&gt;
+      &lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;!--    mobile view end--&gt;
+    &lt;!-- filters --&gt;
+    &lt;div class&#x3D;&quot;filters-row&quot; *ngIf&#x3D;&quot;innerWidth&gt;500&quot;&gt;
+      &lt;div class&#x3D;&quot;my-row&quot;&gt;
+        &lt;!--        vehicle search--&gt;
+
+        &lt;div class&#x3D;&quot;my-card&quot;&gt;
+          &lt;div class&#x3D;&quot;my-card-header&quot;&gt;
+            &lt;nz-select [nzDropdownMatchSelectWidth]&#x3D;&quot;false&quot; style&#x3D;&quot;width: 300px&quot; nzPlaceHolder&#x3D;&quot;Search Vehicle&quot;
+                       [(ngModel)]&#x3D;&quot;filterObj &amp;&amp; filterObj.vehicle_reg_no&quot; nzShowSearch (nzOnSearch)&#x3D;&quot;onSearchvehicle($event)&quot; nzServerSearch nzAllowClear&gt;
+              &lt;nz-option *ngFor&#x3D;&quot;let vehicle of vehicleget&quot;
+                         nzLabel&#x3D;&quot;{{ vehicle?.vehicle_reg_no}}&quot; [nzValue]&#x3D;&quot;vehicle.vehicle_reg_no&quot;&gt;
+              &lt;/nz-option&gt;
+            &lt;/nz-select&gt;
+          &lt;/div&gt;&lt;/div&gt;
+&lt;!--          vendor search--&gt;
+          &lt;div class&#x3D;&quot;my-card&quot;&gt;
+            &lt;div class&#x3D;&quot;my-card-header&quot;&gt;
+              &lt;nz-select [nzDropdownMatchSelectWidth]&#x3D;&quot;false&quot; style&#x3D;&quot;width: 300px&quot; nzPlaceHolder&#x3D;&quot;Search Vendor&quot;
+                         [(ngModel)]&#x3D;&quot;filterObj &amp;&amp; filterObj.vendor_id&quot; nzShowSearch (nzOnSearch)&#x3D;&quot;onSearchvender($event)&quot; nzServerSearch nzAllowClear&gt;
+                &lt;nz-option *ngFor&#x3D;&quot;let vendor of venderget&quot;
+                           nzLabel&#x3D;&quot;{{ vendor?.name}}&quot; [nzValue]&#x3D;&quot;vendor._id&quot;&gt;
+                &lt;/nz-option&gt;
+              &lt;/nz-select&gt;
+            &lt;/div&gt;
+
+        &lt;/div&gt;
+        &lt;!--        ownership type filter--&gt;
+        &lt;div class&#x3D;&quot;my-card&quot;&gt;
+          &lt;div class&#x3D;&quot;my-card-header&quot;&gt;
+            &lt;nz-select nzShowSearch style&#x3D;&quot;width: 140px&quot; nzPlaceHolder&#x3D;&quot;Ownership Type&quot;
+                       [(ngModel)]&#x3D;&quot;filterObj &amp;&amp; filterObj.ownershipType&quot; nzAllowClear&gt;
+              &lt;nz-option *ngFor&#x3D;&quot;let st of Ownershipfilter&quot; nzLabel&#x3D;&quot;{{ st.name }}&quot; [nzValue]&#x3D;&quot;st.value&quot;&gt;
+              &lt;/nz-option&gt;
+            &lt;/nz-select&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!--        search--&gt;
+        &lt;div class&#x3D;&quot;my-card&quot;&gt;
+          &lt;div class&#x3D;&quot;my-card-header&quot;&gt;
+            &lt;button class&#x3D;&quot;my-btn btn-primary&quot; nz-tooltip nzTooltipTitle&#x3D;&quot;Search&quot; (click)&#x3D;&quot;search()&quot;&gt;
+              &lt;fa-icon icon&#x3D;&quot;search&quot; style&#x3D;&quot;font-size: 20px;&quot;&gt;&lt;/fa-icon&gt;
+            &lt;/button&gt;
+&lt;!--            &lt;button nz-button nzType&#x3D;&quot;primary&quot; class&#x3D;&quot;btn-primary&quot; (click)&#x3D;&quot;search()&quot;&gt;&lt;i nz-icon nzType&#x3D;&quot;search&quot;&gt;&lt;/i&gt;&lt;/button&gt;--&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;my-card&quot;&gt;
+          &lt;div class&#x3D;&quot;my-card-header &quot;&gt;
+            &lt;button class&#x3D;&quot;my-btn btn-primary&quot; (click)&#x3D;&quot;reset()&quot;&gt;
+              &lt;fa-icon icon&#x3D;&quot;times&quot; style&#x3D;&quot;font-size: 20px&quot;&gt;&lt;/fa-icon&gt;
+            &lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div id&#x3D;&quot;myDIV&quot; (scroll)&#x3D;&quot;onScroll()&quot;&gt;
+      &lt;nz-table *ngIf&#x3D;&quot;innerWidth &gt; 500&quot; #nzTable nzBordered [nzShowPagination]&#x3D;&quot;false&quot; [nzData]&#x3D;&quot;receivedData ? receivedData : &#x27;&#x27;&quot;
+                nzSize&#x3D;&quot;small&quot;  [nzScroll]&#x3D;&quot;{ x: &#x27;2000px&#x27;, y: &#x27;50vh&#x27; }&quot; style&#x3D;&quot;overflow-x: auto&quot;&gt;
+        &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th nzWidth&#x3D;&quot;120px&quot; nzAlign&#x3D;&quot;center&quot;&gt;vehicle No&lt;/th&gt;
+          &lt;th nzWidth&#x3D;&quot;120px&quot; nzAlign&#x3D;&quot;center&quot;&gt;Vehicle Status&lt;/th&gt;
+          &lt;th nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;Device IMEI&lt;/th&gt;
+          &lt;th nzWidth&#x3D;&quot;80px&quot; nzAlign&#x3D;&quot;center&quot;&gt;Ownership&lt;/th&gt;
+          &lt;th nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;Vendor&lt;/th&gt;
+          &lt;th nzWidth&#x3D;&quot;120px&quot; nzAlign&#x3D;&quot;center&quot;&gt;Vehicle Type&lt;/th&gt;
+          &lt;th nzWidth&#x3D;&quot;120px&quot; nzAlign&#x3D;&quot;center&quot;&gt;Segment&lt;/th&gt;
+          &lt;th nzWidth&#x3D;&quot;120px&quot; nzAlign&#x3D;&quot;center&quot;&gt;Vehicle Group&lt;/th&gt;
+          &lt;th nzWidth&#x3D;&quot;120px&quot; nzAlign&#x3D;&quot;center&quot;&gt;Vehicle category&lt;/th&gt;
+          &lt;th nzWidth&#x3D;&quot;120px&quot; nzAlign&#x3D;&quot;center&quot;&gt;account&lt;/th&gt;
+          &lt;th nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;Created by&lt;/th&gt;
+          &lt;th nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;Created at&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+        &lt;tr
+          style&#x3D;&quot;cursor: pointer&quot;
+          *ngFor&#x3D;&quot;let item of receivedData&quot;
+          (click)&#x3D;&quot;selectItem(item)&quot;
+          [ngClass]&#x3D;&quot;{SelectHighlight :  selectedRowId &amp;&amp; (item?._id &#x3D;&#x3D;&#x3D; selectedRowId)}&quot;&gt;
+          &lt;td nzAlign&#x3D;&quot;center&quot;&gt;{{ item?.vehicle_reg_no || &quot;NA&quot;}}&lt;/td&gt;
+          &lt;td nzAlign&#x3D;&quot;center&quot;&gt;{{ item?.status  || &quot;NA&quot;}}&lt;/td&gt;
+          &lt;td nzAlign&#x3D;&quot;center&quot;&gt;{{ item?.device_imei || &quot;NA&quot;}}&lt;/td&gt;
+          &lt;td nzAlign&#x3D;&quot;center&quot;&gt;{{ item?.ownershipType || &quot;NA&quot;}}&lt;/td&gt;
+          &lt;td nzAlign&#x3D;&quot;center&quot;&gt;{{ item?.vendor_name || &quot;NA&quot;}}&lt;/td&gt;
+          &lt;td nzAlign&#x3D;&quot;center&quot;&gt;{{ item?.veh_type_name  || &quot;NA&quot;}}&lt;/td&gt;
+          &lt;td nzAlign&#x3D;&quot;center&quot;&gt;{{ item?.segment_type  || &quot;NA&quot;}}&lt;/td&gt;
+          &lt;td nzAlign&#x3D;&quot;center&quot;&gt;{{ item?.veh_group_name  || &quot;NA&quot;}}&lt;/td&gt;
+          &lt;td nzAlign&#x3D;&quot;center&quot;&gt;{{ item?.category  || &quot;NA&quot;}}&lt;/td&gt;
+          &lt;td nzAlign&#x3D;&quot;center&quot;&gt;{{ item?.account &amp;&amp; item?.account.name  || &quot;NA&quot;}}&lt;/td&gt;
+          &lt;td nzAlign&#x3D;&quot;center&quot;&gt;{{ item?.created_by_name  || &quot;NA&quot;}}&lt;/td&gt;
+          &lt;td nzAlign&#x3D;&quot;center&quot;&gt;{{ (item?.created_at|date)  || &quot;NA&quot;}}&lt;/td&gt;
+
+
+
+        &lt;/tr&gt;
+        &lt;/tbody&gt;
+      &lt;/nz-table&gt;
+      &lt;!--     vehicle  table convert in card view--&gt;
+    &lt;div *ngIf&#x3D;&quot;innerWidth &lt;&#x3D; 500&quot; class&#x3D;&quot;aggregate&quot;&gt;
+      &lt;div
+        class&#x3D;&quot;head shadow-d1 &quot;
+        *ngFor&#x3D;&quot;let d of receivedData&quot;
+        (click)&#x3D;&quot;selectItem(d)&quot;  [ngClass]&#x3D;&quot;{SelectHighlight :  selectedRowId &amp;&amp; (d?._id &#x3D;&#x3D;&#x3D; selectedRowId)}&quot;&gt;
+        &lt;div class&#x3D;&quot;align&quot;&gt;
+          &lt;div class&#x3D;&quot;grey&quot;&gt;&lt;b&gt;Vehicle No:&lt;/b&gt; {{ d?.vehicle_reg_no || &#x27;NA&#x27;  }}&lt;/div&gt;
+
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;align&quot;&gt;
+          &lt;div class&#x3D;&quot;grey&quot;&gt;&lt;b&gt;Vehicle Status:&lt;/b&gt; {{ d?.status || &#x27;NA&#x27;}}&lt;/div&gt;
+
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;align&quot;&gt;
+          &lt;div class&#x3D;&quot;grey&quot;&gt;&lt;b&gt;Ownership:&lt;/b&gt; {{ d?.ownershipType || &#x27;NA&#x27;}}&lt;/div&gt;
+
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;align&quot;&gt;
+          &lt;div class&#x3D;&quot;grey&quot;&gt;&lt;b&gt;Device IMEI:&lt;/b&gt; {{ d?.device_imei || &#x27;Na&#x27; }}&lt;/div&gt;
+
+        &lt;/div&gt;
+        &lt;div *ngIf&#x3D;&quot;d?.veh_type_name &quot; class&#x3D;&quot;align&quot;&gt;
+          &lt;div class&#x3D;&quot;grey&quot;&gt;&lt;b&gt;Vehicle Type:&lt;/b&gt; {{ d?.veh_type_name || &#x27;Na&#x27; }}&lt;/div&gt;
+
+        &lt;/div&gt;
+&lt;!--          &lt;div class&#x3D;&quot;align&quot;&gt;--&gt;
+&lt;!--            &lt;div class&#x3D;&quot;grey&quot;&gt;&lt;b&gt;Vendor:&lt;/b&gt; {{ d?.vendor_name || &#x27;NA&#x27;}}&lt;/div&gt;--&gt;
+
+&lt;!--          &lt;/div&gt;--&gt;
+
+      &lt;/div&gt;
+  &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./vehicle-list-view.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">@import &#x27;../../../style/globle.scss&#x27;;
+.main-card {
+  /* height: 201px;
+    background: #1890ff;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,.28);
+    padding: 8px; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shadow-d1{
+  box-shadow: 0 1px 6px 1.5px rgba(32,33,36,.28) !important;
+}.cards-container {
+  display: flex;
+  width: 100%;
+  border-radius: 7px;
+  margin-left: 4px;
+  margin-top: 4px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.expense-title {
+  flex: 1;
+  font-size: 1.2rem;
+}
+.cost {
+  flex: 4;
+  word-wrap: break-word;
+  margin: 8px 0;
+}
+// .cost span {
+//     font-weight: 400;
+//     font-size:  0.9rem;
+// }
+// .date-refresh {
+//     font-size: 0.7rem;
+//     align-items: flex-end;
+//     flex: 1;
+// }
+.date-refresh i {
+  margin-right: 8px;
+}
+.bg-icon {
+  font-size: 7rem;
+  position: absolute;
+  height: 120px;
+  bottom: calc(100% - 120px);
+  opacity: 0.1;
+  left: calc(100% - 80px);
+}
+.ins {
+  display: flex;
+}
+.side {
+  margin-left: 5px;
+}
+p {
+  font-weight: bold;
+}
+.makeBold {
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+}
+
+.full-width {
+  width: 100%;
+}
+.add-icon {
+  position: absolute;
+  right: 3px;
+  top: -10px;
+  cursor: pointer;
+}
+.wid {
+  width: 99%;
+  // cursor: pointer;
+}
+.pointer {
+  cursor: pointer;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.aggregate {
+  padding: 6px;
+}
+
+#content {
+  height: 500px;
+  width: 2000px;
+  background-color: coral;
+}
+.shd {
+  background: red;
+}
+
+th{
+  text-transform: uppercase !important;
+  background-color:$tableColor !important;
+  color: white!important;
+  border-color: #000!important;
+  text-align: center!important;
+}
+
+.grey {
+  color: black;
+}
+@page {
+  size: auto;
+  margin: 2mm;
+}
+@media print {
+  html, body {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 720px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-container &gt; div {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  #myDIV {
+    height: 100%;
+    overflow-y: auto;
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="insight">  <div class="insight-head" *ngIf="innerWidth >=500">    <div class="insight-tools"><!--      mobile View-->      <div class="tool" *ngIf="innerWidth<=500">        <div class="mbbtn " nz-tooltip nzTooltipTitle="Add Vehicle" (click)="navigateToAdd()">          <fa-icon icon="plus-square" ></fa-icon>        </div>        <div class="mbbtn "  nz-tooltip nzTooltipTitle="Edit Details" (click)="navigateToEdit()">          <fa-icon icon="edit" ></fa-icon>        </div>        <div *ngIf="!selectedRowId" nz-button class="mbbtn" nz-tooltip nzTooltipTitle="Disable"                (click)="showDeleteConfirm(this.selectedItem.vehicle_reg_no)">          <fa-icon icon="trash" style="color: red"></fa-icon>        </div>        <a #donwload target="_blank"></a>        <div class="mbbtn " nz-tooltip nzTooltipTitle="Download" (click)="downloadReport()">          <fa-icon icon="download" ></fa-icon>        </div>        <div  class="mbbtn " *ngIf="innerWidth <= 500" nz-tooltip nz-button nzTooltipTitle="Show Filters"             type="button" (click)="isMobFilterVisible=isMobFilterVisible?false:true;">          <fa-icon icon="filter"></fa-icon>        </div>      </div><!--      //***********-->      <div class="tool" *ngIf="innerWidth>500">        <button class="my-btn btn-primary" nz-tooltip nzTooltipTitle="Add Vehicle" (click)="navigateToAdd()">          <fa-icon icon="plus-square" style="font-size: 15px;"></fa-icon>        </button>        <button class="my-btn btn-primary"  nz-tooltip nzTooltipTitle="Edit Details" (click)="navigateToEdit()">          <fa-icon icon="edit" style="font-size: 15px;"></fa-icon>        </button>        <button [disabled]="!selectedRowId" nz-button class="my-btn btn-danger shd" nz-tooltip nzTooltipTitle="Disable"                (click)="showDeleteConfirm(this.selectedItem.vehicle_reg_no)">          <fa-icon icon="trash" style="font-size: 15px"></fa-icon>        </button>        <a #donwload target="_blank"></a>        <button class="my-btn btn-primary" nz-tooltip nzTooltipTitle="Download" (click)="downloadReport()">          <fa-icon icon="download" style="font-size: 15px"></fa-icon>        </button>      </div>    </div>  </div>  <div class="insight-description"><!--    for mobile view-->    <div *ngIf="isMobFilterVisible && innerWidth <= 500">      <div>        <div class="flex-cont">          <label></label>          <nz-select [nzDropdownMatchSelectWidth]="false" style="width: 100% " nzPlaceHolder="Search Vehicle"                     [(ngModel)]="filterObj && filterObj.vehicle_reg_no" nzShowSearch (nzOnSearch)="onSearchvehicle($event)" nzServerSearch nzAllowClear>            <nz-option *ngFor="let vehicle of vehicleget"                       nzLabel="{{ vehicle?.vehicle_reg_no}}" [nzValue]="vehicle.vehicle_reg_no">            </nz-option>          </nz-select>        </div>        <div class="flex-cont">          <label></label>          <nz-select [nzDropdownMatchSelectWidth]="false" style="width: 300px" nzPlaceHolder="Search Vendor" style="width: 100% "                     [(ngModel)]="filterObj && filterObj.vendor_id" nzShowSearch (nzOnSearch)="onSearchvender($event)" nzServerSearch nzAllowClear>            <nz-option *ngFor="let vendor of venderget"                       nzLabel="{{ vendor?.name}}" [nzValue]="vendor._id">            </nz-option>          </nz-select>        </div>        <div class="flex-cont">          <label></label>          <nz-select nzShowSearch style="width: 140px" nzPlaceHolder="Ownership Type" style="width: 100% "                     [(ngModel)]="filterObj && filterObj.ownershipType" nzAllowClear>            <nz-option *ngFor="let st of Ownershipfilter" nzLabel="{{ st.name }}" [nzValue]="st.value">            </nz-option>          </nz-select>        </div>      </div>      <div style="margin-top: 5%; margin-bottom:10%">        <button style="width: 48%;color:white;" type="button" class="btn-primary" nz-button                (click)="search();isMobFilterVisible = false;">Search</button>&nbsp;        <button style="width: 48%;color:white;" type="button" class="btn-primary" nz-button                (click)="reset();isMobFilterVisible = false;">Reset</button>      </div>    </div><!--    mobile view end-->    <!-- filters -->    <div class="filters-row" *ngIf="innerWidth>500">      <div class="my-row">        <!--        vehicle search-->        <div class="my-card">          <div class="my-card-header">            <nz-select [nzDropdownMatchSelectWidth]="false" style="width: 300px" nzPlaceHolder="Search Vehicle"                       [(ngModel)]="filterObj && filterObj.vehicle_reg_no" nzShowSearch (nzOnSearch)="onSearchvehicle($event)" nzServerSearch nzAllowClear>              <nz-option *ngFor="let vehicle of vehicleget"                         nzLabel="{{ vehicle?.vehicle_reg_no}}" [nzValue]="vehicle.vehicle_reg_no">              </nz-option>            </nz-select>          </div></div><!--          vendor search-->          <div class="my-card">            <div class="my-card-header">              <nz-select [nzDropdownMatchSelectWidth]="false" style="width: 300px" nzPlaceHolder="Search Vendor"                         [(ngModel)]="filterObj && filterObj.vendor_id" nzShowSearch (nzOnSearch)="onSearchvender($event)" nzServerSearch nzAllowClear>                <nz-option *ngFor="let vendor of venderget"                           nzLabel="{{ vendor?.name}}" [nzValue]="vendor._id">                </nz-option>              </nz-select>            </div>        </div>        <!--        ownership type filter-->        <div class="my-card">          <div class="my-card-header">            <nz-select nzShowSearch style="width: 140px" nzPlaceHolder="Ownership Type"                       [(ngModel)]="filterObj && filterObj.ownershipType" nzAllowClear>              <nz-option *ngFor="let st of Ownershipfilter" nzLabel="{{ st.name }}" [nzValue]="st.value">              </nz-option>            </nz-select>          </div>        </div>        <!--        search-->        <div class="my-card">          <div class="my-card-header">            <button class="my-btn btn-primary" nz-tooltip nzTooltipTitle="Search" (click)="search()">              <fa-icon icon="search" style="font-size: 20px;"></fa-icon>            </button><!--            <button nz-button nzType="primary" class="btn-primary" (click)="search()"><i nz-icon nzType="search"></i></button>-->          </div>        </div>        <div class="my-card">          <div class="my-card-header ">            <button class="my-btn btn-primary" (click)="reset()">              <fa-icon icon="times" style="font-size: 20px"></fa-icon>            </button>          </div>        </div>      </div>    </div>    <div id="myDIV" (scroll)="onScroll()">      <nz-table *ngIf="innerWidth > 500" #nzTable nzBordered [nzShowPagination]="false" [nzData]="receivedData ? receivedData : \'\'"                nzSize="small"  [nzScroll]="{ x: \'2000px\', y: \'50vh\' }" style="overflow-x: auto">        <thead>        <tr>          <th nzWidth="120px" nzAlign="center">vehicle No</th>          <th nzWidth="120px" nzAlign="center">Vehicle Status</th>          <th nzWidth="150px" nzAlign="center">Device IMEI</th>          <th nzWidth="80px" nzAlign="center">Ownership</th>          <th nzWidth="150px" nzAlign="center">Vendor</th>          <th nzWidth="120px" nzAlign="center">Vehicle Type</th>          <th nzWidth="120px" nzAlign="center">Segment</th>          <th nzWidth="120px" nzAlign="center">Vehicle Group</th>          <th nzWidth="120px" nzAlign="center">Vehicle category</th>          <th nzWidth="120px" nzAlign="center">account</th>          <th nzWidth="150px" nzAlign="center">Created by</th>          <th nzWidth="150px" nzAlign="center">Created at</th>        </tr>        </thead>        <tbody>        <tr          style="cursor: pointer"          *ngFor="let item of receivedData"          (click)="selectItem(item)"          [ngClass]="{SelectHighlight :  selectedRowId && (item?._id === selectedRowId)}">          <td nzAlign="center">{{ item?.vehicle_reg_no || "NA"}}</td>          <td nzAlign="center">{{ item?.status  || "NA"}}</td>          <td nzAlign="center">{{ item?.device_imei || "NA"}}</td>          <td nzAlign="center">{{ item?.ownershipType || "NA"}}</td>          <td nzAlign="center">{{ item?.vendor_name || "NA"}}</td>          <td nzAlign="center">{{ item?.veh_type_name  || "NA"}}</td>          <td nzAlign="center">{{ item?.segment_type  || "NA"}}</td>          <td nzAlign="center">{{ item?.veh_group_name  || "NA"}}</td>          <td nzAlign="center">{{ item?.category  || "NA"}}</td>          <td nzAlign="center">{{ item?.account && item?.account.name  || "NA"}}</td>          <td nzAlign="center">{{ item?.created_by_name  || "NA"}}</td>          <td nzAlign="center">{{ (item?.created_at|date)  || "NA"}}</td>        </tr>        </tbody>      </nz-table>      <!--     vehicle  table convert in card view-->    <div *ngIf="innerWidth <= 500" class="aggregate">      <div        class="head shadow-d1 "        *ngFor="let d of receivedData"        (click)="selectItem(d)"  [ngClass]="{SelectHighlight :  selectedRowId && (d?._id === selectedRowId)}">        <div class="align">          <div class="grey"><b>Vehicle No:</b> {{ d?.vehicle_reg_no || \'NA\'  }}</div>        </div>        <div class="align">          <div class="grey"><b>Vehicle Status:</b> {{ d?.status || \'NA\'}}</div>        </div>        <div class="align">          <div class="grey"><b>Ownership:</b> {{ d?.ownershipType || \'NA\'}}</div>        </div>        <div class="align">          <div class="grey"><b>Device IMEI:</b> {{ d?.device_imei || \'Na\' }}</div>        </div>        <div *ngIf="d?.veh_type_name " class="align">          <div class="grey"><b>Vehicle Type:</b> {{ d?.veh_type_name || \'Na\' }}</div>        </div><!--          <div class="align">--><!--            <div class="grey"><b>Vendor:</b> {{ d?.vendor_name || \'NA\'}}</div>--><!--          </div>-->      </div>  </div>    </div>  </div></div></div>'
+    var COMPONENTS = [{'name': 'AddGrPopupComponent', 'selector': 'app-add-gr-popup'},{'name': 'AddInvoicePopupComponent', 'selector': 'app-add-invoice-popup'},{'name': 'AlarmComponent', 'selector': 'app-alarm'},{'name': 'AlarmListViewComponent', 'selector': 'app-alarm-list-view'},{'name': 'AlarmUpsertComponent', 'selector': 'app-alarm-upsert'},{'name': 'AlertListComponent', 'selector': 'app-alert-list'},{'name': 'AlertsComponent', 'selector': 'app-alerts'},{'name': 'AlertsListViewComponent', 'selector': 'app-alerts-list-view'},{'name': 'AnalyticsComponent', 'selector': 'app-analytics'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'BackButtonComponent', 'selector': 'app-back-button'},{'name': 'BillingPartyComponent', 'selector': 'app-billing-party'},{'name': 'BillingPartyDetailViewComponent', 'selector': 'app-billing-party-detail-view'},{'name': 'BillingPartyListViewComponent', 'selector': 'app-billing-party-list-view'},{'name': 'BillingPartyUpsertComponent', 'selector': 'app-billing-party-upsert'},{'name': 'BranchComponent', 'selector': 'app-branch'},{'name': 'BranchDetailViewComponent', 'selector': 'app-branch-detail-view'},{'name': 'BranchListViewComponent', 'selector': 'app-branch-list-view'},{'name': 'BranchUpsertComponent', 'selector': 'app-branch-upsert'},{'name': 'BrokerMemoComponent', 'selector': 'app-broker-memo'},{'name': 'BrokerMemoListViewComponent', 'selector': 'app-broker-memo-list-view'},{'name': 'BrokerMemoUpsertComponent', 'selector': 'app-broker-memo-upsert'},{'name': 'CalibComponent', 'selector': 'app-calib'},{'name': 'CreateTripComponent', 'selector': 'app-create-trip'},{'name': 'CustomerComponent', 'selector': 'app-customer'},{'name': 'CustomerListViewComponent', 'selector': 'app-customer-list-view'},{'name': 'CustomerUpsertComponent', 'selector': 'app-customer-upsert'},{'name': 'DefaultComponent', 'selector': 'app-default'},{'name': 'DemoImagePickerBasicComponent', 'selector': 'demo-image-picker-basic'},{'name': 'DeviceMasterComponent', 'selector': 'app-device-master'},{'name': 'DriverComponent', 'selector': 'app-driver'},{'name': 'DriverDetailViewComponent', 'selector': 'app-driver-detail-view'},{'name': 'DriverListViewComponent', 'selector': 'app-driver-list-view'},{'name': 'DriverUpsertComponent', 'selector': 'app-driver-upsert'},{'name': 'DutyComponent', 'selector': 'app-duty'},{'name': 'DutyListViewComponent', 'selector': 'app-duty-list-view'},{'name': 'DutyUpsertComponent', 'selector': 'app-duty-upsert'},{'name': 'EmptyTripComponent', 'selector': 'app-empty-trip'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'FuelLevelComponent', 'selector': 'app-fuel-level'},{'name': 'GeofenceComponent', 'selector': 'app-geofence'},{'name': 'GeofenceListViewComponent', 'selector': 'app-geofence-list-view'},{'name': 'GeofenceUpsertComponent', 'selector': 'app-geofence-upsert'},{'name': 'GpsReportsComponent', 'selector': 'app-gps-reports'},{'name': 'GrComponent', 'selector': 'app-gr'},{'name': 'GrListViewComponent', 'selector': 'app-gr-list-view'},{'name': 'GrUpsertComponent', 'selector': 'app-gr-upsert'},{'name': 'GrWithoutTripComponent', 'selector': 'app-gr-without-trip'},{'name': 'GrWithoutTripListViewComponent', 'selector': 'app-gr-without-trip-list-view'},{'name': 'GrWithoutTripUpsertComponent', 'selector': 'app-gr-without-trip-upsert'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'HomeComponent', 'selector': 'app-home'},{'name': 'ItineraryComponent', 'selector': 'app-itinerary'},{'name': 'LandmarkComponent', 'selector': 'app-landmark'},{'name': 'LandmarkListViewComponent', 'selector': 'app-landmark-list-view'},{'name': 'LandmarkUpsertComponent', 'selector': 'app-landmark-upsert'},{'name': 'LiveTrackComponent', 'selector': 'app-live-track'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'MapComponent', 'selector': 'app-map'},{'name': 'MapListViewComponent', 'selector': 'app-map-list-view'},{'name': 'MaterialCardDetailViewComponent', 'selector': 'app-material-card-detail-view'},{'name': 'MaterialComponent', 'selector': 'app-material'},{'name': 'MaterialGroupComponent', 'selector': 'app-material-group'},{'name': 'MaterialGroupListViewComponent', 'selector': 'app-material-group-list-view'},{'name': 'MaterialGroupUpsertComponent', 'selector': 'app-material-group-upsert'},{'name': 'MaterialGroupUpsertComponentT', 'selector': 'app-material-group-upsert'},{'name': 'MaterialListViewComponent', 'selector': 'app-material-list-view'},{'name': 'MaterialUpsertComponent', 'selector': 'app-material-upsert'},{'name': 'MilestoneComponent', 'selector': 'app-milestone'},{'name': 'MilestoneViewComponent', 'selector': 'app-milestone-view'},{'name': 'PlaybackComponent', 'selector': 'app-playback'},{'name': 'PlaybackFormComponent', 'selector': 'app-playback-form'},{'name': 'PlaybackListComponent', 'selector': 'app-playback-list'},{'name': 'QrBarcodeComponent', 'selector': 'upload-accordion'},{'name': 'SensorComponent', 'selector': 'app-sensor'},{'name': 'SensorListViewComponent', 'selector': 'app-sensor-list-view'},{'name': 'SensorUpsertComponent', 'selector': 'app-sensor-upsert'},{'name': 'ShareLocationComponent', 'selector': 'app-share-location'},{'name': 'ShareTripComponent', 'selector': 'app-share-trip'},{'name': 'SidebarComponent', 'selector': 'app-sidebar'},{'name': 'TrafficManagerComponent', 'selector': 'app-traffic-manager'},{'name': 'TransportRouteComponent', 'selector': 'app-transport-route'},{'name': 'TransportRouteListViewComponent', 'selector': 'app-transport-route-list-view'},{'name': 'TransportRouteUpsertComponent', 'selector': 'app-transport-route-upsert'},{'name': 'TripDetailsComponent', 'selector': 'app-trip-details'},{'name': 'TripDetailViewComponent', 'selector': 'app-trip-detail-view'},{'name': 'TripGpsComponent', 'selector': 'app-trip-gps'},{'name': 'TripListComponent', 'selector': 'app-trip-list'},{'name': 'TripListViewComponent', 'selector': 'app-trip-list-view'},{'name': 'TripMemoComponent', 'selector': 'app-trip-memo'},{'name': 'TripMemoListViewComponent', 'selector': 'app-trip-memo-list-view'},{'name': 'TripMemoUpsertComponent', 'selector': 'app-trip-memo-upsert'},{'name': 'UpdatePasswordComponent', 'selector': 'app-update-password'},{'name': 'UploadAccordianComponent', 'selector': 'upload-accordion'},{'name': 'UploadComponent', 'selector': 'app-upload'},{'name': 'UploadUtilComponent', 'selector': 'app-upload-util'},{'name': 'VehicleComponent', 'selector': 'app-vehicle'},{'name': 'VehicleDetailViewComponent', 'selector': 'app-vehicle-detail-view'},{'name': 'VehicleListViewComponent', 'selector': 'app-vehicle-list-view'},{'name': 'VehicleUpsertComponent', 'selector': 'app-vehicle-upsert'},{'name': 'VendorComponent', 'selector': 'app-vendor'},{'name': 'VendordealPopupComponent', 'selector': 'app-vendordeal-popup'},{'name': 'VendorListViewComponent', 'selector': 'app-vendor-list-view'},{'name': 'VendorUpsertComponent', 'selector': 'app-vendor-upsert'}];
+    var DIRECTIVES = [{'name': 'AddrSearchDirective', 'selector': '[appAddrSearch]'}];
+    var ACTUAL_COMPONENT = {'name': 'VehicleListViewComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'VehicleListViewComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

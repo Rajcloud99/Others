@@ -1,0 +1,2320 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>LMS-Lite documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">LMS-Lite documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  AddInvoicePopupComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/modules/add-invoice-popup/add-invoice-popup.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-add-invoice-popup</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./add-invoice-popup.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./add-invoice-popup.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#dateFormat" >dateFormat</a>
+                            </li>
+                            <li>
+                                <a href="#formvalidation" >formvalidation</a>
+                            </li>
+                            <li>
+                                <a href="#getmaterialdata" >getmaterialdata</a>
+                            </li>
+                            <li>
+                                <a href="#InvoiceForm" >InvoiceForm</a>
+                            </li>
+                            <li>
+                                <a href="#materialgetunit" >materialgetunit</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#applyRates" >applyRates</a>
+                            </li>
+                            <li>
+                                <a href="#calculateRate" >calculateRate</a>
+                            </li>
+                            <li>
+                                <a href="#calculation" >calculation</a>
+                            </li>
+                            <li>
+                                <a href="#capacitychanges" >capacitychanges</a>
+                            </li>
+                            <li>
+                                <a href="#fetchRateChart" >fetchRateChart</a>
+                            </li>
+                            <li>
+                                <a href="#fillFormdata" >fillFormdata</a>
+                            </li>
+                            <li>
+                                <a href="#formulabasedcalculation" >formulabasedcalculation</a>
+                            </li>
+                            <li>
+                                <a href="#formulachanges" >formulachanges</a>
+                            </li>
+                            <li>
+                                <a href="#getRates" >getRates</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#onsearchMaterial" >onsearchMaterial</a>
+                            </li>
+                            <li>
+                                <a href="#Submit" >Submit</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Inputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#ArrayData" >ArrayData</a>
+                            </li>
+                            <li>
+                                <a href="#grConfigs" >grConfigs</a>
+                            </li>
+                            <li>
+                                <a href="#RategetInfo" >RategetInfo</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+                    <tr>
+                        <td class="col-md-4">
+                            <h6><b>Accessors</b></h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <ul class="index-list">
+                                <li>
+                                    <a href="#S" >S</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(fb: <a href="https://angular.io/api/forms/FormBuilder" target="_blank">FormBuilder</a>, masterService: <a href="../injectables/MasterService.html" target="_self">MasterService</a>, commonService: <a href="../injectables/CommonService.html" target="_self">CommonService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">src/app/modules/add-invoice-popup/add-invoice-popup.component.ts:20</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>fb</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/forms/FormBuilder" target="_blank" >FormBuilder</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>masterService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/MasterService.html" target="_self" >MasterService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>commonService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/CommonService.html" target="_self" >CommonService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    <h3 id="inputs">Inputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="ArrayData"></a>
+                        <b>ArrayData</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/modules/add-invoice-popup/add-invoice-popup.component.ts:14</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="grConfigs"></a>
+                        <b>grConfigs</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/modules/add-invoice-popup/add-invoice-popup.component.ts:13</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="RategetInfo"></a>
+                        <b>RategetInfo</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/modules/add-invoice-popup/add-invoice-popup.component.ts:15</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="applyRates"></a>
+                    <span class="name">
+                        <span ><b>applyRates</b></span>
+                        <a href="#applyRates"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>applyRates(oInvoice: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>, foundRate: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>, baseRate: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="302"
+                            class="link-to-prism">src/app/modules/add-invoice-popup/add-invoice-popup.component.ts:302</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>oInvoice</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>foundRate</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>baseRate</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="calculateRate"></a>
+                    <span class="name">
+                        <span ><b>calculateRate</b></span>
+                        <a href="#calculateRate"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>calculateRate(invoice: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="216"
+                            class="link-to-prism">src/app/modules/add-invoice-popup/add-invoice-popup.component.ts:216</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>invoice</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="calculation"></a>
+                    <span class="name">
+                        <span ><b>calculation</b></span>
+                        <a href="#calculation"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>calculation()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="103"
+                            class="link-to-prism">src/app/modules/add-invoice-popup/add-invoice-popup.component.ts:103</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="capacitychanges"></a>
+                    <span class="name">
+                        <span ><b>capacitychanges</b></span>
+                        <a href="#capacitychanges"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>capacitychanges(item: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="330"
+                            class="link-to-prism">src/app/modules/add-invoice-popup/add-invoice-popup.component.ts:330</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>item</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="fetchRateChart"></a>
+                    <span class="name">
+                        <span ><b>fetchRateChart</b></span>
+                        <a href="#fetchRateChart"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>fetchRateChart(invoice: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="161"
+                            class="link-to-prism">src/app/modules/add-invoice-popup/add-invoice-popup.component.ts:161</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>invoice</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="fillFormdata"></a>
+                    <span class="name">
+                        <span ><b>fillFormdata</b></span>
+                        <a href="#fillFormdata"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>fillFormdata(data: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="109"
+                            class="link-to-prism">src/app/modules/add-invoice-popup/add-invoice-popup.component.ts:109</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>data</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="formulabasedcalculation"></a>
+                    <span class="name">
+                        <span ><b>formulabasedcalculation</b></span>
+                        <a href="#formulabasedcalculation"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>formulabasedcalculation(aFormula: [])</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="395"
+                            class="link-to-prism">src/app/modules/add-invoice-popup/add-invoice-popup.component.ts:395</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                    <td>Default value</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>aFormula</td>
+                                    <td>
+                                            <code>[]</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+                                    <td>
+                                        <code>[]</code>
+                                    </td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="formulachanges"></a>
+                    <span class="name">
+                        <span ><b>formulachanges</b></span>
+                        <a href="#formulachanges"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>formulachanges()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="344"
+                            class="link-to-prism">src/app/modules/add-invoice-popup/add-invoice-popup.component.ts:344</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getRates"></a>
+                    <span class="name">
+                        <span ><b>getRates</b></span>
+                        <a href="#getRates"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getRates(invoice: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="154"
+                            class="link-to-prism">src/app/modules/add-invoice-popup/add-invoice-popup.component.ts:154</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                    <td>Default value</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>invoice</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+                                    <td>
+                                        <code>false</code>
+                                    </td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="29"
+                            class="link-to-prism">src/app/modules/add-invoice-popup/add-invoice-popup.component.ts:29</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onsearchMaterial"></a>
+                    <span class="name">
+                        <span ><b>onsearchMaterial</b></span>
+                        <a href="#onsearchMaterial"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onsearchMaterial(value: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="77"
+                            class="link-to-prism">src/app/modules/add-invoice-popup/add-invoice-popup.component.ts:77</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>value</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="Submit"></a>
+                    <span class="name">
+                        <span ><b>Submit</b></span>
+                        <a href="#Submit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>Submit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="428"
+                            class="link-to-prism">src/app/modules/add-invoice-popup/add-invoice-popup.component.ts:428</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="dateFormat"></a>
+                    <span class="name">
+                        <span ><b>dateFormat</b></span>
+                        <a href="#dateFormat"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;dd/MM/yyyy&#x27;</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">src/app/modules/add-invoice-popup/add-invoice-popup.component.ts:20</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="formvalidation"></a>
+                    <span class="name">
+                        <span ><b>formvalidation</b></span>
+                        <a href="#formvalidation"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>true</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/modules/add-invoice-popup/add-invoice-popup.component.ts:19</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getmaterialdata"></a>
+                    <span class="name">
+                        <span ><b>getmaterialdata</b></span>
+                        <a href="#getmaterialdata"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/modules/add-invoice-popup/add-invoice-popup.component.ts:18</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="InvoiceForm"></a>
+                    <span class="name">
+                        <span ><b>InvoiceForm</b></span>
+                        <a href="#InvoiceForm"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>this.fb.group({
+    showOnBill: [true],
+    material: [null],
+    materialUnit: [null],
+    invoiceNo: [null],
+    invoiceRate: [null],
+    invoiceAmt: [null],
+    invoiceDate: [null],
+    insurRate: [null],
+    insurVal: [null],
+    loadRefNumber: [null],
+    routeDistance: [null],
+    weightPerUnit: [null],
+    capacity: [null],
+    noOfUnits: [null],
+    dummyCapacityObj: [null],
+    billingWeightPerUnit: [null],
+    billingNoOfUnits: [null],
+    rate: [null],
+    billingRate: [null],
+    paymentBasis: [null],
+    freight: [null],
+    baseValueLabel: [null],
+    baseValue: [null],
+    aCapacity: [null],
+    aRateChart: [null],
+    rateChartRate: [null],
+    ref1: [null],
+    ref2: [null],
+    ref3: [null],
+    ref4: [null],
+    ref5: [null],
+    ref6: [null],
+    num1: [null],
+    num2: [null],
+    num3: [null],
+  })</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="40" class="link-to-prism">src/app/modules/add-invoice-popup/add-invoice-popup.component.ts:40</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="materialgetunit"></a>
+                    <span class="name">
+                        <span ><b>materialgetunit</b></span>
+                        <a href="#materialgetunit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/modules/add-invoice-popup/add-invoice-popup.component.ts:17</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="accessors">
+        Accessors
+    </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="S"></a>
+                        <span class="name"><b>S</b><a href="#S"><span class="icon ion-ios-link"></span></a></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <span class="accessor"><b>get</b><code>S()</code></span>
+                    </td>
+                </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="106" class="link-to-prism">src/app/modules/add-invoice-popup/add-invoice-popup.component.ts:106</a></div>
+                                </td>
+                            </tr>
+
+            </tbody>
+        </table>
+</section>
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import {Component, Input, OnInit} from &#x27;@angular/core&#x27;;
+import {FormArray, FormBuilder, Validators} from &quot;@angular/forms&quot;;
+import {MasterService} from &quot;../master.service&quot;;
+import {CommonService} from &quot;../../services/common.service&quot;;
+
+@Component({
+  selector: &#x27;app-add-invoice-popup&#x27;,
+  templateUrl: &#x27;./add-invoice-popup.component.html&#x27;,
+  styleUrls: [&#x27;./add-invoice-popup.component.scss&#x27;]
+})
+export class AddInvoicePopupComponent implements OnInit {
+  // getdata from parent component
+  @Input () grConfigs: any;
+  @Input() ArrayData:any;
+  @Input() RategetInfo:any;
+  // ******************************
+  materialgetunit:any;
+  getmaterialdata:any;
+  formvalidation:boolean &#x3D; true;
+  dateFormat &#x3D; &#x27;dd/MM/yyyy&#x27;; // date format of datepicker
+  constructor(
+    private fb: FormBuilder,
+    private masterService :MasterService,
+    private commonService : CommonService,
+  ) {
+
+  }
+
+  ngOnInit(): void {
+    if(this.ArrayData) {
+      this.fillFormdata(this.ArrayData);
+
+      if (this.ArrayData?.material) {
+        this.getmaterialdata &#x3D; [this.ArrayData?.material];
+        this.materialgetunit &#x3D; [this.ArrayData?.material?.unit[0]]
+      }
+    }
+    this.formulachanges();
+  }
+  InvoiceForm &#x3D; this.fb.group({
+    showOnBill: [true],
+    material: [null],
+    materialUnit: [null],
+    invoiceNo: [null],
+    invoiceRate: [null],
+    invoiceAmt: [null],
+    invoiceDate: [null],
+    insurRate: [null],
+    insurVal: [null],
+    loadRefNumber: [null],
+    routeDistance: [null],
+    weightPerUnit: [null],
+    capacity: [null],
+    noOfUnits: [null],
+    dummyCapacityObj: [null],
+    billingWeightPerUnit: [null],
+    billingNoOfUnits: [null],
+    rate: [null],
+    billingRate: [null],
+    paymentBasis: [null],
+    freight: [null],
+    baseValueLabel: [null],
+    baseValue: [null],
+    aCapacity: [null],
+    aRateChart: [null],
+    rateChartRate: [null],
+    ref1: [null],
+    ref2: [null],
+    ref3: [null],
+    ref4: [null],
+    ref5: [null],
+    ref6: [null],
+    num1: [null],
+    num2: [null],
+    num3: [null],
+  });
+  onsearchMaterial(value:any) {
+    this.getmaterialdata&#x3D;[];
+    if(value){
+      let req &#x3D; {
+        name: value,
+        no_of_docs: 3,
+        skip: 1,
+      };
+      this.masterService.getAllMaterialType(req).subscribe((res: any) &#x3D;&gt; {
+        let mat: any[] &#x3D; [];
+        let unit:any[] &#x3D; [];
+        res.forEach(function(obj:any){
+          obj.groupName &#x3D;obj.name,
+            obj.groupCode &#x3D; obj.code,
+            obj.groupId &#x3D; obj._id,
+            // obj.unit &#x3D; obj.unit
+            mat.push({...obj});
+          unit.push(obj.unit);
+        });
+        this.getmaterialdata &#x3D; mat;
+        this.materialgetunit &#x3D; unit;
+
+
+      });
+    }
+  }
+  calculation(){
+
+  }
+  get S() {
+    return this.InvoiceForm.controls;
+  }
+  fillFormdata(data:any) {
+    if (data) {
+      this.InvoiceForm.patchValue({
+        showOnBill: data &amp;&amp; data.showOnBill || &#x27;&#x27;,
+        material: data &amp;&amp; data.material || &#x27;&#x27;,
+        materialUnit: data &amp;&amp; data.materialUnit || &#x27;&#x27;,
+        invoiceNo: data &amp;&amp; data.invoiceNo || &#x27;&#x27;,
+        invoiceRate: data &amp;&amp; data.invoiceRate || &#x27;&#x27;,
+        invoiceAmt: data &amp;&amp; data.invoiceAmt || &#x27;&#x27;,
+        invoiceDate: data &amp;&amp; data.invoiceDate || &#x27;&#x27;,
+        insurRate: data &amp;&amp; data.insurRate || &#x27;&#x27;,
+        insurVal: data &amp;&amp; data.insurVal || &#x27;&#x27;,
+        loadRefNumber: data &amp;&amp; data.loadRefNumber || &#x27;&#x27;,
+        routeDistance: data &amp;&amp; data.routeDistance || &#x27;&#x27;,
+        weightPerUnit: data &amp;&amp; data.weightPerUnit || &#x27;&#x27;,
+        dummyCapacityObj: data &amp;&amp; data.dummyCapacityObj || &#x27;&#x27;,
+        noOfUnits: data &amp;&amp; data.noOfUnits || &#x27;&#x27;,
+        billingWeightPerUnit: data &amp;&amp; data.billingWeightPerUnit || &#x27;&#x27;,
+        billingNoOfUnits: data &amp;&amp; data.billingNoOfUnits || &#x27;&#x27;,
+        rate: data &amp;&amp; data.rate || &#x27;&#x27;,
+        billingRate: data &amp;&amp; data.billingRate || &#x27;&#x27;,
+        paymentBasis: data &amp;&amp; data.paymentBasis || &#x27;&#x27;,
+        freight: data &amp;&amp; data.freight || &#x27;&#x27;,
+        ref1: data &amp;&amp; data.ref1 || &#x27;&#x27;,
+        ref2: data &amp;&amp; data.ref2 || &#x27;&#x27;,
+        ref3: data &amp;&amp; data.ref3 || &#x27;&#x27;,
+        ref4: data &amp;&amp; data.ref4 || &#x27;&#x27;,
+        ref5: data &amp;&amp; data.ref5 || &#x27;&#x27;,
+        ref6: data &amp;&amp; data.ref6 || &#x27;&#x27;,
+        num1: data &amp;&amp; data.num1 || &#x27;&#x27;,
+        num2: data &amp;&amp; data.num2 || &#x27;&#x27;,
+        num3: data &amp;&amp; data.num3 || &#x27;&#x27;,
+        baseValueLabel:data &amp;&amp; data.baseValueLabel || &#x27;&#x27;,
+        baseValue:data &amp;&amp; data.baseValue || &#x27;&#x27;,
+        capacity:data &amp;&amp; data.capacity || &#x27;&#x27;,
+        rateChartRate:data &amp;&amp; data.rateChartRate || &#x27;&#x27;,
+        aRateChart:data &amp;&amp; data.aRateChart,
+        aCapacity:data &amp;&amp; data.aCapacity,
+      });
+    }
+  }
+
+
+
+  //rate chart data fetch function
+  getRates(invoice:any &#x3D; false){
+    if (!this.RategetInfo.customer || !this.RategetInfo.to || !this.RategetInfo.source || !this.RategetInfo.destination)
+      return;
+    if (invoice) {
+      this.fetchRateChart(invoice);
+    }
+  }
+  fetchRateChart(invoice:any){
+    if (!invoice.material || !invoice.material.groupCode)
+      return;
+    let request:any &#x3D; {};
+
+    if (this.RategetInfo.source)
+      request.source &#x3D; this.RategetInfo.source;
+    if (this.RategetInfo.destination)
+      request.destination &#x3D; this.RategetInfo.destination;
+    if (this.InvoiceForm.value.material?.groupCode)
+      request.materialGroupCode &#x3D; this.InvoiceForm.value.material?.groupCode;
+    if (this.RategetInfo.customer)
+      request.customer &#x3D; this.RategetInfo.customer;
+    if (this.RategetInfo.to)
+      request.to &#x3D; new Date(this.RategetInfo.to).toISOString() || &#x27;&#x27;;
+    this.masterService.GetCustomerRate(request).subscribe((res: any) &#x3D;&gt; {
+      if (res) {
+        //  ********************
+        invoice.aRateChart &#x3D; res || [];
+        (this.InvoiceForm.controls[&#x27;aRateChart&#x27;].patchValue(invoice.aRateChart));
+        invoice.aCapacity &#x3D; [];
+        if (invoice.aRateChart[0] &amp;&amp; invoice.aRateChart[0].baseRate &amp;&amp; invoice.aRateChart[0].baseRate.length) {
+          invoice.aCapacity &#x3D; invoice.aRateChart[0].baseRate.filter((o: { baseVal: any; rate: any; }) &#x3D;&gt; !!(o.baseVal &amp;&amp; o.rate));
+        }
+        if(!invoice.aCapacity.length){
+          invoice.aCapacity &#x3D; invoice.aRateChart.map((o: { rate: any; baseValue: any; baseValueLabel: any; }) &#x3D;&gt; ({
+            rate: o.rate,
+            baseVal: o.baseValue,
+            label: o.baseValueLabel
+          })).filter((o: { baseVal: any; }) &#x3D;&gt; !!o.baseVal);
+        }
+
+        if (invoice.aRateChart.length &#x3D;&#x3D;&#x3D; 0) {
+          invoice.aCapacity &#x3D; this.grConfigs.capacity.aValue &amp;&amp; this.grConfigs.capacity.aValue.map((o: any) &#x3D;&gt; ({
+            rate: invoice.rate || 0,
+            baseVal: 0,
+            label: o
+          })) || {};
+
+        }
+
+        if (invoice.aCapacity.length &amp;&amp; !(invoice.dummyCapacityObj &amp;&amp; invoice.dummyCapacityObj.label)) {
+          // invoice.dummyCapacityObj &#x3D; [];
+          invoice.dummyCapacityObj &#x3D; invoice.aCapacity[0];
+          (this.InvoiceForm.controls[&#x27;dummyCapacityObj&#x27;].patchValue(invoice.dummyCapacityObj));
+
+        }
+        if(invoice.aCapacity.length){
+          (this.InvoiceForm.controls[&#x27;aCapacity&#x27;].patchValue(invoice.aCapacity));
+        }
+        this.calculateRate(invoice);
+      }
+    });
+  }
+  //some calculation  when rate chart data fetch
+  calculateRate(invoice:any):any {
+
+    if (invoice.dummyCapacityObj) {
+      invoice.baseValueLabel &#x3D; invoice.dummyCapacityObj.label;
+      invoice.capacity &#x3D; invoice.dummyCapacityObj.baseVal || 0;
+      (this.InvoiceForm.controls[&#x27;capacity&#x27;].patchValue(invoice.capacity));
+    }
+
+    if (!invoice.aRateChart)
+      return;
+
+    let baseValToCheck:any;
+
+    try {
+      if (this.grConfigs.capacity.visible)
+        baseValToCheck &#x3D; invoice.capacity;
+      else
+        baseValToCheck &#x3D; invoice.noOfUnits || 0;
+
+    } catch (e) {
+      baseValToCheck &#x3D; invoice.noOfUnits || 0;
+    }
+
+    if (typeof baseValToCheck &#x3D;&#x3D;&#x3D; &#x27;undefined&#x27;)
+      return false;
+
+    let aRateChart &#x3D; invoice.aRateChart || [];
+    let foundRateChart:any;
+    let foundRate:any;
+
+    aRateChart.find((rateChart: { baseRate: any[]; baseValue: number; rate: any; baseValueLabel: any; }) &#x3D;&gt; {
+
+      if (!Array.isArray(rateChart.baseRate) || !rateChart.baseRate.length) {
+
+        if (baseValToCheck &lt;&#x3D; rateChart.baseValue) {
+          foundRate &#x3D; {
+            baseVal: rateChart.baseValue,
+            rate: rateChart.rate,
+            baseValLabel: rateChart.baseValueLabel
+          };
+        }
+
+      } else {
+        foundRate &#x3D; rateChart.baseRate.find((oRate: { baseVal: number; rate: any; }) &#x3D;&gt; {
+          if (baseValToCheck &lt;&#x3D; oRate.baseVal &amp;&amp; oRate.rate)
+            return true;
+          return false
+        });
+      }
+
+      if(!foundRate){
+        if (baseValToCheck &lt;&#x3D; rateChart.baseValue) {
+          foundRate &#x3D; {
+            baseVal: rateChart.baseValue,
+            rate: rateChart.rate,
+            baseValLabel: rateChart.baseValueLabel
+          };
+        }
+      }
+
+      if (!foundRate)
+        return false;
+
+      foundRateChart &#x3D; rateChart;
+      return true
+    });
+
+    if (!foundRateChart &amp;&amp; !foundRate &amp;&amp; aRateChart[0]) {
+      foundRateChart &#x3D; aRateChart.slice(-1)[0];
+
+      if (Array.isArray(foundRateChart.baseRate) &amp;&amp; foundRateChart.baseRate.length)
+        foundRate &#x3D; foundRateChart.baseRate.slice(-1)[0];
+      else {
+        foundRate &#x3D; {
+          baseVal: foundRateChart.baseValue,
+          rate: foundRateChart.rate,
+          baseValLabel: foundRateChart.baseValueLabel
+        };
+      }
+
+    }
+
+    if (invoice &amp;&amp; foundRateChart &amp;&amp; foundRate)
+      this.applyRates(invoice,foundRateChart,foundRate);
+  }
+  // Apply rate   when rate chart data fetch from server
+  applyRates(oInvoice:any, foundRate:any, baseRate:any) {
+
+    if (baseRate?.baseVal)
+      (this.InvoiceForm.controls[&#x27;baseValue&#x27;].patchValue(baseRate.baseVal));
+
+    if (baseRate?.baseValLabel)
+      (this.InvoiceForm.controls[&#x27;baseValueLabel&#x27;].patchValue(baseRate.baseValLabel));
+
+    if (baseRate?.rate)
+      (this.InvoiceForm.controls[&#x27;rate&#x27;].patchValue(baseRate.rate));
+      (this.InvoiceForm.controls[&#x27;rateChartRate&#x27;].patchValue( baseRate.rate));
+
+    if (foundRate?.routeDistance)
+      (this.InvoiceForm.controls[&#x27;routeDistance&#x27;].patchValue(foundRate.routeDistance));
+
+    if (foundRate?.invoiceRate)
+      (this.InvoiceForm.controls[&#x27;invoiceRate&#x27;].patchValue(foundRate.invoiceRate));
+
+    if (foundRate?.insurRate)
+      (this.InvoiceForm.controls[&#x27;insurRate&#x27;].patchValue(foundRate.insurRate));
+
+    if (foundRate?.paymentBasis)
+    (this.InvoiceForm.controls[&#x27;paymentBasis&#x27;].patchValue(foundRate.paymentBasis));
+    this.formulachanges();
+  }
+  // **********Rate chart end
+
+  //rate update when capicity change
+  capacitychanges(item:any){
+    if(item &amp;&amp; item.label){
+      (this.InvoiceForm.controls[&#x27;rate&#x27;].patchValue(item?.rate));
+      (this.InvoiceForm.controls[&#x27;rateChartRate&#x27;].patchValue( item?.rate));
+      (this.InvoiceForm.controls[&#x27;baseValueLabel&#x27;].patchValue(item?.label));
+      (this.InvoiceForm.controls[&#x27;baseValue&#x27;].patchValue(item?.baseVal));
+      (this.InvoiceForm.controls[&#x27;capacity&#x27;].patchValue(item?.baseVal));
+      this.formulachanges();
+    }
+
+  }
+  //rate update when capicity change function end
+
+//formula based calculation start
+  formulachanges(){
+    if(this.grConfigs?.invoiceRate?.evalExp){
+      this.InvoiceForm.controls[&#x27;invoiceRate&#x27;].patchValue(this.formulabasedcalculation(this.grConfigs.invoiceRate.evalExp));
+    }
+    if(this.grConfigs?.invoiceAmt?.evalExp){
+      this.InvoiceForm.controls[&#x27;invoiceAmt&#x27;].patchValue(this.formulabasedcalculation(this.grConfigs.invoiceAmt.evalExp));
+    }
+    if(this.grConfigs?.insurVal?.evalExp){
+      this.InvoiceForm.controls[&#x27;insurVal&#x27;].patchValue(this.formulabasedcalculation(this.grConfigs.insurVal.evalExp));
+    }
+    if(this.grConfigs?.insurRate?.evalExp){
+      this.InvoiceForm.controls[&#x27;insurRate&#x27;].patchValue(this.formulabasedcalculation(this.grConfigs.insurRate.evalExp));
+    }
+    if(this.grConfigs?.routeDistance?.evalExp){
+      this.InvoiceForm.controls[&#x27;routeDistance&#x27;].patchValue(this.formulabasedcalculation(this.grConfigs.routeDistance.evalExp));
+    }
+    if(this.grConfigs?.weightPerUnit?.evalExp){
+      this.InvoiceForm.controls[&#x27;weightPerUnit&#x27;].patchValue(this.formulabasedcalculation(this.grConfigs.weightPerUnit.evalExp));
+    }
+    if(this.grConfigs?.noOfUnits?.evalExp){
+      this.InvoiceForm.controls[&#x27;noOfUnits&#x27;].patchValue(this.formulabasedcalculation(this.grConfigs.noOfUnits.evalExp));
+    }
+    if(this.grConfigs?.billingWeightPerUnit?.evalExp){
+      this.InvoiceForm.controls[&#x27;billingWeightPerUnit&#x27;].patchValue(this.formulabasedcalculation(this.grConfigs.billingWeightPerUnit.evalExp));
+    }
+    if(this.grConfigs?.billingNoOfUnits?.evalExp){
+      this.InvoiceForm.controls[&#x27;billingNoOfUnits&#x27;].patchValue(this.formulabasedcalculation(this.grConfigs.billingNoOfUnits.evalExp));
+    }
+    if(this.grConfigs?.rate?.evalExp){
+      this.InvoiceForm.controls[&#x27;rate&#x27;].patchValue(this.formulabasedcalculation(this.grConfigs.freight.rate));
+    }
+    if(this.grConfigs?.billingRate?.evalExp){
+      this.InvoiceForm.controls[&#x27;billingRate&#x27;].patchValue(this.formulabasedcalculation(this.grConfigs.billingRate.evalExp));
+    }
+    //freight calculate
+    if(this.grConfigs?.freight?.evalExp){
+      this.InvoiceForm.controls[&#x27;freight&#x27;].patchValue(this.formulabasedcalculation(this.grConfigs.freight.evalExp));
+    } else{
+      this.InvoiceForm.controls[&#x27;freight&#x27;].patchValue(this.InvoiceForm.value?.rate || 0);
+    }
+    if(this.grConfigs?.num1?.evalExp){
+      this.InvoiceForm.controls[&#x27;num1&#x27;].patchValue(this.formulabasedcalculation(this.grConfigs.num1.evalExp));
+    }
+    if(this.grConfigs?.num2?.evalExp){
+      this.InvoiceForm.controls[&#x27;num2&#x27;].patchValue(this.formulabasedcalculation(this.grConfigs.num2.evalExp));
+    }
+    if(this.grConfigs?.num3?.evalExp){
+      this.InvoiceForm.controls[&#x27;num3&#x27;].patchValue(this.formulabasedcalculation(this.grConfigs.num3.evalExp));
+    }
+  }
+//formula based calculation main formula converter
+  formulabasedcalculation(aFormula&#x3D;[]): any {
+      let str &#x3D; &#x27;&#x27;,
+        index&#x3D;-1;
+
+      aFormula.forEach( (s: any | any[]) &#x3D;&gt; {
+        let temp;
+
+        if(s &#x3D;&#x3D;&#x3D; &#x27;+&#x27; || s &#x3D;&#x3D;&#x3D; &#x27;*&#x27; || s &#x3D;&#x3D;&#x3D; &#x27;/&#x27; || s &#x3D;&#x3D;&#x3D;&#x27;-&#x27; || s &#x3D;&#x3D;&#x3D; &#x27;(&#x27; || s &#x3D;&#x3D;&#x3D; &#x27;)&#x27;) {
+          str +&#x3D; s;
+        }else if(typeof s &#x3D;&#x3D;&#x3D; &#x27;number&#x27;) {
+          str +&#x3D; s;
+        }else if((index &#x3D; s.indexOf(&#x27;(RC)&#x27;))+1){
+          let key:any &#x3D; s.slice(0, index);
+          str +&#x3D; (this.InvoiceForm.value[&#x27;rateChart&#x27; + key[0].toUpperCase() + key.slice(1)] || this.InvoiceForm.value[key]);
+        }else {
+          temp &#x3D; &#x27;this.InvoiceForm.value&#x27;;
+          if (temp) {
+            str +&#x3D; temp+&#x27;.&#x27;+&#x60;${s}&#x60;;
+          }
+        }
+      });
+
+      try {
+        return eval(str);
+      }
+      catch (e) {
+        return 0;
+        console.log(e);
+      }
+    }
+
+
+//    submit button
+  Submit(){
+    this.formvalidation &#x3D; true;
+   if(this.grConfigs?.materialName?.req){
+    if(!this.InvoiceForm.value.material){
+      this.commonService.error((this.grConfigs?.materialName?.label || &#x27;Matrial&#x27;)+&#x27; is mandatory &#x27;);
+      this.formvalidation &#x3D;false;
+      return;
+    }
+   }
+   if(this.grConfigs?.materialUnit?.req){
+       if(!this.InvoiceForm.value.materialUnit){
+         this.commonService.error((this.grConfigs?.materialUnit?.label || &#x27;MATERIAL UNIT&#x27;)+&#x27; is mandatory &#x27;);
+         this.formvalidation &#x3D;false;
+         return;
+       }
+     }
+   if(this.grConfigs?.invoiceNo?.req) {
+     if (!this.InvoiceForm.value.invoiceNo) {
+       this.commonService.error((this.grConfigs?.invoiceNo?.label || &#x27;INVOICE NO.&#x27;) + &#x27; is mandatory &#x27;);
+       this.formvalidation &#x3D; false;
+       return;
+     }
+   }
+   if(this.grConfigs?.invoiceRate?.req) {
+     if (!this.InvoiceForm.value.invoiceRate) {
+       this.commonService.error((this.grConfigs?.invoiceRate?.label || &#x27;INVOICE Rate&#x27;) + &#x27; is mandatory &#x27;);
+       this.formvalidation &#x3D; false;
+       return;
+     }
+   }
+   if(this.grConfigs?.invoiceAmt?.req) {
+     if (!this.InvoiceForm.value.invoiceAmt) {
+       this.commonService.error((this.grConfigs?.invoiceAmt?.label || &#x27;INVOICE AMOUNT&#x27;) + &#x27; is mandatory &#x27;);
+       this.formvalidation &#x3D; false;
+       return;
+     }
+   }
+   if(this.grConfigs?.invoiceDate?.req) {
+     if (!this.InvoiceForm.value.invoiceDate) {
+       this.commonService.error((this.grConfigs?.invoiceDate?.label || &#x27;INVOICE DATE&#x27;) + &#x27; is mandatory &#x27;);
+       this.formvalidation &#x3D; false;
+       return;
+     }
+   }
+   if(this.grConfigs?.insurVal?.req) {
+     if (!this.InvoiceForm.value.insurVal) {
+       this.commonService.error((this.grConfigs?.insurVal?.label || &#x27;Insurance Value&#x27;) + &#x27; is mandatory &#x27;);
+       this.formvalidation &#x3D; false;
+       return;
+     }
+   }
+   if(this.grConfigs?.loadRefNumber?.req) {
+     if (!this.InvoiceForm.value.loadRefNumber) {
+       this.commonService.error((this.grConfigs?.loadRefNumber?.label || &#x27;LOAD REF. NUMBER&#x27;) + &#x27; is mandatory &#x27;);
+       this.formvalidation &#x3D; false;
+       return;
+     }
+   }
+   if(this.grConfigs?.routeDistance?.req) {
+     if (!this.InvoiceForm.value.routeDistance) {
+       this.commonService.error((this.grConfigs?.routeDistance?.label || &#x27;KM&#x27;) + &#x27; is mandatory &#x27;);
+       this.formvalidation &#x3D; false;
+       return;
+     }
+   }
+   if(this.grConfigs?.weightPerUnit?.req) {
+     if (!this.InvoiceForm.value.weightPerUnit) {
+       this.commonService.error((this.grConfigs?.weightPerUnit?.label || &#x27;ACTUAL WEIGHT PER UNIT&#x27;) + &#x27; is mandatory &#x27;);
+       this.formvalidation &#x3D; false;
+       return;
+     }
+   }
+   // else if(this.grConfigs?.capacity?.visible) {
+   //   if (!this.InvoiceForm.value.capacity) {
+   //     this.commonService.error((this.grConfigs?.capacity?.label || &#x27;CAPACITY&#x27;) + &#x27; is mandatory &#x27;);
+   //     this.formvalidation &#x3D; false;
+   //     return;
+   //   }
+   // }
+    if(this.grConfigs?.noOfUnits?.req) {
+     if (!this.InvoiceForm.value.noOfUnits) {
+       this.commonService.error((this.grConfigs?.noOfUnits?.label || &#x27;Actual Unit&#x27;) + &#x27; is mandatory &#x27;);
+       this.formvalidation &#x3D; false;
+       return;
+     }
+   }
+    if(this.grConfigs?.billingWeightPerUnit?.req) {
+     if (!this.InvoiceForm.value.billingWeightPerUnit) {
+       this.commonService.error((this.grConfigs?.billingWeightPerUnit?.label || &#x27;BILLING WEIGHT PER UNIT&#x27;) + &#x27; is mandatory &#x27;);
+       this.formvalidation &#x3D; false;
+       return;
+     }
+   }
+    if(this.grConfigs?.billingNoOfUnits?.req) {
+     if (!this.InvoiceForm.value.billingNoOfUnits) {
+       this.commonService.error((this.grConfigs?.billingNoOfUnits?.label || &#x27;Billing Unit&#x27;) + &#x27; is mandatory &#x27;);
+       this.formvalidation &#x3D; false;
+       return;
+     }
+   }
+    if(this.grConfigs?.rate?.req) {
+     if (!this.InvoiceForm.value.rate) {
+       this.commonService.error((this.grConfigs?.rate?.label || &#x27;RATE&#x27;) + &#x27; is mandatory &#x27;);
+       this.formvalidation &#x3D; false;
+       return;
+     }
+   }
+    if(this.grConfigs?.billingRate?.req) {
+     if (!this.InvoiceForm.value.billingRate) {
+       this.commonService.error((this.grConfigs?.billingRate?.label || &#x27;Billing Rate&#x27;) + &#x27; is mandatory &#x27;);
+       this.formvalidation &#x3D; false;
+       return;
+     }
+   }
+    if(this.grConfigs?.freight?.req) {
+     if (!this.InvoiceForm.value.freight) {
+       this.commonService.error((this.grConfigs?.freight?.label || &#x27;FREIGHT&#x27;) + &#x27; is mandatory &#x27;);
+       this.formvalidation &#x3D; false;
+       return;
+     }
+   }else if(this.grConfigs?.ref1?.req) {
+     if (!this.InvoiceForm.value.ref1) {
+       this.commonService.error((this.grConfigs?.ref1?.label || &#x27;Item Ref 1&#x27;) + &#x27; is mandatory &#x27;);
+       this.formvalidation &#x3D; false;
+       return;
+     }
+   }
+    if(this.grConfigs?.ref2?.req) {
+     if (!this.InvoiceForm.value.ref2) {
+       this.commonService.error((this.grConfigs?.ref2?.label || &#x27;Item Ref 2&#x27;) + &#x27; is mandatory &#x27;);
+       this.formvalidation &#x3D; false;
+       return;
+     }
+   }
+    if(this.grConfigs?.ref3?.req) {
+     if (!this.InvoiceForm.value.ref3) {
+       this.commonService.error((this.grConfigs?.ref3?.label || &#x27;Item Ref 3&#x27;) + &#x27; is mandatory &#x27;);
+       this.formvalidation &#x3D; false;
+       return;
+     }
+   }
+    if(this.grConfigs?.ref4?.req) {
+     if (!this.InvoiceForm.value.ref4) {
+       this.commonService.error((this.grConfigs?.ref4?.label || &#x27;Item Ref 4&#x27;) + &#x27; is mandatory &#x27;);
+       this.formvalidation &#x3D; false;
+       return;
+     }
+   }
+    if(this.grConfigs?.ref5?.req) {
+     if (!this.InvoiceForm.value.ref5) {
+       this.commonService.error((this.grConfigs?.ref5?.label || &#x27;Item Ref 5&#x27;) + &#x27; is mandatory &#x27;);
+       this.formvalidation &#x3D; false;
+       return;
+     }
+   }
+    if(this.grConfigs?.ref6?.req) {
+     if (!this.InvoiceForm.value.ref6) {
+       this.commonService.error((this.grConfigs?.ref6?.label || &#x27;Item Ref 6&#x27;) + &#x27; is mandatory &#x27;);
+       this.formvalidation &#x3D; false;
+       return;
+     }
+   }
+    if(this.grConfigs?.num1?.req) {
+     if (!this.InvoiceForm.value.num1) {
+       this.commonService.error((this.grConfigs?.num1?.label || &#x27;Num1&#x27;) + &#x27; is mandatory &#x27;);
+       this.formvalidation &#x3D; false;
+       return;
+     }
+   }
+    if(this.grConfigs?.num2?.req) {
+     if (!this.InvoiceForm.value.num2) {
+       this.commonService.error((this.grConfigs?.num2?.label || &#x27;Num2&#x27;) + &#x27; is mandatory &#x27;);
+       this.formvalidation &#x3D; false;
+       return;
+     }
+   }
+    if(this.grConfigs?.num3?.req) {
+     if (!this.InvoiceForm.value.num3) {
+       this.commonService.error((this.grConfigs?.num3?.label || &#x27;Num3&#x27;) + &#x27; is mandatory &#x27;);
+       this.formvalidation &#x3D; false;
+       return;
+     }
+   }
+
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;insight&quot;&gt;
+  &lt;div class&#x3D;&quot;insight-head&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class&#x3D;&quot;insight-description&quot;&gt;
+    &lt;form nz-form [formGroup]&#x3D;&quot;InvoiceForm&quot; (ngSubmit)&#x3D;&quot;Submit()&quot;&gt;
+      &lt;div&gt;
+        &lt;div  class&#x3D;&quot;flex-container&quot;&gt;
+
+          &lt;div  *ngIf&#x3D;&quot;grConfigs?.materialName?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt;{{grConfigs?.materialName?.label || &#x27;MATERIAL&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.materialName?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+            &lt;nz-form-control nzErrorTip&#x3D;&quot;Search Material Name&quot;&gt;
+              &lt;nz-select style&#x3D;&quot;width:100%&quot; [nzDisabled]&#x3D;&quot;!grConfigs?.materialName?.editable&quot; [nzDropdownMatchSelectWidth]&#x3D;&quot;false&quot;
+                         nzPlaceHolder&#x3D;&quot;{{grConfigs?.materialName?.label || &#x27;Material&#x27;}}&quot; formControlName&#x3D;&quot;material&quot;
+                         nzShowSearch  (nzOnSearch)&#x3D;&quot;onsearchMaterial($event)&quot; (ngModelChange)&#x3D;&quot;getRates(InvoiceForm.value);&quot; nzServerSearch nzAllowClear&gt;
+                &lt;nz-option *ngFor&#x3D;&quot;let materialName of getmaterialdata&quot; nzLabel&#x3D;&quot;{{materialName?.groupName +&#x27;(&#x27;+materialName?.groupCode +&#x27;)&#x27;}}&quot;
+                           [nzValue]&#x3D;&quot;materialName&quot;&gt; &lt;/nz-option&gt;
+              &lt;/nz-select&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+          &lt;div  *ngIf&#x3D;&quot;grConfigs?.materialUnit?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt;{{grConfigs?.materialUnit?.label || &#x27;MATERIAL UNIT&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.materialUnit?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+            &lt;nz-form-control nzErrorTip&#x3D;&quot;Search Material Unit&quot;&gt;
+              &lt;nz-select [nzDisabled]&#x3D;&quot;!grConfigs?.materialUnit?.editable&quot; [nzDropdownMatchSelectWidth]&#x3D;&quot;false&quot;
+                         nzPlaceHolder&#x3D;&quot;{{grConfigs?.materialUnit?.label || &#x27;MATERIAL UNIT&#x27;}}&quot;formControlName&#x3D;&quot;materialUnit&quot;
+                         style&#x3D;&quot;width:100%&quot; nzShowSearch nzServerSearch
+                         nzAllowClear&gt;
+                &lt;nz-option *ngFor&#x3D;&quot;let unit of materialgetunit&quot; nzLabel&#x3D;&quot;{{ unit}}&quot;
+                           [nzValue]&#x3D;&quot;unit&quot;&gt; &lt;/nz-option&gt;
+              &lt;/nz-select&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+
+          &lt;div  *ngIf&#x3D;&quot;grConfigs?.invoiceNo?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt;{{grConfigs?.invoiceNo?.label || &#x27;INVOICE NO.&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.invoiceNo?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+            &lt;nz-form-control&gt;
+              &lt;input [readonly]&#x3D;&quot;!grConfigs?.invoiceNo?.editable&quot; nz-input name&#x3D;&quot;invoiceNo&quot;  autocomplete&#x3D;&quot;off&quot;
+                     formControlName&#x3D;&quot;invoiceNo&quot;
+                     placeholder&#x3D;&quot;{{grConfigs?.invoiceNo?.label || &#x27;INVOICE NO.&#x27;}}&quot;&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+
+          &lt;div   *ngIf&#x3D;&quot;grConfigs?.invoiceRate?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt; {{grConfigs?.invoiceRate?.label || &#x27;INVOICE Rate&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.invoiceRate?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+            &lt;nz-form-control&gt; &lt;input (change) &#x3D; formulachanges(); [readonly]&#x3D;&quot;!grConfigs?.invoiceRate?.editable || grConfigs?.invoiceRate?.evalExp&quot; autocomplete&#x3D;&quot;off&quot; name&#x3D;&quot;invoiceRate&quot; type&#x3D;&#x27;number&#x27; nz-input
+                                     id&#x3D;&quot;invoiceRate&quot; formControlName&#x3D;&quot;invoiceRate&quot;
+                                     placeholder&#x3D;&quot;{{grConfigs?.invoiceRate?.label || &#x27;INVOICE Rate&#x27;}}&quot;&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+
+          &lt;div  *ngIf&#x3D;&quot;grConfigs?.invoiceAmt?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt;{{grConfigs?.invoiceAmt?.label || &#x27;INVOICE AMOUNT&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.invoiceAmt?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+            &lt;nz-form-control&gt; &lt;input (change) &#x3D; formulachanges(); [readonly]&#x3D;&quot;!grConfigs?.invoiceAmt?.editable || grConfigs?.invoiceAmt?.evalExp&quot; type&#x3D;&#x27;number&#x27; autocomplete&#x3D;&quot;off&quot; name&#x3D;&quot;invoiceAmt&quot;  nz-input
+                                     id&#x3D;&quot;invoiceAmt&quot; formControlName&#x3D;&quot;invoiceAmt&quot;
+                                     placeholder&#x3D;&quot;{{grConfigs?.invoiceAmt?.label || &#x27;INVOICE AMOUNT&#x27;}}&quot;&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+
+          &lt;div  *ngIf&#x3D;&quot;grConfigs?.invoiceDate?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt;{{grConfigs?.invoiceDate?.label || &#x27;INVOICE DATE&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.invoiceDate?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+            &lt;nz-form-control&gt;
+              &lt;nz-date-picker  style&#x3D;&quot;width:100%&quot; id&#x3D;&quot;invoiceDate&quot; [nzDisabled]&#x3D;&quot;!grConfigs.invoiceDate.editable&quot;  autocomplete&#x3D;&quot;off&quot;
+                              nzPlaceHolder&#x3D;&quot;{{grConfigs?.invoiceDate?.label || &#x27;INVOICE DATE&#x27;}}&quot;
+                              formControlName&#x3D;&quot;invoiceDate&quot; [nzFormat]&#x3D;&quot;dateFormat&quot;&gt;
+              &lt;/nz-date-picker&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+
+          &lt;div  *ngIf&#x3D;&quot;grConfigs?.insurVal?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt;{{grConfigs?.insurVal?.label || &#x27;Insurance Value&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.insurVal?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+            &lt;nz-form-control&gt; &lt;input (change) &#x3D; formulachanges(); [readonly]&#x3D;&quot;!grConfigs?.insurVal?.editable || grConfigs?.insurVal?.evalExp&quot; autocomplete&#x3D;&quot;off&quot;  name&#x3D;&quot;insurVal&quot; nz-input
+                                     id&#x3D;&quot;insurVal&quot; formControlName&#x3D;&quot;insurVal&quot;
+                                     placeholder&#x3D;&quot;{{grConfigs?.insurVal?.label || &#x27;Insurance Value&#x27;}}&quot;&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+
+          &lt;div  *ngIf&#x3D;&quot;grConfigs?.loadRefNumber?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt; {{grConfigs?.loadRefNumber?.label || &#x27;LOAD REF. NUMBER&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.loadRefNumber?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+            &lt;nz-form-control&gt;
+              &lt;input [readonly]&#x3D;&quot;!grConfigs?.loadRefNumber?.editable&quot; nz-input name&#x3D;&quot;loadRefNumber&quot;  autocomplete&#x3D;&quot;off&quot;
+                    formControlName&#x3D;&quot;loadRefNumber&quot;
+                     placeholder&#x3D;&quot;{{grConfigs?.loadRefNumber?.label || &#x27;Load Ref No.&#x27;}}&quot;&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+
+          &lt;div  *ngIf&#x3D;&quot;grConfigs?.routeDistance?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt; {{grConfigs?.routeDistance?.label || &#x27;KM&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.routeDistance?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+            &lt;nz-form-control&gt; &lt;input (change) &#x3D; formulachanges(); [readonly]&#x3D;&quot;!grConfigs?.routeDistance?.editable || grConfigs?.routeDistance?.evalExp&quot; type&#x3D;&#x27;number&#x27; autocomplete&#x3D;&quot;off&quot;
+                                     formControlName&#x3D;&quot;routeDistance&quot; id&#x3D;&quot;routeDistance&quot; name&#x3D;&quot;routeDistance&quot; nz-input
+                                     placeholder&#x3D;&quot;{{grConfigs?.routeDistance?.label || &#x27;KM&#x27;}}&quot;&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+
+          &lt;div  *ngIf&#x3D;&quot;grConfigs?.weightPerUnit?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt;{{grConfigs?.weightPerUnit?.label || &#x27;ACTUAL WEIGHT PER UNIT&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.weightPerUnit?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+            &lt;nz-form-control&gt; &lt;input (change) &#x3D; formulachanges(); [readonly]&#x3D;&quot;!grConfigs?.weightPerUnit?.editable || grConfigs?.weightPerUnit?.evalExp&quot;  type&#x3D;&#x27;number&#x27; autocomplete&#x3D;&quot;off&quot; nz-input
+                                     name&#x3D;&quot;weightPerUnit&quot; id&#x3D;&quot;weightPerUnit&quot; formControlName&#x3D;&quot;weightPerUnit&quot;
+                                     placeholder&#x3D;&quot;{{grConfigs?.weightPerUnit?.label || &#x27;ACTUAL WEIGHT PER UNIT&#x27;}}&quot;&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+
+          &lt;div  *ngIf&#x3D;&quot;grConfigs?.capacity?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt;{{grConfigs?.capacity?.label || &#x27;CAPACITY&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.capacity?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+            &lt;nz-form-control&gt;
+              &lt;nz-select [nzDisabled]&#x3D;&quot;!grConfigs?.capacity?.editable&quot; [nzDropdownMatchSelectWidth]&#x3D;&quot;false&quot; [required]&#x3D;&quot;grConfigs?.capacity?.req&quot;
+                         (ngModelChange)&#x3D;&quot;capacitychanges(InvoiceForm.controls[&#x27;dummyCapacityObj&#x27;].value)&quot;  formControlName&#x3D;&quot;dummyCapacityObj&quot; nzPlaceHolder&#x3D;&quot;{{grConfigs?.capacity?.label || &#x27;CAPACITY&#x27;}}&quot;
+                         style&#x3D;&quot;width:100%&quot; nzShowSearch nzServerSearch
+                         nzAllowClear&gt;
+                &lt;nz-option *ngFor&#x3D;&quot;let unit of InvoiceForm.value.aCapacity &quot; nzLabel&#x3D;&quot;{{ unit?.label}}&quot;
+                           [nzValue]&#x3D;&quot;unit&quot;&gt; &lt;/nz-option&gt;
+              &lt;/nz-select&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+
+          &lt;div  *ngIf&#x3D;&quot;grConfigs?.noOfUnits?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt;{{grConfigs?.noOfUnits?.label || &#x27;Actual Unit&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.noOfUnits?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+            &lt;nz-form-control&gt; &lt;input (change) &#x3D; formulachanges();  [readonly]&#x3D;&quot;!grConfigs?.noOfUnits?.editable || grConfigs?.noOfUnits?.evalExp&quot; autocomplete&#x3D;&quot;off&quot; type&#x3D;&#x27;number&#x27;  name&#x3D;&quot;noOfUnits&quot; nz-input
+                                     id&#x3D;&quot;noOfUnits&quot; formControlName&#x3D;&quot;noOfUnits&quot;
+                                     placeholder&#x3D;&quot;{{grConfigs?.noOfUnits?.label || &#x27;Actual Unit&#x27;}}&quot;&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+
+          &lt;div  *ngIf&#x3D;&quot;grConfigs?.billingWeightPerUnit?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt;{{grConfigs?.billingWeightPerUnit?.label || &#x27;BILLING WEIGHT PER UNIT&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.billingWeightPerUnit?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+            &lt;nz-form-control&gt; &lt;input (change) &#x3D; formulachanges(); [readonly]&#x3D;&quot;!grConfigs?.billingWeightPerUnit?.editable || grConfigs?.billingWeightPerUnit?.evalExp&quot;  autocomplete&#x3D;&quot;off&quot;
+                                     formControlName&#x3D;&quot;billingWeightPerUnit&quot; id&#x3D;&quot;billingWeightPerUnit&quot; name&#x3D;&quot;billingWeightPerUnit&quot; nz-input
+                                     placeholder&#x3D;&quot;{{grConfigs?.billingWeightPerUnit?.label || &#x27;BILLING WEIGHT PER UNIT&#x27;}}&quot;&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+          &lt;div  *ngIf&#x3D;&quot;grConfigs?.billingNoOfUnits?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt;{{grConfigs?.billingNoOfUnits?.label || &#x27;Billing Unit&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.billingNoOfUnits?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+            &lt;nz-form-control&gt; &lt;input (change) &#x3D; formulachanges(); [readonly]&#x3D;&quot;!grConfigs?.billingNoOfUnits?.editable || grConfigs?.billingNoOfUnits?.evalExp&quot; type&#x3D;&#x27;number&#x27;  autocomplete&#x3D;&quot;off&quot; nz-input
+                                     name&#x3D;&quot;billingNoOfUnits&quot; id&#x3D;&quot;name&quot; formControlName&#x3D;&quot;billingNoOfUnits&quot;
+                                     placeholder&#x3D;&quot;{{grConfigs?.billingNoOfUnits?.label || &#x27;Billing Unit&#x27;}}&quot;&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+          &lt;div  *ngIf&#x3D;&quot;grConfigs?.rate?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt;{{grConfigs?.rate?.label || &#x27;RATE&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.rate?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+            &lt;nz-form-control&gt; &lt;input (ngModelChange)&#x3D;&quot;formulachanges();&quot; [readonly]&#x3D;&quot;!grConfigs?.rate?.editable || grConfigs?.rate?.evalExp&quot; type&#x3D;&#x27;number&#x27; autocomplete&#x3D;&quot;off&quot;
+                                     formControlName&#x3D;&quot;rate&quot; id&#x3D;&quot;rate&quot; name&#x3D;&quot;rate&quot; nz-input
+                                     placeholder&#x3D;&quot;{{grConfigs?.rate?.label || &#x27;RATE&#x27;}}&quot;&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+          &lt;div  *ngIf&#x3D;&quot;grConfigs?.billingRate?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt;{{grConfigs?.billingRate?.label || &#x27;Billing Rate&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.billingRate?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+            &lt;nz-form-control&gt; &lt;input (change) &#x3D; formulachanges(); [readonly]&#x3D;&quot;!grConfigs?.billingRate?.editable || grConfigs?.billingRate?.evalExp&quot; autocomplete&#x3D;&quot;off&quot;  formControlName&#x3D;&quot;billingRate&quot;
+                                     id&#x3D;&quot;billingRate&quot; name&#x3D;&quot;billingRate&quot; nz-input type&#x3D;&#x27;number&#x27;
+                                     placeholder&#x3D;&quot;{{grConfigs?.billingRate?.label || &#x27;Billing Rate&#x27;}}&quot;&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+          &lt;div  *ngIf&#x3D;&quot;grConfigs?.freight?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt;{{grConfigs?.freight?.label || &#x27;FREIGHT&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.freight?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+            &lt;nz-form-control&gt;&lt;input (change) &#x3D; formulachanges(); [readonly]&#x3D;&quot;true&quot; autocomplete&#x3D;&quot;off&quot; name&#x3D;&quot;freight&quot;  nz-input  type&#x3D;&#x27;number&#x27;
+                                     id&#x3D;&quot;freight&quot; formControlName&#x3D;&quot;freight&quot; placeholder&#x3D;&quot;{{grConfigs?.freight?.label || &#x27;FREIGHT&#x27;}}&quot;&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+
+          &lt;div  *ngIf&#x3D;&quot;grConfigs?.ref1?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt;{{grConfigs?.ref1?.label || &#x27;Item Ref 1&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.ref1?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+              &lt;nz-form-control&gt; &lt;input [readonly]&#x3D;&quot;!grConfigs?.ref1?.editable&quot; nz-input name&#x3D;&quot;ref1&quot; id&#x3D;&quot;ref1&quot;  autocomplete&#x3D;&quot;off&quot;
+                                       formControlName&#x3D;&quot;ref1&quot; placeholder&#x3D;&quot;{{grConfigs?.ref1?.label || &#x27;Item Ref 1&#x27;}}&quot;&gt;
+              &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+
+          &lt;div  *ngIf&#x3D;&quot;grConfigs?.ref2?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt;{{grConfigs?.ref2?.label || &#x27;Item Ref 2&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.ref2?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+            &lt;nz-form-control&gt; &lt;input [readonly]&#x3D;&quot;!grConfigs?.ref2?.editable&quot; nz-input name&#x3D;&quot;ref2&quot; id&#x3D;&quot;ref2&quot;  autocomplete&#x3D;&quot;off&quot;
+                                     formControlName&#x3D;&quot;ref2&quot; placeholder&#x3D;&quot;{{grConfigs?.ref2?.label || &#x27;Item Ref 2&#x27;}}&quot;&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+
+          &lt;div  *ngIf&#x3D;&quot;grConfigs?.ref3?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt;{{grConfigs?.ref3?.label || &#x27;Item Ref 3&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.ref3?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+            &lt;nz-form-control&gt; &lt;input [readonly]&#x3D;&quot;!grConfigs?.ref3?.editable&quot; nz-input name&#x3D;&quot;ref3&quot; id&#x3D;&quot;ref3&quot;  autocomplete&#x3D;&quot;off&quot;
+                                     formControlName&#x3D;&quot;ref3&quot; placeholder&#x3D;&quot;{{grConfigs?.ref3?.label || &#x27;Item Ref 3&#x27;}}&quot;&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+
+          &lt;div  *ngIf&#x3D;&quot;grConfigs?.ref4?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt;{{grConfigs?.ref4?.label || &#x27;Item Ref 4&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.ref4?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+            &lt;nz-form-control&gt; &lt;input [readonly]&#x3D;&quot;!grConfigs?.ref4?.editable&quot; nz-input name&#x3D;&quot;ref4&quot; id&#x3D;&quot;ref4&quot;  autocomplete&#x3D;&quot;off&quot;
+                                     formControlName&#x3D;&quot;ref4&quot; placeholder&#x3D;&quot;{{grConfigs?.ref4?.label || &#x27;Item Ref 4&#x27;}}&quot;&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+
+          &lt;div  *ngIf&#x3D;&quot;grConfigs?.ref5?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt;{{grConfigs?.ref5?.label || &#x27;Item Ref 5&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.ref5?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+            &lt;nz-form-control&gt; &lt;input [readonly]&#x3D;&quot;!grConfigs?.ref5?.editable&quot; nz-input name&#x3D;&quot;ref5&quot; id&#x3D;&quot;ref5&quot;  autocomplete&#x3D;&quot;off&quot;
+                                     formControlName&#x3D;&quot;ref5&quot; placeholder&#x3D;&quot;{{grConfigs?.ref5?.label || &#x27;Item Ref 5&#x27;}}&quot;&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+
+          &lt;div  *ngIf&#x3D;&quot;grConfigs?.ref6?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt;{{grConfigs?.ref6?.label || &#x27;Item Ref 6&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.ref6?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+            &lt;nz-form-control&gt; &lt;input [readonly]&#x3D;&quot;!grConfigs?.ref6?.editable&quot; nz-input name&#x3D;&quot;ref6&quot; id&#x3D;&quot;ref6&quot;  autocomplete&#x3D;&quot;off&quot;
+                                     formControlName&#x3D;&quot;ref6&quot; placeholder&#x3D;&quot;{{grConfigs?.ref6?.label || &#x27;Item Ref 6&#x27;}}&quot;&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+
+          &lt;div  *ngIf&#x3D;&quot;grConfigs?.num1?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt;{{grConfigs?.num1?.label || &#x27;Num1&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.num1?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+            &lt;nz-form-control&gt; &lt;input (change) &#x3D; formulachanges(); [readonly]&#x3D;&quot;!grConfigs?.num1?.editable || grConfigs?.num1?.evalExp&quot; autocomplete&#x3D;&quot;off&quot; id&#x3D;&quot;num1&quot; name&#x3D;&quot;num1&quot;   nz-input
+                                     formControlName&#x3D;&quot;num1&quot; placeholder&#x3D;&quot;{{grConfigs?.num1?.label || &#x27;Num 1&#x27;}}&quot;&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+
+          &lt;div  *ngIf&#x3D;&quot;grConfigs?.num2?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt;{{grConfigs?.num2?.label || &#x27;Num2&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.num2?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+            &lt;nz-form-control&gt; &lt;input (change) &#x3D; formulachanges(); [readonly]&#x3D;&quot;!grConfigs?.num2?.editable || grConfigs?.num2?.evalExp&quot; autocomplete&#x3D;&quot;off&quot; id&#x3D;&quot;num2&quot;  name&#x3D;&quot;num2&quot; nz-input
+                                     formControlName&#x3D;&quot;num2&quot; placeholder&#x3D;&quot;{{grConfigs?.num2?.label || &#x27;Num 2&#x27;}}&quot;&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+
+          &lt;div  *ngIf&#x3D;&quot;grConfigs?.num3?.visible&quot; nzWidth&#x3D;&quot;150px&quot; nzAlign&#x3D;&quot;center&quot;&gt;
+            &lt;nz-form-label style&#x3D;&quot;text-align: left;&quot;&gt;{{grConfigs?.num3?.label || &#x27;Num3&#x27;}}
+              &lt;span *ngIf&#x3D;&quot;grConfigs?.num3?.req&quot; class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+            &lt;nz-form-control&gt; &lt;input (change) &#x3D; formulachanges(); [readonly]&#x3D;&quot;!grConfigs?.num3?.editable || grConfigs?.num3?.evalExp&quot; autocomplete&#x3D;&quot;off&quot; id&#x3D;&quot;num3&quot;  name&#x3D;&quot;num3&quot; nz-input
+                                     formControlName&#x3D;&quot;num3&quot; placeholder&#x3D;&quot;{{grConfigs?.num3?.label || &#x27;Num 3&#x27;}}&quot;&gt;
+            &lt;/nz-form-control&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/form&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./add-invoice-popup.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss"></code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="insight">  <div class="insight-head">  </div>  <div class="insight-description">    <form nz-form [formGroup]="InvoiceForm" (ngSubmit)="Submit()">      <div>        <div  class="flex-container">          <div  *ngIf="grConfigs?.materialName?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;">{{grConfigs?.materialName?.label || \'MATERIAL\'}}              <span *ngIf="grConfigs?.materialName?.req" class="red-mark">*</span></nz-form-label>            <nz-form-control nzErrorTip="Search Material Name">              <nz-select style="width:100%" [nzDisabled]="!grConfigs?.materialName?.editable" [nzDropdownMatchSelectWidth]="false"                         nzPlaceHolder="{{grConfigs?.materialName?.label || \'Material\'}}" formControlName="material"                         nzShowSearch  (nzOnSearch)="onsearchMaterial($event)" (ngModelChange)="getRates(InvoiceForm.value);" nzServerSearch nzAllowClear>                <nz-option *ngFor="let materialName of getmaterialdata" nzLabel="{{materialName?.groupName +\'(\'+materialName?.groupCode +\')\'}}"                           [nzValue]="materialName"> </nz-option>              </nz-select>            </nz-form-control>          </div>          <div  *ngIf="grConfigs?.materialUnit?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;">{{grConfigs?.materialUnit?.label || \'MATERIAL UNIT\'}}              <span *ngIf="grConfigs?.materialUnit?.req" class="red-mark">*</span></nz-form-label>            <nz-form-control nzErrorTip="Search Material Unit">              <nz-select [nzDisabled]="!grConfigs?.materialUnit?.editable" [nzDropdownMatchSelectWidth]="false"                         nzPlaceHolder="{{grConfigs?.materialUnit?.label || \'MATERIAL UNIT\'}}"formControlName="materialUnit"                         style="width:100%" nzShowSearch nzServerSearch                         nzAllowClear>                <nz-option *ngFor="let unit of materialgetunit" nzLabel="{{ unit}}"                           [nzValue]="unit"> </nz-option>              </nz-select>            </nz-form-control>          </div>          <div  *ngIf="grConfigs?.invoiceNo?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;">{{grConfigs?.invoiceNo?.label || \'INVOICE NO.\'}}              <span *ngIf="grConfigs?.invoiceNo?.req" class="red-mark">*</span></nz-form-label>            <nz-form-control>              <input [readonly]="!grConfigs?.invoiceNo?.editable" nz-input name="invoiceNo"  autocomplete="off"                     formControlName="invoiceNo"                     placeholder="{{grConfigs?.invoiceNo?.label || \'INVOICE NO.\'}}">            </nz-form-control>          </div>          <div   *ngIf="grConfigs?.invoiceRate?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;"> {{grConfigs?.invoiceRate?.label || \'INVOICE Rate\'}}              <span *ngIf="grConfigs?.invoiceRate?.req" class="red-mark">*</span></nz-form-label>            <nz-form-control> <input (change) = formulachanges(); [readonly]="!grConfigs?.invoiceRate?.editable || grConfigs?.invoiceRate?.evalExp" autocomplete="off" name="invoiceRate" type=\'number\' nz-input                                     id="invoiceRate" formControlName="invoiceRate"                                     placeholder="{{grConfigs?.invoiceRate?.label || \'INVOICE Rate\'}}">            </nz-form-control>          </div>          <div  *ngIf="grConfigs?.invoiceAmt?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;">{{grConfigs?.invoiceAmt?.label || \'INVOICE AMOUNT\'}}              <span *ngIf="grConfigs?.invoiceAmt?.req" class="red-mark">*</span></nz-form-label>            <nz-form-control> <input (change) = formulachanges(); [readonly]="!grConfigs?.invoiceAmt?.editable || grConfigs?.invoiceAmt?.evalExp" type=\'number\' autocomplete="off" name="invoiceAmt"  nz-input                                     id="invoiceAmt" formControlName="invoiceAmt"                                     placeholder="{{grConfigs?.invoiceAmt?.label || \'INVOICE AMOUNT\'}}">            </nz-form-control>          </div>          <div  *ngIf="grConfigs?.invoiceDate?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;">{{grConfigs?.invoiceDate?.label || \'INVOICE DATE\'}}              <span *ngIf="grConfigs?.invoiceDate?.req" class="red-mark">*</span></nz-form-label>            <nz-form-control>              <nz-date-picker  style="width:100%" id="invoiceDate" [nzDisabled]="!grConfigs.invoiceDate.editable"  autocomplete="off"                              nzPlaceHolder="{{grConfigs?.invoiceDate?.label || \'INVOICE DATE\'}}"                              formControlName="invoiceDate" [nzFormat]="dateFormat">              </nz-date-picker>            </nz-form-control>          </div>          <div  *ngIf="grConfigs?.insurVal?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;">{{grConfigs?.insurVal?.label || \'Insurance Value\'}}              <span *ngIf="grConfigs?.insurVal?.req" class="red-mark">*</span></nz-form-label>            <nz-form-control> <input (change) = formulachanges(); [readonly]="!grConfigs?.insurVal?.editable || grConfigs?.insurVal?.evalExp" autocomplete="off"  name="insurVal" nz-input                                     id="insurVal" formControlName="insurVal"                                     placeholder="{{grConfigs?.insurVal?.label || \'Insurance Value\'}}">            </nz-form-control>          </div>          <div  *ngIf="grConfigs?.loadRefNumber?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;"> {{grConfigs?.loadRefNumber?.label || \'LOAD REF. NUMBER\'}}              <span *ngIf="grConfigs?.loadRefNumber?.req" class="red-mark">*</span></nz-form-label>            <nz-form-control>              <input [readonly]="!grConfigs?.loadRefNumber?.editable" nz-input name="loadRefNumber"  autocomplete="off"                    formControlName="loadRefNumber"                     placeholder="{{grConfigs?.loadRefNumber?.label || \'Load Ref No.\'}}">            </nz-form-control>          </div>          <div  *ngIf="grConfigs?.routeDistance?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;"> {{grConfigs?.routeDistance?.label || \'KM\'}}              <span *ngIf="grConfigs?.routeDistance?.req" class="red-mark">*</span></nz-form-label>            <nz-form-control> <input (change) = formulachanges(); [readonly]="!grConfigs?.routeDistance?.editable || grConfigs?.routeDistance?.evalExp" type=\'number\' autocomplete="off"                                     formControlName="routeDistance" id="routeDistance" name="routeDistance" nz-input                                     placeholder="{{grConfigs?.routeDistance?.label || \'KM\'}}">            </nz-form-control>          </div>          <div  *ngIf="grConfigs?.weightPerUnit?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;">{{grConfigs?.weightPerUnit?.label || \'ACTUAL WEIGHT PER UNIT\'}}              <span *ngIf="grConfigs?.weightPerUnit?.req" class="red-mark">*</span></nz-form-label>            <nz-form-control> <input (change) = formulachanges(); [readonly]="!grConfigs?.weightPerUnit?.editable || grConfigs?.weightPerUnit?.evalExp"  type=\'number\' autocomplete="off" nz-input                                     name="weightPerUnit" id="weightPerUnit" formControlName="weightPerUnit"                                     placeholder="{{grConfigs?.weightPerUnit?.label || \'ACTUAL WEIGHT PER UNIT\'}}">            </nz-form-control>          </div>          <div  *ngIf="grConfigs?.capacity?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;">{{grConfigs?.capacity?.label || \'CAPACITY\'}}              <span *ngIf="grConfigs?.capacity?.req" class="red-mark">*</span></nz-form-label>            <nz-form-control>              <nz-select [nzDisabled]="!grConfigs?.capacity?.editable" [nzDropdownMatchSelectWidth]="false" [required]="grConfigs?.capacity?.req"                         (ngModelChange)="capacitychanges(InvoiceForm.controls[\'dummyCapacityObj\'].value)"  formControlName="dummyCapacityObj" nzPlaceHolder="{{grConfigs?.capacity?.label || \'CAPACITY\'}}"                         style="width:100%" nzShowSearch nzServerSearch                         nzAllowClear>                <nz-option *ngFor="let unit of InvoiceForm.value.aCapacity " nzLabel="{{ unit?.label}}"                           [nzValue]="unit"> </nz-option>              </nz-select>            </nz-form-control>          </div>          <div  *ngIf="grConfigs?.noOfUnits?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;">{{grConfigs?.noOfUnits?.label || \'Actual Unit\'}}              <span *ngIf="grConfigs?.noOfUnits?.req" class="red-mark">*</span></nz-form-label>            <nz-form-control> <input (change) = formulachanges();  [readonly]="!grConfigs?.noOfUnits?.editable || grConfigs?.noOfUnits?.evalExp" autocomplete="off" type=\'number\'  name="noOfUnits" nz-input                                     id="noOfUnits" formControlName="noOfUnits"                                     placeholder="{{grConfigs?.noOfUnits?.label || \'Actual Unit\'}}">            </nz-form-control>          </div>          <div  *ngIf="grConfigs?.billingWeightPerUnit?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;">{{grConfigs?.billingWeightPerUnit?.label || \'BILLING WEIGHT PER UNIT\'}}              <span *ngIf="grConfigs?.billingWeightPerUnit?.req" class="red-mark">*</span></nz-form-label>            <nz-form-control> <input (change) = formulachanges(); [readonly]="!grConfigs?.billingWeightPerUnit?.editable || grConfigs?.billingWeightPerUnit?.evalExp"  autocomplete="off"                                     formControlName="billingWeightPerUnit" id="billingWeightPerUnit" name="billingWeightPerUnit" nz-input                                     placeholder="{{grConfigs?.billingWeightPerUnit?.label || \'BILLING WEIGHT PER UNIT\'}}">            </nz-form-control>          </div>          <div  *ngIf="grConfigs?.billingNoOfUnits?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;">{{grConfigs?.billingNoOfUnits?.label || \'Billing Unit\'}}              <span *ngIf="grConfigs?.billingNoOfUnits?.req" class="red-mark">*</span></nz-form-label>            <nz-form-control> <input (change) = formulachanges(); [readonly]="!grConfigs?.billingNoOfUnits?.editable || grConfigs?.billingNoOfUnits?.evalExp" type=\'number\'  autocomplete="off" nz-input                                     name="billingNoOfUnits" id="name" formControlName="billingNoOfUnits"                                     placeholder="{{grConfigs?.billingNoOfUnits?.label || \'Billing Unit\'}}">            </nz-form-control>          </div>          <div  *ngIf="grConfigs?.rate?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;">{{grConfigs?.rate?.label || \'RATE\'}}              <span *ngIf="grConfigs?.rate?.req" class="red-mark">*</span></nz-form-label>            <nz-form-control> <input (ngModelChange)="formulachanges();" [readonly]="!grConfigs?.rate?.editable || grConfigs?.rate?.evalExp" type=\'number\' autocomplete="off"                                     formControlName="rate" id="rate" name="rate" nz-input                                     placeholder="{{grConfigs?.rate?.label || \'RATE\'}}">            </nz-form-control>          </div>          <div  *ngIf="grConfigs?.billingRate?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;">{{grConfigs?.billingRate?.label || \'Billing Rate\'}}              <span *ngIf="grConfigs?.billingRate?.req" class="red-mark">*</span></nz-form-label>            <nz-form-control> <input (change) = formulachanges(); [readonly]="!grConfigs?.billingRate?.editable || grConfigs?.billingRate?.evalExp" autocomplete="off"  formControlName="billingRate"                                     id="billingRate" name="billingRate" nz-input type=\'number\'                                     placeholder="{{grConfigs?.billingRate?.label || \'Billing Rate\'}}">            </nz-form-control>          </div>          <div  *ngIf="grConfigs?.freight?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;">{{grConfigs?.freight?.label || \'FREIGHT\'}}              <span *ngIf="grConfigs?.freight?.req" class="red-mark">*</span></nz-form-label>            <nz-form-control><input (change) = formulachanges(); [readonly]="true" autocomplete="off" name="freight"  nz-input  type=\'number\'                                     id="freight" formControlName="freight" placeholder="{{grConfigs?.freight?.label || \'FREIGHT\'}}">            </nz-form-control>          </div>          <div  *ngIf="grConfigs?.ref1?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;">{{grConfigs?.ref1?.label || \'Item Ref 1\'}}              <span *ngIf="grConfigs?.ref1?.req" class="red-mark">*</span></nz-form-label>              <nz-form-control> <input [readonly]="!grConfigs?.ref1?.editable" nz-input name="ref1" id="ref1"  autocomplete="off"                                       formControlName="ref1" placeholder="{{grConfigs?.ref1?.label || \'Item Ref 1\'}}">              </nz-form-control>          </div>          <div  *ngIf="grConfigs?.ref2?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;">{{grConfigs?.ref2?.label || \'Item Ref 2\'}}              <span *ngIf="grConfigs?.ref2?.req" class="red-mark">*</span></nz-form-label>            <nz-form-control> <input [readonly]="!grConfigs?.ref2?.editable" nz-input name="ref2" id="ref2"  autocomplete="off"                                     formControlName="ref2" placeholder="{{grConfigs?.ref2?.label || \'Item Ref 2\'}}">            </nz-form-control>          </div>          <div  *ngIf="grConfigs?.ref3?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;">{{grConfigs?.ref3?.label || \'Item Ref 3\'}}              <span *ngIf="grConfigs?.ref3?.req" class="red-mark">*</span></nz-form-label>            <nz-form-control> <input [readonly]="!grConfigs?.ref3?.editable" nz-input name="ref3" id="ref3"  autocomplete="off"                                     formControlName="ref3" placeholder="{{grConfigs?.ref3?.label || \'Item Ref 3\'}}">            </nz-form-control>          </div>          <div  *ngIf="grConfigs?.ref4?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;">{{grConfigs?.ref4?.label || \'Item Ref 4\'}}              <span *ngIf="grConfigs?.ref4?.req" class="red-mark">*</span></nz-form-label>            <nz-form-control> <input [readonly]="!grConfigs?.ref4?.editable" nz-input name="ref4" id="ref4"  autocomplete="off"                                     formControlName="ref4" placeholder="{{grConfigs?.ref4?.label || \'Item Ref 4\'}}">            </nz-form-control>          </div>          <div  *ngIf="grConfigs?.ref5?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;">{{grConfigs?.ref5?.label || \'Item Ref 5\'}}              <span *ngIf="grConfigs?.ref5?.req" class="red-mark">*</span></nz-form-label>            <nz-form-control> <input [readonly]="!grConfigs?.ref5?.editable" nz-input name="ref5" id="ref5"  autocomplete="off"                                     formControlName="ref5" placeholder="{{grConfigs?.ref5?.label || \'Item Ref 5\'}}">            </nz-form-control>          </div>          <div  *ngIf="grConfigs?.ref6?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;">{{grConfigs?.ref6?.label || \'Item Ref 6\'}}              <span *ngIf="grConfigs?.ref6?.req" class="red-mark">*</span></nz-form-label>            <nz-form-control> <input [readonly]="!grConfigs?.ref6?.editable" nz-input name="ref6" id="ref6"  autocomplete="off"                                     formControlName="ref6" placeholder="{{grConfigs?.ref6?.label || \'Item Ref 6\'}}">            </nz-form-control>          </div>          <div  *ngIf="grConfigs?.num1?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;">{{grConfigs?.num1?.label || \'Num1\'}}              <span *ngIf="grConfigs?.num1?.req" class="red-mark">*</span></nz-form-label>            <nz-form-control> <input (change) = formulachanges(); [readonly]="!grConfigs?.num1?.editable || grConfigs?.num1?.evalExp" autocomplete="off" id="num1" name="num1"   nz-input                                     formControlName="num1" placeholder="{{grConfigs?.num1?.label || \'Num 1\'}}">            </nz-form-control>          </div>          <div  *ngIf="grConfigs?.num2?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;">{{grConfigs?.num2?.label || \'Num2\'}}              <span *ngIf="grConfigs?.num2?.req" class="red-mark">*</span></nz-form-label>            <nz-form-control> <input (change) = formulachanges(); [readonly]="!grConfigs?.num2?.editable || grConfigs?.num2?.evalExp" autocomplete="off" id="num2"  name="num2" nz-input                                     formControlName="num2" placeholder="{{grConfigs?.num2?.label || \'Num 2\'}}">            </nz-form-control>          </div>          <div  *ngIf="grConfigs?.num3?.visible" nzWidth="150px" nzAlign="center">            <nz-form-label style="text-align: left;">{{grConfigs?.num3?.label || \'Num3\'}}              <span *ngIf="grConfigs?.num3?.req" class="red-mark">*</span></nz-form-label>            <nz-form-control> <input (change) = formulachanges(); [readonly]="!grConfigs?.num3?.editable || grConfigs?.num3?.evalExp" autocomplete="off" id="num3"  name="num3" nz-input                                     formControlName="num3" placeholder="{{grConfigs?.num3?.label || \'Num 3\'}}">            </nz-form-control>          </div>        </div>      </div>    </form>  </div></div></div>'
+    var COMPONENTS = [{'name': 'AddGrPopupComponent', 'selector': 'app-add-gr-popup'},{'name': 'AddInvoicePopupComponent', 'selector': 'app-add-invoice-popup'},{'name': 'AlarmComponent', 'selector': 'app-alarm'},{'name': 'AlarmListViewComponent', 'selector': 'app-alarm-list-view'},{'name': 'AlarmUpsertComponent', 'selector': 'app-alarm-upsert'},{'name': 'AlertListComponent', 'selector': 'app-alert-list'},{'name': 'AlertsComponent', 'selector': 'app-alerts'},{'name': 'AlertsListViewComponent', 'selector': 'app-alerts-list-view'},{'name': 'AnalyticsComponent', 'selector': 'app-analytics'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'BackButtonComponent', 'selector': 'app-back-button'},{'name': 'BillingPartyComponent', 'selector': 'app-billing-party'},{'name': 'BillingPartyDetailViewComponent', 'selector': 'app-billing-party-detail-view'},{'name': 'BillingPartyListViewComponent', 'selector': 'app-billing-party-list-view'},{'name': 'BillingPartyUpsertComponent', 'selector': 'app-billing-party-upsert'},{'name': 'BranchComponent', 'selector': 'app-branch'},{'name': 'BranchDetailViewComponent', 'selector': 'app-branch-detail-view'},{'name': 'BranchListViewComponent', 'selector': 'app-branch-list-view'},{'name': 'BranchUpsertComponent', 'selector': 'app-branch-upsert'},{'name': 'BrokerMemoComponent', 'selector': 'app-broker-memo'},{'name': 'BrokerMemoListViewComponent', 'selector': 'app-broker-memo-list-view'},{'name': 'BrokerMemoUpsertComponent', 'selector': 'app-broker-memo-upsert'},{'name': 'CalibComponent', 'selector': 'app-calib'},{'name': 'CreateTripComponent', 'selector': 'app-create-trip'},{'name': 'CustomerComponent', 'selector': 'app-customer'},{'name': 'CustomerListViewComponent', 'selector': 'app-customer-list-view'},{'name': 'CustomerUpsertComponent', 'selector': 'app-customer-upsert'},{'name': 'DefaultComponent', 'selector': 'app-default'},{'name': 'DemoImagePickerBasicComponent', 'selector': 'demo-image-picker-basic'},{'name': 'DeviceMasterComponent', 'selector': 'app-device-master'},{'name': 'DriverComponent', 'selector': 'app-driver'},{'name': 'DriverDetailViewComponent', 'selector': 'app-driver-detail-view'},{'name': 'DriverListViewComponent', 'selector': 'app-driver-list-view'},{'name': 'DriverUpsertComponent', 'selector': 'app-driver-upsert'},{'name': 'DutyComponent', 'selector': 'app-duty'},{'name': 'DutyListViewComponent', 'selector': 'app-duty-list-view'},{'name': 'DutyUpsertComponent', 'selector': 'app-duty-upsert'},{'name': 'EmptyTripComponent', 'selector': 'app-empty-trip'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'FuelLevelComponent', 'selector': 'app-fuel-level'},{'name': 'GeofenceComponent', 'selector': 'app-geofence'},{'name': 'GeofenceListViewComponent', 'selector': 'app-geofence-list-view'},{'name': 'GeofenceUpsertComponent', 'selector': 'app-geofence-upsert'},{'name': 'GpsReportsComponent', 'selector': 'app-gps-reports'},{'name': 'GrComponent', 'selector': 'app-gr'},{'name': 'GrListViewComponent', 'selector': 'app-gr-list-view'},{'name': 'GrUpsertComponent', 'selector': 'app-gr-upsert'},{'name': 'GrWithoutTripComponent', 'selector': 'app-gr-without-trip'},{'name': 'GrWithoutTripListViewComponent', 'selector': 'app-gr-without-trip-list-view'},{'name': 'GrWithoutTripUpsertComponent', 'selector': 'app-gr-without-trip-upsert'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'HomeComponent', 'selector': 'app-home'},{'name': 'ItineraryComponent', 'selector': 'app-itinerary'},{'name': 'LandmarkComponent', 'selector': 'app-landmark'},{'name': 'LandmarkListViewComponent', 'selector': 'app-landmark-list-view'},{'name': 'LandmarkUpsertComponent', 'selector': 'app-landmark-upsert'},{'name': 'LiveTrackComponent', 'selector': 'app-live-track'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'MapComponent', 'selector': 'app-map'},{'name': 'MapListViewComponent', 'selector': 'app-map-list-view'},{'name': 'MaterialCardDetailViewComponent', 'selector': 'app-material-card-detail-view'},{'name': 'MaterialComponent', 'selector': 'app-material'},{'name': 'MaterialGroupComponent', 'selector': 'app-material-group'},{'name': 'MaterialGroupListViewComponent', 'selector': 'app-material-group-list-view'},{'name': 'MaterialGroupUpsertComponent', 'selector': 'app-material-group-upsert'},{'name': 'MaterialGroupUpsertComponentT', 'selector': 'app-material-group-upsert'},{'name': 'MaterialListViewComponent', 'selector': 'app-material-list-view'},{'name': 'MaterialUpsertComponent', 'selector': 'app-material-upsert'},{'name': 'MilestoneComponent', 'selector': 'app-milestone'},{'name': 'MilestoneViewComponent', 'selector': 'app-milestone-view'},{'name': 'PlaybackComponent', 'selector': 'app-playback'},{'name': 'PlaybackFormComponent', 'selector': 'app-playback-form'},{'name': 'PlaybackListComponent', 'selector': 'app-playback-list'},{'name': 'QrBarcodeComponent', 'selector': 'upload-accordion'},{'name': 'SensorComponent', 'selector': 'app-sensor'},{'name': 'SensorListViewComponent', 'selector': 'app-sensor-list-view'},{'name': 'SensorUpsertComponent', 'selector': 'app-sensor-upsert'},{'name': 'ShareLocationComponent', 'selector': 'app-share-location'},{'name': 'ShareTripComponent', 'selector': 'app-share-trip'},{'name': 'SidebarComponent', 'selector': 'app-sidebar'},{'name': 'TrafficManagerComponent', 'selector': 'app-traffic-manager'},{'name': 'TransportRouteComponent', 'selector': 'app-transport-route'},{'name': 'TransportRouteListViewComponent', 'selector': 'app-transport-route-list-view'},{'name': 'TransportRouteUpsertComponent', 'selector': 'app-transport-route-upsert'},{'name': 'TripDetailsComponent', 'selector': 'app-trip-details'},{'name': 'TripDetailViewComponent', 'selector': 'app-trip-detail-view'},{'name': 'TripGpsComponent', 'selector': 'app-trip-gps'},{'name': 'TripListComponent', 'selector': 'app-trip-list'},{'name': 'TripListViewComponent', 'selector': 'app-trip-list-view'},{'name': 'TripMemoComponent', 'selector': 'app-trip-memo'},{'name': 'TripMemoListViewComponent', 'selector': 'app-trip-memo-list-view'},{'name': 'TripMemoUpsertComponent', 'selector': 'app-trip-memo-upsert'},{'name': 'UpdatePasswordComponent', 'selector': 'app-update-password'},{'name': 'UploadAccordianComponent', 'selector': 'upload-accordion'},{'name': 'UploadComponent', 'selector': 'app-upload'},{'name': 'UploadUtilComponent', 'selector': 'app-upload-util'},{'name': 'VehicleComponent', 'selector': 'app-vehicle'},{'name': 'VehicleDetailViewComponent', 'selector': 'app-vehicle-detail-view'},{'name': 'VehicleListViewComponent', 'selector': 'app-vehicle-list-view'},{'name': 'VehicleUpsertComponent', 'selector': 'app-vehicle-upsert'},{'name': 'VendorComponent', 'selector': 'app-vendor'},{'name': 'VendordealPopupComponent', 'selector': 'app-vendordeal-popup'},{'name': 'VendorListViewComponent', 'selector': 'app-vendor-list-view'},{'name': 'VendorUpsertComponent', 'selector': 'app-vendor-upsert'}];
+    var DIRECTIVES = [{'name': 'AddrSearchDirective', 'selector': '[appAddrSearch]'}];
+    var ACTUAL_COMPONENT = {'name': 'AddInvoicePopupComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'AddInvoicePopupComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,1173 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>LMS-Lite documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">LMS-Lite documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  MaterialGroupUpsertComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/modules/material-group/material-group-upsert/material-group-upsert.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-material-group-upsert</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./material-group-upsert.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./material-group-upsert.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#getId" >getId</a>
+                            </li>
+                            <li>
+                                <a href="#loadingObservable" >loadingObservable</a>
+                            </li>
+                            <li>
+                                <a href="#materialGroupForm" >materialGroupForm</a>
+                            </li>
+                            <li>
+                                <a href="#mode" >mode</a>
+                            </li>
+                            <li>
+                                <a href="#receivedGroupData" >receivedGroupData</a>
+                            </li>
+                            <li>
+                                <a href="#unitList" >unitList</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#backToHome" >backToHome</a>
+                            </li>
+                            <li>
+                                <a href="#fillFormdata" >fillFormdata</a>
+                            </li>
+                            <li>
+                                <a href="#getIdData" >getIdData</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#onSubmitGroup" >onSubmitGroup</a>
+                            </li>
+                            <li>
+                                <a href="#saveData" >saveData</a>
+                            </li>
+                            <li>
+                                <a href="#updateData" >updateData</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(fb: <a href="https://angular.io/api/forms/FormBuilder" target="_blank">FormBuilder</a>, commonService: <a href="../injectables/CommonService.html" target="_self">CommonService</a>, masterService: <a href="../injectables/MasterService.html" target="_self">MasterService</a>, router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>, route: <a href="https://angular.io/api/router/ActivatedRoute" target="_blank">ActivatedRoute</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/modules/material-group/material-group-upsert/material-group-upsert.component.ts:19</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>fb</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/forms/FormBuilder" target="_blank" >FormBuilder</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>commonService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/CommonService.html" target="_self" >CommonService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>masterService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/MasterService.html" target="_self" >MasterService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>route</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/ActivatedRoute" target="_blank" >ActivatedRoute</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="backToHome"></a>
+                    <span class="name">
+                        <span ><b>backToHome</b></span>
+                        <a href="#backToHome"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>backToHome()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="102"
+                            class="link-to-prism">src/app/modules/material-group/material-group-upsert/material-group-upsert.component.ts:102</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="fillFormdata"></a>
+                    <span class="name">
+                        <span ><b>fillFormdata</b></span>
+                        <a href="#fillFormdata"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>fillFormdata(data: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="79"
+                            class="link-to-prism">src/app/modules/material-group/material-group-upsert/material-group-upsert.component.ts:79</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>data</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getIdData"></a>
+                    <span class="name">
+                        <span ><b>getIdData</b></span>
+                        <a href="#getIdData"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getIdData(id: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="64"
+                            class="link-to-prism">src/app/modules/material-group/material-group-upsert/material-group-upsert.component.ts:64</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>id</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="59"
+                            class="link-to-prism">src/app/modules/material-group/material-group-upsert/material-group-upsert.component.ts:59</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onSubmitGroup"></a>
+                    <span class="name">
+                        <span ><b>onSubmitGroup</b></span>
+                        <a href="#onSubmitGroup"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onSubmitGroup()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="87"
+                            class="link-to-prism">src/app/modules/material-group/material-group-upsert/material-group-upsert.component.ts:87</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="saveData"></a>
+                    <span class="name">
+                        <span ><b>saveData</b></span>
+                        <a href="#saveData"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>saveData(formData: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="105"
+                            class="link-to-prism">src/app/modules/material-group/material-group-upsert/material-group-upsert.component.ts:105</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>formData</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="updateData"></a>
+                    <span class="name">
+                        <span ><b>updateData</b></span>
+                        <a href="#updateData"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>updateData(formData: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="115"
+                            class="link-to-prism">src/app/modules/material-group/material-group-upsert/material-group-upsert.component.ts:115</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>formData</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getId"></a>
+                    <span class="name">
+                        <span ><b>getId</b></span>
+                        <a href="#getId"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/modules/material-group/material-group-upsert/material-group-upsert.component.ts:19</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadingObservable"></a>
+                    <span class="name">
+                        <span ><b>loadingObservable</b></span>
+                        <a href="#loadingObservable"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>this.commonService.loadingObservable</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="57" class="link-to-prism">src/app/modules/material-group/material-group-upsert/material-group-upsert.component.ts:57</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="materialGroupForm"></a>
+                    <span class="name">
+                        <span ><b>materialGroupForm</b></span>
+                        <a href="#materialGroupForm"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/modules/material-group/material-group-upsert/material-group-upsert.component.ts:15</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="mode"></a>
+                    <span class="name">
+                        <span ><b>mode</b></span>
+                        <a href="#mode"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/modules/material-group/material-group-upsert/material-group-upsert.component.ts:18</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="receivedGroupData"></a>
+                    <span class="name">
+                        <span ><b>receivedGroupData</b></span>
+                        <a href="#receivedGroupData"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/modules/material-group/material-group-upsert/material-group-upsert.component.ts:16</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="unitList"></a>
+                    <span class="name">
+                        <span ><b>unitList</b></span>
+                        <a href="#unitList"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[&quot;Pcs&quot;, &quot;Ft&quot;, &quot;Tonne&quot;, &quot;Ltr&quot;, &quot;Bags&quot;, &quot;Drum&quot;, &quot;Hours&quot;]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/modules/material-group/material-group-upsert/material-group-upsert.component.ts:17</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import {FormArray, FormBuilder, FormControl, Validators} from &quot;@angular/forms&quot;;
+import {CommonService} from &quot;../../../services/common.service&quot;;
+import {MasterService} from &quot;../../master.service&quot;;
+import {ActivatedRoute, Router} from &quot;@angular/router&quot;;
+import {HttpParams} from &quot;@angular/common/http&quot;;
+
+@Component({
+  selector: &#x27;app-material-group-upsert&#x27;,
+  templateUrl: &#x27;./material-group-upsert.component.html&#x27;,
+  styleUrls: [&#x27;./material-group-upsert.component.scss&#x27;]
+})
+export class MaterialGroupUpsertComponent implements OnInit {
+
+  materialGroupForm: any;
+  receivedGroupData: any;
+  unitList: any &#x3D; [&quot;Pcs&quot;, &quot;Ft&quot;, &quot;Tonne&quot;, &quot;Ltr&quot;, &quot;Bags&quot;, &quot;Drum&quot;, &quot;Hours&quot;];
+  mode: any;
+  getId: any;
+
+  constructor(
+    private fb: FormBuilder,
+    private commonService: CommonService,
+    private masterService: MasterService,
+    private router: Router,
+    private route: ActivatedRoute,
+
+  ) {
+    this.materialGroupForm &#x3D; this.fb.group({
+      name: [null,[Validators.required]],
+      code: [null,[Validators.required]],
+      unit: [null],
+      // unit: new FormArray([
+      //   new FormControl(&#x27;&#x27;)
+      // ]),
+      description: [null],
+    });
+
+    this.route.params.subscribe(queryParam &#x3D;&gt; {
+      if(queryParam._id) {
+        // Edit or Update Mode
+        this.mode &#x3D; 2;
+        this.getId &#x3D; queryParam._id;
+        this.getIdData(this.getId);
+        // const currentState &#x3D; this.router.getCurrentNavigation();
+        // this.receivedGroupData &#x3D; currentState &amp;&amp; currentState.extras.state;
+        // this.fillFormdata(this.receivedGroupData);
+
+      } else {
+        // Add Mode
+        this.mode &#x3D; 1;
+      }
+    })
+
+  }
+
+  loadingObservable &#x3D; this.commonService.loadingObservable;
+
+  ngOnInit(): void {
+    //&quot; Material Group Details&quot;
+    this.commonService.setNavTittleAndMenu(&quot; Material Group Details&quot;);
+  }
+
+  getIdData(id:string){
+    let params &#x3D; new HttpParams()
+      .set(&#x27;sort&#x27;,-1)
+      // .set(&#x27;deleted&#x27;,false)
+      .set(&#x27;all&#x27;,true)
+      .set(&#x27;request_id&#x27;,Date.now()+&#x27;&#x27;+Math.round(Math.random()*100))
+      .set(&#x27;validate&#x27;,&#x27;all&#x27;);
+    this.masterService.getAllMaterialType({_id:id}).subscribe((res: any) &#x3D;&gt; {
+      if(res){
+        this.fillFormdata(res[0]);
+      }
+      // this.receivedGroupData &#x3D; res;
+    });
+  }
+
+  fillFormdata (data: any) {
+    this.materialGroupForm.patchValue({
+      name: data &amp;&amp; data.name,
+      code: data &amp;&amp; data.code,
+      unit: data &amp;&amp; data.unit[0],
+      description: data &amp;&amp; data.description
+    })
+  }
+  onSubmitGroup(){
+    if (this.materialGroupForm.invalid) {
+      return;
+    }
+    const values &#x3D; this.materialGroupForm.value;
+    console.log(&#x27;this.materialGroupForm.value&#x27;, this.materialGroupForm.value);
+    this.materialGroupForm.value.unit &#x3D; [this.materialGroupForm.value.unit];
+    console.log(values);
+    if (this.mode &#x3D;&#x3D;&#x3D; 2 &amp;&amp; this.getId) {
+      this.updateData(values);
+    } else {
+      this.saveData(values);
+    }
+  }
+
+  backToHome(){
+    this.router.navigateByUrl(&#x27;home/master/materialGroup&#x27;);
+  }
+  saveData(formData: any) {
+    this.masterService.addGroupMaterial(formData).subscribe((data: any) &#x3D;&gt; {
+      console.log(data);
+      if (data) {
+        // this.commonService.companyReflect.next(true);
+        this.router.navigateByUrl(&#x27;home/master/material&#x27;);
+      }
+    });
+  }
+
+  updateData(formData: any) {
+    this.masterService.editMaterialGroup(this.getId,formData).subscribe((data: any) &#x3D;&gt; {
+      if(data) {
+        this.router.navigateByUrl(&#x27;home/master/materialGroup&#x27;);
+      }
+    });
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;!--&lt;p&gt;material-group-upsert works!&lt;/p&gt;--&gt;
+&lt;div class&#x3D;&quot;insight&quot;&gt;
+  &lt;div class&#x3D;&quot;insight-head&quot;&gt;
+
+  &lt;/div&gt;
+  &lt;div class&#x3D;&quot;insight-description&quot;&gt;
+    &lt;!--    &lt;nz-spin [ngClass]&#x3D;&quot;{&#x27;loader&#x27;: loadingObservable | async}&quot; nzSimple [nzSpinning]&#x3D;&quot;loadingObservable | async&quot;&gt;&lt;/nz-spin&gt;--&gt;
+    &lt;!-- &lt;div class&#x3D;&quot;overlay&quot; *ngIf&#x3D; &quot;loadingObservable | async&quot;&gt;&lt;/div&gt; --&gt;
+
+    &lt;!--    &lt;form [formGroup]&#x3D;&quot;materialGroupForm&quot; (ngSubmit)&#x3D;&quot;onSubmitGroup()&quot;&gt;--&gt;
+    &lt;form nz-form [formGroup]&#x3D;&quot;materialGroupForm&quot; (ngSubmit)&#x3D;&quot;onSubmitGroup()&quot;&gt;
+      &lt;div nz-row&gt;
+        &lt;!--        &lt;div class&#x3D;&quot;form-group col-md-3 mb-3&quot;&gt;--&gt;
+        &lt;!--          &lt;label style&#x3D;&quot;text-align: left;&quot; nzFor&#x3D;&quot;type&quot;&gt;Material Group Name&lt;span class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/label&gt;--&gt;
+        &lt;!--          &lt;nz-select style&#x3D;&quot;width: 245px&quot; formControlName&#x3D;&quot;category&quot; required nzShowSearch&gt;--&gt;
+        &lt;!--            &lt;nz-option *ngFor&#x3D;&quot;let type of categoryList&quot; nzLabel&#x3D;&quot;{{type.name}}&quot;--&gt;
+        &lt;!--                       [nzValue]&#x3D;&quot;type.value&quot;&gt;--&gt;
+        &lt;!--            &lt;/nz-option&gt;--&gt;
+        &lt;!--          &lt;/nz-select&gt;--&gt;
+        &lt;!--        &lt;/div&gt;--&gt;
+
+        &lt;nz-form-item nz-col nzXs&#x3D;&quot;24&quot; nzSm&#x3D;&quot;12&quot; nzMd&#x3D;&quot;8&quot; nzLg&#x3D;&quot;6&quot;&gt;
+          &lt;nz-form-label [nzSpan]&#x3D;&quot;20&quot;&gt;Material Group Name&lt;span class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+          &lt;nz-form-control [nzSpan]&#x3D;&quot;20&quot; nzErrorTip&#x3D;&quot;Input is required&quot;&gt;
+            &lt;input nz-input formControlName&#x3D;&quot;name&quot; id&#x3D;&quot;name&quot; required /&gt;
+          &lt;/nz-form-control&gt;
+        &lt;/nz-form-item&gt;
+
+        &lt;nz-form-item nz-col nzXs&#x3D;&quot;24&quot; nzSm&#x3D;&quot;12&quot; nzMd&#x3D;&quot;8&quot; nzLg&#x3D;&quot;6&quot;&gt;
+          &lt;nz-form-label [nzSpan]&#x3D;&quot;20&quot;&gt;Material Group Code&lt;span class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+          &lt;nz-form-control [nzSpan]&#x3D;&quot;20&quot; nzErrorTip&#x3D;&quot;Input is required&quot;&gt;
+            &lt;input nz-input formControlName&#x3D;&quot;code&quot; id&#x3D;&quot;code&quot; required /&gt;
+          &lt;/nz-form-control&gt;
+        &lt;/nz-form-item&gt;
+
+        &lt;nz-form-item nz-col nzXs&#x3D;&quot;24&quot; nzSm&#x3D;&quot;12&quot; nzMd&#x3D;&quot;8&quot; nzLg&#x3D;&quot;6&quot;&gt;
+          &lt;nz-form-label [nzSpan]&#x3D;&quot;20&quot;&gt;Unit&lt;span class&#x3D;&quot;red-mark&quot;&gt;*&lt;/span&gt;&lt;/nz-form-label&gt;
+          &lt;nz-form-control [nzSpan]&#x3D;&quot;20&quot; nzErrorTip&#x3D;&quot;Input is required&quot;&gt;
+            &lt;nz-select formControlName&#x3D;&quot;unit&quot; required nzShowSearch&gt;
+              &lt;nz-option *ngFor&#x3D;&quot;let type of unitList&quot; nzLabel&#x3D;&quot;{{type}}&quot; [nzValue]&#x3D;&quot;type&quot;&gt;
+              &lt;/nz-option&gt;
+            &lt;/nz-select&gt;
+          &lt;/nz-form-control&gt;
+        &lt;/nz-form-item&gt;
+
+        &lt;nz-form-item nz-col nzXs&#x3D;&quot;24&quot; nzSm&#x3D;&quot;12&quot; nzMd&#x3D;&quot;8&quot; nzLg&#x3D;&quot;6&quot;&gt;
+          &lt;nz-form-label [nzSpan]&#x3D;&quot;20&quot;&gt;Description&lt;/nz-form-label&gt;
+          &lt;nz-form-control [nzSpan]&#x3D;&quot;20&quot; nzErrorTip&#x3D;&quot;Input is required&quot;&gt;
+            &lt;input nz-input formControlName&#x3D;&quot;description&quot; id&#x3D;&quot;description&quot; /&gt;
+          &lt;/nz-form-control&gt;
+        &lt;/nz-form-item&gt;
+      &lt;/div&gt;
+
+      &lt;nz-form-item style&#x3D;&quot;padding-top: 5%;&quot;&gt;
+        &lt;nz-form-control [nzSpan]&#x3D;&quot;20&quot; nzErrorTip&#x3D;&quot;Input is required&quot;&gt;
+          &lt;button nz-button nzType&#x3D;&quot;primary&quot; class&#x3D;&quot;btn-primary&quot; type&#x3D;&quot;submit&quot;
+            [disabled]&#x3D;&quot;materialGroupForm?.invalid&quot;&gt;{{&#x27;Submit&#x27;}}&lt;/button&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+          &lt;button nz-button nzType&#x3D;&quot;primary&quot; class&#x3D;&quot;btn-primary&quot; (click)&#x3D;&quot;backToHome();&quot;&gt;Cancel&lt;/button&gt;
+        &lt;/nz-form-control&gt;
+      &lt;/nz-form-item&gt;
+
+    &lt;/form&gt;
+    &lt;!--        &lt;pre&gt;{{materialGroupForm.value | json}}&lt;/pre&gt;--&gt;
+    &lt;!--    &lt;pre&gt;{{materialGroupForm.valid}}&lt;/pre&gt;--&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./material-group-upsert.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss"></code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><!--<p>material-group-upsert works!</p>--><div class="insight">  <div class="insight-head">  </div>  <div class="insight-description">    <!--    <nz-spin [ngClass]="{\'loader\': loadingObservable | async}" nzSimple [nzSpinning]="loadingObservable | async"></nz-spin>-->    <!-- <div class="overlay" *ngIf= "loadingObservable | async"></div> -->    <!--    <form [formGroup]="materialGroupForm" (ngSubmit)="onSubmitGroup()">-->    <form nz-form [formGroup]="materialGroupForm" (ngSubmit)="onSubmitGroup()">      <div nz-row>        <!--        <div class="form-group col-md-3 mb-3">-->        <!--          <label style="text-align: left;" nzFor="type">Material Group Name<span class="red-mark">*</span></label>-->        <!--          <nz-select style="width: 245px" formControlName="category" required nzShowSearch>-->        <!--            <nz-option *ngFor="let type of categoryList" nzLabel="{{type.name}}"-->        <!--                       [nzValue]="type.value">-->        <!--            </nz-option>-->        <!--          </nz-select>-->        <!--        </div>-->        <nz-form-item nz-col nzXs="24" nzSm="12" nzMd="8" nzLg="6">          <nz-form-label [nzSpan]="20">Material Group Name<span class="red-mark">*</span></nz-form-label>          <nz-form-control [nzSpan]="20" nzErrorTip="Input is required">            <input nz-input formControlName="name" id="name" required />          </nz-form-control>        </nz-form-item>        <nz-form-item nz-col nzXs="24" nzSm="12" nzMd="8" nzLg="6">          <nz-form-label [nzSpan]="20">Material Group Code<span class="red-mark">*</span></nz-form-label>          <nz-form-control [nzSpan]="20" nzErrorTip="Input is required">            <input nz-input formControlName="code" id="code" required />          </nz-form-control>        </nz-form-item>        <nz-form-item nz-col nzXs="24" nzSm="12" nzMd="8" nzLg="6">          <nz-form-label [nzSpan]="20">Unit<span class="red-mark">*</span></nz-form-label>          <nz-form-control [nzSpan]="20" nzErrorTip="Input is required">            <nz-select formControlName="unit" required nzShowSearch>              <nz-option *ngFor="let type of unitList" nzLabel="{{type}}" [nzValue]="type">              </nz-option>            </nz-select>          </nz-form-control>        </nz-form-item>        <nz-form-item nz-col nzXs="24" nzSm="12" nzMd="8" nzLg="6">          <nz-form-label [nzSpan]="20">Description</nz-form-label>          <nz-form-control [nzSpan]="20" nzErrorTip="Input is required">            <input nz-input formControlName="description" id="description" />          </nz-form-control>        </nz-form-item>      </div>      <nz-form-item style="padding-top: 5%;">        <nz-form-control [nzSpan]="20" nzErrorTip="Input is required">          <button nz-button nzType="primary" class="btn-primary" type="submit"            [disabled]="materialGroupForm?.invalid">{{\'Submit\'}}</button>&nbsp;&nbsp;&nbsp;&nbsp;          <button nz-button nzType="primary" class="btn-primary" (click)="backToHome();">Cancel</button>        </nz-form-control>      </nz-form-item>    </form>    <!--        <pre>{{materialGroupForm.value | json}}</pre>-->    <!--    <pre>{{materialGroupForm.valid}}</pre>-->  </div></div></div>'
+    var COMPONENTS = [{'name': 'AddGrPopupComponent', 'selector': 'app-add-gr-popup'},{'name': 'AddInvoicePopupComponent', 'selector': 'app-add-invoice-popup'},{'name': 'AlarmComponent', 'selector': 'app-alarm'},{'name': 'AlarmListViewComponent', 'selector': 'app-alarm-list-view'},{'name': 'AlarmUpsertComponent', 'selector': 'app-alarm-upsert'},{'name': 'AlertListComponent', 'selector': 'app-alert-list'},{'name': 'AlertsComponent', 'selector': 'app-alerts'},{'name': 'AlertsListViewComponent', 'selector': 'app-alerts-list-view'},{'name': 'AnalyticsComponent', 'selector': 'app-analytics'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'BackButtonComponent', 'selector': 'app-back-button'},{'name': 'BillingPartyComponent', 'selector': 'app-billing-party'},{'name': 'BillingPartyDetailViewComponent', 'selector': 'app-billing-party-detail-view'},{'name': 'BillingPartyListViewComponent', 'selector': 'app-billing-party-list-view'},{'name': 'BillingPartyUpsertComponent', 'selector': 'app-billing-party-upsert'},{'name': 'BranchComponent', 'selector': 'app-branch'},{'name': 'BranchDetailViewComponent', 'selector': 'app-branch-detail-view'},{'name': 'BranchListViewComponent', 'selector': 'app-branch-list-view'},{'name': 'BranchUpsertComponent', 'selector': 'app-branch-upsert'},{'name': 'BrokerMemoComponent', 'selector': 'app-broker-memo'},{'name': 'BrokerMemoListViewComponent', 'selector': 'app-broker-memo-list-view'},{'name': 'BrokerMemoUpsertComponent', 'selector': 'app-broker-memo-upsert'},{'name': 'CalibComponent', 'selector': 'app-calib'},{'name': 'CreateTripComponent', 'selector': 'app-create-trip'},{'name': 'CustomerComponent', 'selector': 'app-customer'},{'name': 'CustomerListViewComponent', 'selector': 'app-customer-list-view'},{'name': 'CustomerUpsertComponent', 'selector': 'app-customer-upsert'},{'name': 'DefaultComponent', 'selector': 'app-default'},{'name': 'DemoImagePickerBasicComponent', 'selector': 'demo-image-picker-basic'},{'name': 'DeviceMasterComponent', 'selector': 'app-device-master'},{'name': 'DriverComponent', 'selector': 'app-driver'},{'name': 'DriverDetailViewComponent', 'selector': 'app-driver-detail-view'},{'name': 'DriverListViewComponent', 'selector': 'app-driver-list-view'},{'name': 'DriverUpsertComponent', 'selector': 'app-driver-upsert'},{'name': 'DutyComponent', 'selector': 'app-duty'},{'name': 'DutyListViewComponent', 'selector': 'app-duty-list-view'},{'name': 'DutyUpsertComponent', 'selector': 'app-duty-upsert'},{'name': 'EmptyTripComponent', 'selector': 'app-empty-trip'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'FuelLevelComponent', 'selector': 'app-fuel-level'},{'name': 'GeofenceComponent', 'selector': 'app-geofence'},{'name': 'GeofenceListViewComponent', 'selector': 'app-geofence-list-view'},{'name': 'GeofenceUpsertComponent', 'selector': 'app-geofence-upsert'},{'name': 'GpsReportsComponent', 'selector': 'app-gps-reports'},{'name': 'GrComponent', 'selector': 'app-gr'},{'name': 'GrListViewComponent', 'selector': 'app-gr-list-view'},{'name': 'GrUpsertComponent', 'selector': 'app-gr-upsert'},{'name': 'GrWithoutTripComponent', 'selector': 'app-gr-without-trip'},{'name': 'GrWithoutTripListViewComponent', 'selector': 'app-gr-without-trip-list-view'},{'name': 'GrWithoutTripUpsertComponent', 'selector': 'app-gr-without-trip-upsert'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'HomeComponent', 'selector': 'app-home'},{'name': 'ItineraryComponent', 'selector': 'app-itinerary'},{'name': 'LandmarkComponent', 'selector': 'app-landmark'},{'name': 'LandmarkListViewComponent', 'selector': 'app-landmark-list-view'},{'name': 'LandmarkUpsertComponent', 'selector': 'app-landmark-upsert'},{'name': 'LiveTrackComponent', 'selector': 'app-live-track'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'MapComponent', 'selector': 'app-map'},{'name': 'MapListViewComponent', 'selector': 'app-map-list-view'},{'name': 'MaterialCardDetailViewComponent', 'selector': 'app-material-card-detail-view'},{'name': 'MaterialComponent', 'selector': 'app-material'},{'name': 'MaterialGroupComponent', 'selector': 'app-material-group'},{'name': 'MaterialGroupListViewComponent', 'selector': 'app-material-group-list-view'},{'name': 'MaterialGroupUpsertComponent', 'selector': 'app-material-group-upsert'},{'name': 'MaterialGroupUpsertComponentT', 'selector': 'app-material-group-upsert'},{'name': 'MaterialListViewComponent', 'selector': 'app-material-list-view'},{'name': 'MaterialUpsertComponent', 'selector': 'app-material-upsert'},{'name': 'MilestoneComponent', 'selector': 'app-milestone'},{'name': 'MilestoneViewComponent', 'selector': 'app-milestone-view'},{'name': 'PlaybackComponent', 'selector': 'app-playback'},{'name': 'PlaybackFormComponent', 'selector': 'app-playback-form'},{'name': 'PlaybackListComponent', 'selector': 'app-playback-list'},{'name': 'QrBarcodeComponent', 'selector': 'upload-accordion'},{'name': 'SensorComponent', 'selector': 'app-sensor'},{'name': 'SensorListViewComponent', 'selector': 'app-sensor-list-view'},{'name': 'SensorUpsertComponent', 'selector': 'app-sensor-upsert'},{'name': 'ShareLocationComponent', 'selector': 'app-share-location'},{'name': 'ShareTripComponent', 'selector': 'app-share-trip'},{'name': 'SidebarComponent', 'selector': 'app-sidebar'},{'name': 'TrafficManagerComponent', 'selector': 'app-traffic-manager'},{'name': 'TransportRouteComponent', 'selector': 'app-transport-route'},{'name': 'TransportRouteListViewComponent', 'selector': 'app-transport-route-list-view'},{'name': 'TransportRouteUpsertComponent', 'selector': 'app-transport-route-upsert'},{'name': 'TripDetailsComponent', 'selector': 'app-trip-details'},{'name': 'TripDetailViewComponent', 'selector': 'app-trip-detail-view'},{'name': 'TripGpsComponent', 'selector': 'app-trip-gps'},{'name': 'TripListComponent', 'selector': 'app-trip-list'},{'name': 'TripListViewComponent', 'selector': 'app-trip-list-view'},{'name': 'TripMemoComponent', 'selector': 'app-trip-memo'},{'name': 'TripMemoListViewComponent', 'selector': 'app-trip-memo-list-view'},{'name': 'TripMemoUpsertComponent', 'selector': 'app-trip-memo-upsert'},{'name': 'UpdatePasswordComponent', 'selector': 'app-update-password'},{'name': 'UploadAccordianComponent', 'selector': 'upload-accordion'},{'name': 'UploadComponent', 'selector': 'app-upload'},{'name': 'UploadUtilComponent', 'selector': 'app-upload-util'},{'name': 'VehicleComponent', 'selector': 'app-vehicle'},{'name': 'VehicleDetailViewComponent', 'selector': 'app-vehicle-detail-view'},{'name': 'VehicleListViewComponent', 'selector': 'app-vehicle-list-view'},{'name': 'VehicleUpsertComponent', 'selector': 'app-vehicle-upsert'},{'name': 'VendorComponent', 'selector': 'app-vendor'},{'name': 'VendordealPopupComponent', 'selector': 'app-vendordeal-popup'},{'name': 'VendorListViewComponent', 'selector': 'app-vendor-list-view'},{'name': 'VendorUpsertComponent', 'selector': 'app-vendor-upsert'}];
+    var DIRECTIVES = [{'name': 'AddrSearchDirective', 'selector': '[appAddrSearch]'}];
+    var ACTUAL_COMPONENT = {'name': 'MaterialGroupUpsertComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'MaterialGroupUpsertComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
